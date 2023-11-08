@@ -51,3 +51,15 @@ some examples of topics in distributed systems research are:
 - algorithms and data structures: these are the rules and methods that computers use to communicate, agree, and store data in a distributed system. some examples are consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
 
 - systems components and designs: these are the building blocks and patterns that make up a distributed system. some examples are message brokers, caches, cdns, cloud services, containerization and virtualization, orchestration of microservices, infrastructure as code etc.
+
+# what is "decentralized systems research"?
+
+decentralized systems are special distributed systems that can organize themselves – a more fitting term for them is "self-organizing systems".
+
+these systems are quite controversial because blockchains have often been used for cryptocurrency gambling, causing a loss of interest after incidents like the ftx scandal. however, i believe there are still many other interesting uses in this area.
+
+one of these uses is in peer-to-peer (p2p) architectures that could help create systems resistant to censorship and protective of privacy. some examples of topics in decentralized systems research include:
+
+- mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
+- decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
+- decentralized file storage systems: ipfs/filecoin, sia.
