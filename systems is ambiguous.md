@@ -13,7 +13,7 @@ a "systems researcher" or "systems engineer" can mean very different things depe
 in academia, according to the [acm classification](https://cran.r-project.org/web/classifications/ACM.html), systems can refer to:
 
 - "computer systems organization": managing loosely coupled computing resources.
-- "operating systems": focusing on the kernel and the operating system.
+- "operating systems": focusing on the kernel.
 
 most often, people refer to the latter.
 
