@@ -39,3 +39,15 @@ this has been debated on stack overflow and reddit due to golang being described
 again: the term "systems" is ambiguous. identifying as a "systems" researcher while writing web backends (or even frontends) might be annoying to some, but it's technically not incorrect.
 
 it's important to determine the specific type of systems research that interests you, understand the career prospects (having an industry backup plan if aiming for an academic position), and know the job's nature before starting your research.
+
+# what is "distributed systems research"?
+
+distributed systems research is the study of how to make many computers work together over a network. the main goal is to create systems that can handle more work by adding more computers, instead of making each computer faster. this is called horizontal scaling.
+
+distributed systems have many challenges, such as how to coordinate the actions of different computers, how to deal with failures and errors, how to keep the data consistent and secure, and how to measure and improve the performance. systems researchers try to find solutions to these challenges by designing new algorithms, data structures, components, and architectures.
+
+some examples of topics in distributed systems research are:
+
+- algorithms and data structures: these are the rules and methods that computers use to communicate, agree, and store data in a distributed system. some examples are consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
+
+- systems components and designs: these are the building blocks and patterns that make up a distributed system. some examples are message brokers, caches, cdns, cloud services, containerization and virtualization, orchestration of microservices, infrastructure as code, monitoring performance and benchmarking latency.
