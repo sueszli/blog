@@ -115,25 +115,31 @@ this leads us to the next section.
 
 # beyond the ivory tower of academia: phd industry earnings
 
-unfortunately, the taulbee survey doesn't provide data on the earnings of ph.d. holders in the industry and there are no other official sources that do. making our own dataset isn't an option either because it would be highly inaccurate.
+unfortunately, the taulbee survey doesn't provide data on the earnings of ph.d. holders in the industry and there are no other official sources that do. building our own dataset (ie. by scraping job portals) isn't an option either because it would be highly inaccurate. neither would be comparing opinions on expert forums like quora or reddit.
 
-the best data source i found was from a non profit organization called [80000 hours](https://80000hours.org/career-reviews/computer-science-phd/).
+since we can't have precise numbers to guide us in this decision, we have to rely on our intuition and common sense. the best resource i found on this topic is by the non-profit organization 80000 hours: https://80000hours.org/career-reviews/computer-science-phd/
 
 the most important risk factors they identified are:
 
 - **massive opportunity cost:**
 
-  getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
+  getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. this largely depends on your research area, advisor, and institution. the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+
+  you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
+
+  something that isn't mentioned in the article is that european ph.d.s (which require you to have a masters degree first) are significantly shorter than american ph.d.s and often take only 3-4 years and in some cases even pay you a decent salary and even encourage you to do internships in industry.
 
 - **skill mismatch:**
 
-  typically, a cs phd isn't meant to prepare you for industry jobs, except for the fortunate ~50% who get to do industry research (suggesting it may have been better for them to enter industry directly).
+  phds are not about engineering or product development but research (studying difficult topics and academic writing).
 
-  for the rest, the knowledge gained might be more theoretical and less practical (perhaps more suited for analytical roles such as data science, machine learning, security, etc.).
+  they can be a great fit for research positions in the industry (which only around ~50% secure) or data analytics/machine learning, security/cryptography – but they do not prepare you for most other roles.
 
-  during your phd, you mainly learn about academic computer science and might miss exposure to other career areas.
+  also keep in mind that the skills you gain during your phd are not necessarily the ones that are in demand in the industry and the interests of the academic community are often very different from those of the industry.
 
-  the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+  this means that even if a phd boosts your earnings, you might spend a lot of time doing something that is vaguely related to the job you are aiming for.
+
+<br>
 
 the most important benefits they identified are:
 
@@ -165,7 +171,7 @@ an investment as risky as a ph.d. should only be made if:
 
   you should already be in an exceptional position, before starting your ph.d – as in, you're financially stable, from a top school, and at the top of your class with many connections and references or already have a foot in the door of the company you want to work for.
 
-  if you can't get into a top program, you're unlikely to get a top job that requires a ph.d..
+  if you can't get into a top program, you're unlikely to get a top job that requires a phd.
 
 <br><br>
 
