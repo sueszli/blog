@@ -61,11 +61,13 @@ that’s why a lot of research focuses on popular, easy-to-measure success metri
 
 - **outreach and influence/recognition:** this measures how many people you reach and how your work affects them. it's easier to quantify in industries through things like monthly active users or click-through rates. in academia, it might be measured through the number of publications or citations you have (h-index, total citations, etc.) although this is controversial.
 
-it's clear that achieving the same thing in industry versus academia can be different. even though skills like analytical thinking and technical writing are valuable in both, their application can vary.
+to keep things simple, let's focus on total compensation. this brings us to the research question:
 
-to keep things simple, let's focus on total compensation. this brings us to the research question: “does getting a phd increase how much money i make compared to someone who doesn’t have a phd?”. this question is different from where we started (“is a phd right for me?”), but exploring this question can show us how to use data to make decisions about a popular measure of success for many people.
+> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd?”.
 
-keep in mind that this is just one of many possible metrics and not the primary reason why most computer science ph.d. students pursue their phd degrees [^2] [^3] [^4].
+this question is different from where we started (“is a phd right for me?”), but exploring this question serves as a good example of how to our approach can be applied to other questions.
+
+keep in mind that this is just one of many possible metrics and not the primary reason why most computer science ph.d. students pursue their degrees [^2] [^3] [^4].
 
 # WIP
 
