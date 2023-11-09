@@ -24,7 +24,7 @@ the following tips thought-provoking tips from jimmy lin’s course “asecs” 
 3. **accept the role of skill as well as luck.**
 
    - no academic degree guarantees success; it only improves your chances if you put in the effort.
-   - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location.
+   - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter).
 
 4. **think about distributions vs. samples.**
 
