@@ -125,9 +125,7 @@ they mentioned a few important things worth noting:
 
 1. **massive opportunity cost:**
 
-   getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry.
-
-   the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+   getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
 
 2. **skill mismatch:**
 
@@ -137,6 +135,8 @@ they mentioned a few important things worth noting:
 
    during your phd, you mainly learn about academic computer science and might miss exposure to other career areas.
 
+   the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+
 3. **access to leadership roles:**
 
    while a bachelor's or master's degree may not be the best way to prepare for industry jobs, they're usually the minimum requirement.
@@ -145,9 +145,7 @@ they mentioned a few important things worth noting:
 
    a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition. and only within these roles does a phd become a worthwhile investment outside of academia.
 
----
-
-in conclusion: given how many conditional probabilities there are, a phd is an extreme high-risk, high-reward investment that's only worthwhile for an extremely small subset of individuals. for others the cost is close to over a million dollars in lost earnings and career progression.
+> **in conclusion:** considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d. you definitely shouldn't pursue a ph.d. – unless you're financially stable, from a top school, very gifted _and most importantly: have a clear plan for how you'll use your ph.d. to reach your goals_ and don't just want to do it to increase your long-term earnings in some vague way you haven't thought through as it is the case for most students.
 
 <br><br>
 
