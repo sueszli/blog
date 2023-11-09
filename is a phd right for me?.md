@@ -163,7 +163,7 @@ an investment as risky as a ph.d. should only be made if:
 
 - and under very specific circumstances
 
-  you should already be in an exceptional position, before starting your ph.d – as in, you're financially stable, from a top school, and at the top of your class with many connections and references.
+  you should already be in an exceptional position, before starting your ph.d – as in, you're financially stable, from a top school, and at the top of your class with many connections and references or already have a foot in the door of the company you want to work for.
 
   if you can't get into a top program, you're unlikely to get a top job that requires a ph.d..
 
