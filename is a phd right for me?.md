@@ -179,7 +179,7 @@ this data suggests that ph.d. holders in the industry earn more than those in ac
 
 # conclusion
 
-in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning security, or research and development.
+in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, security, or research and development (r&d).
 
 for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay.
 
