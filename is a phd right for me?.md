@@ -151,7 +151,29 @@ now, we understand which industry positions best align with a ph.d., where a ph.
 
 given this context, let's delve into the numbers.
 
-WIP...
+<br>
+
+the data from websites like glassdoor and payscale were very wrong about salary information. instead, other sources provide a clearer picture of salaries in the tech industry.
+
+- **levels.fyi**[^10] is a significant survey site for computer science jobs. it's one of the most extensive databases available. according to their data from 2022, the median pay for tech jobs in san francisco is $234,000 per year, and in washington d.c., it's $148,000, placing it at the 10th position. overall, _tech jobs range between $160,000 to $210,000 in median pay_ for the second half of 2022. the _top-paying companies offer salaries ranging from $220,000 to $274,000_ for their entry-level positions (l1).
+
+this gives us a baseline to compare against. let's look at the data for ph.d. holders.
+
+- the **united states census bureau** also conducted several surveys.
+
+  in a community survey from 2009-2011[^11] salaries in computers and mathematics were around $73,000 for a bachelor's degree, $90,000 for a master's degree, and $104,000 for a ph.d – this observation seems to be out of date.
+
+  in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, those with a bachelor's degree earned approximately $3,044,000 over their working life, while _those with a master's degree earned around $3,541,000 and ph.d. holders earned about $3,890,000_. these statistics cover 25 to 64-year-olds who work full-time throughout the year.
+
+this shows that a pay gap exists between ph.d. holders and those with a bachelor's or master's degree. however, it's unclear whether this gap is due to the ph.d. or other factors like the type of job or the company.
+
+- the **national center for biotechnology information (ncbi) / national library of medicine (nlm)**[^13] found that doctoral recipients from eight universities showed variations in earnings based on where they were employed.
+
+  those placed in industry had significantly higher earnings a year after leaving university compared to those in government or academia.
+
+  when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
+
+this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
 
 <br><br>
 
@@ -164,3 +186,7 @@ WIP...
 [^7]: [Clauset, A., Arbesman, S., & Larremore, D. B. (2015). Systematic inequality and hierarchy in faculty hiring networks. Science advances, 1 (1), e1400005.](https://www.science.org/doi/full/10.1126/sciadv.1400005)
 [^8]: [Hao, Z. (2003). What Can We Do with Individual and Institutional Racism and Sexism in the Tenure and Promotion Processes in American Colleges and Universities?. Race, Gender & Class, 126-144.](https://www.jstor.org/stable/pdf/41675092.pdf)
 [^9]: [The Graduate School. (n.d.). Computer Science: PhD Completion Rate Statistics. Duke University. Retrieved November 8, 2023.](https://gradschool.duke.edu/about/statistics/computer-science-phd-completion-rate-statistics/)
+[^10]: [Levels.fyi. (2022). End of Year Pay Report 2022. Retrieved from https://www.levels.fyi/2022/1](https://www.levels.fyi/2022/1)
+[^11]: [The Graduate School. (n.d.). PhD Salaries and Lifetime Earnings. Michigan State University. Retrieved November 9, 2023, from https://grad.msu.edu/phdcareers/career-support/phdsalaries](https://grad.msu.edu/phdcareers/career-support/phdsalaries)
+[^12]: [Lu, X. (2014, July 22). Salary Difference Between Master’s and Ph.D. Degrees. WES Advisor Blog.](https://www.wes.org/advisor-blog/salary-difference-masters-phd/)
+[^13]: [Zolas, N., Goldschlag, N., Jarmin, R., Stephan, P., Smith, J. O., Rosen, R. F., Allen, B. M., Weinberg, B. A., & Lane, J. I. (2015). Wrapping it up in a person: Examining employment and earnings outcomes for Ph.D. recipients. Science (New York, N.Y.), 350(6266), 1367–1371. https://doi.org/10.1126/science.aac5949](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836945/)
