@@ -105,7 +105,7 @@ one should also consider the probability of not completing a ph.d. program – f
 
 in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question:
 
-> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd **in the industry**?”.
+> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_?”.
 
 <br><br>
 
