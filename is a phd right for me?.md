@@ -147,9 +147,25 @@ the most important benefits they identified are:
 
   and only within these roles does a phd become a worthwhile investment outside of academia.
 
-<br>
+<br><br>
 
-**in conclusion:** considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d. you definitely shouldn't pursue a ph.d. –– unless you're in an exceptional position (financially stable, from a top school, very gifted, ...) and most importantly; have a clear plan for how you'll use your ph.d. to reach your goals and don't just want to do it to increase your long-term earnings in case such an opportunity should arise.
+# conclusion
+
+considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d., it's safe to say that a ph.d. isn't a good investment for the vast majority of people.
+
+an investment as risky as a ph.d. should only be made if:
+
+- it is highly strategic
+
+  it shouldn't be an attempt to potentially increase your long-term earnings. it should be a calculated move to get a specific job or position that you wouldn't be able to get otherwise and that you're sure you want, can get, and will enjoy.
+
+  don't consider a ph.d. if you're not sure what that exact industry job is, what it entails and what it takes to get it.
+
+- and under very specific circumstances
+
+  you should already be in an exceptional position, before starting your ph.d – as in, you're financially stable, from a top school, and at the top of your class with many connections and references.
+
+  if you can't get into a top program, you're unlikely to get a top job that requires a ph.d..
 
 <br><br>
 
