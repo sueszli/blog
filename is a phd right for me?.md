@@ -113,9 +113,9 @@ this leads us to the next section.
 
 # beyond the ivory tower: phd industry earnings
 
-WIP
+WIP...
 
-...
+<br><br><br><br>
 
 APA style
 
