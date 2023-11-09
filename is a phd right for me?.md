@@ -33,7 +33,9 @@ the following thought-provoking tips from jimmy lin’s course “asecs” [^1] 
    - normative: is your decision influenced by societal norms, personal values, or cultural expectations?
    - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
 
-# choosing our success metric: total compensation
+let's start by exploring the first tip and choosing an arbitrary success metric to demonstrate how data-driven decision making would work in practice.
+
+# our metric of choice: total compensation
 
 to be data-driven, we need measurable metrics. however, determining personal success metrics for a career is really hard. here are reasons why i think it's difficult:
 
@@ -61,16 +63,17 @@ that’s why a lot of research focuses on popular, easy-to-measure success metri
 
 it's clear that achieving the same thing in industry versus academia can be different. even though skills like analytical thinking and technical writing are valuable in both, their application can vary.
 
-also, the reach and influence you have can affect how much you're compensated, and vice versa.
+to keep things simple, let's focus on total compensation. this brings us to the research question: “does getting a phd increase how much money i make compared to someone who doesn’t have a phd?”. this question is different from where we started (“is a phd right for me?”), but exploring this question can show us how to use data to make decisions about a popular measure of success for many people.
 
-to keep things simple, let's focus on total compensation. this brings us to the research question: “does getting a phd increase how much money i make?”.
-
-this question is different from where we started (“is a phd right for me?”), but exploring this question can show us how to use data to make decisions about a popular measure of success for many people.
+keep in mind that this is just one of many possible metrics and not the primary reason why most computer science ph.d. students pursue their phd degrees [^2] [^3] [^4].
 
 # WIP
 
 ...
 
-...
+APA style
 
-[^1]: [J. Lin, Art and Science of Empirical Computer Science, (2023), GitHub repository](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
+[^1]: [Lin, J. (2023). Art and Science of Empirical Computer Science. GitHub.](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
+[^2]: [Moreno, M. D. C. C., & Kollanus, S. (2013, October). On the motivations to enroll in doctoral studies in Computer Science—A comparison of PhD program models. In 2013 12th International Conference on Information Technology Based Higher Education and Training (ITHET) (pp. 1-8). IEEE.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6671028)
+[^3]: [López-Fernández, D., Tovar, E., Alarcón, P. P., & Ortega, F. (2019, October). Motivation of computer science engineering students: Analysis and recommendations. In 2019 IEEE Frontiers in Education Conference (FIE) (pp. 1-8). IEEE.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9028635)
+[^4]: Tarvid, A. (2014). Motivation to study for PhD degree: Case of Latvia. Procedia Economics and Finance, 14, 585-594.
