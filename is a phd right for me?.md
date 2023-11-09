@@ -107,7 +107,7 @@ one should also factor in the probability of not completing a ph.d. program in t
 
 in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question once again:
 
-> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_ (in north america)?”.
+> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the north american industry_?”.
 
 this leads us to the next section.
 
@@ -115,33 +115,27 @@ this leads us to the next section.
 
 # beyond the ivory tower of academia: phd industry earnings
 
-unfortunately, the taulbee survey doesn't provide data on the earnings of ph.d. holders in the industry and there are no other official sources that do. building our own dataset (ie. by scraping job portals) isn't an option either because it would be highly inaccurate. neither would be comparing opinions on expert forums like quora or reddit.
+understanding career opportunities for ph.d. holders in the industry, the non-profit organization "80000 hours" offers insights about job prospects and risks. before delving into statistics, it's worthwhile to explore these details.
 
-since we can't have precise numbers to guide us in this decision, we have to rely on our intuition and common sense. the best resource i found on this topic is by the non-profit organization 80000 hours: https://80000hours.org/career-reviews/computer-science-phd/
+i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/
 
-the most important risk factors they identified are:
+the most critical risk factors identified are:
 
 - **massive opportunity cost:**
 
-  getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. this largely depends on your research area, advisor, and institution. the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+  obtaining a computer science ph.d. typically takes longer than expected, often spanning six years or sometimes more than 10. the duration depends on your research area, advisor, and institution. the ph.d. program lacks specific guidelines for progress or time management.
 
-  you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
+  you'll sacrifice nearly a decade of potential earnings and career growth in the industry, which could amount to over a million dollars in lost income for most computer science ph.d. students.
 
-  something that isn't mentioned in the article is that european ph.d.s (which require you to have a masters degree first) are significantly shorter than american ph.d.s and often take only 3-4 years and in some cases even pay you a decent salary and even encourage you to do internships in industry.
+  it's important to note that european ph.d.s, which mandate a master's degree beforehand, are notably shorter than american ph.d. programs. they often last only 3-4 years and, in some cases, offer a decent salary and encourage internships in the industry.
 
 - **skill mismatch:**
 
-  phds are not about engineering or product development but research (studying difficult topics and academic writing).
+  ph.d.s focus on research rather than engineering or product development. they suit research roles in the industry (of which only about 50% secure positions), or fields like data analytics, machine learning, security, and cryptography. however, they might not prepare you for most other job roles.
 
-  they can be a great fit for research positions in the industry (which only around ~50% secure) or data analytics/machine learning, security/cryptography – but they do not prepare you for most other roles.
+  additionally, the skills gained during a ph.d. might not align with industry demand. the academic community's interests often differ significantly from industry needs. consequently, even if a ph.d. enhances earnings, you might spend time on tasks loosely connected to your desired job.
 
-  also keep in mind that the skills you gain during your phd are not necessarily the ones that are in demand in the industry and the interests of the academic community are often very different from those of the industry.
-
-  this means that even if a phd boosts your earnings, you might spend a lot of time doing something that is vaguely related to the job you are aiming for.
-
-<br>
-
-the most important benefits they identified are:
+the most significant benefits identified are:
 
 - **access to industry research and leadership roles:**
 
@@ -153,25 +147,11 @@ the most important benefits they identified are:
 
   and only within these roles does a phd become a worthwhile investment outside of academia.
 
-<br><br>
+now, we understand which industry positions best align with a ph.d., where a ph.d. is an absolute requirement, and the financial opportunity cost involved in pursuing a ph.d.
 
-# conclusion
+given this context, let's delve into the numbers.
 
-considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d., it's safe to say that a ph.d. isn't a good investment for the vast majority of people.
-
-an investment as risky as a ph.d. should only be made if:
-
-- it is highly strategic
-
-  it shouldn't be an attempt to potentially increase your long-term earnings. it should be a calculated move to get a specific job or position that you wouldn't be able to get otherwise and that you're sure you want, can get, and will enjoy.
-
-  don't consider a ph.d. if you're not sure what that exact industry job is, what it entails and what it takes to get it.
-
-- and under very specific circumstances
-
-  you should already be in an exceptional position, before starting your ph.d – as in, you're financially stable, from a top school, and at the top of your class with many connections and references or already have a foot in the door of the company you want to work for.
-
-  if you can't get into a top program, you're unlikely to get a top job that requires a phd.
+WIP...
 
 <br><br>
 
