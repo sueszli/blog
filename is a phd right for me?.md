@@ -4,13 +4,15 @@ it’s important to be deliberate and data driven when thinking about your caree
 
 ask yourself, "is pursuing a ph.d. the right choice for me?"
 
-the following questions from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
+the following tips thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
 
 1. **recognise that there are multiple definitions of success and multiple ways to succeed.**
 
    - set clear goals. define what success means to you by creating your own "utility function" and "success metrics":
+
      - traditional measures: like total compensation (in the industry) or recognition in the academic community.
      - personal benchmarks: fulfillment, personal and professional growth, freedom, and authority over others.
+
    - avoid thinking in extremes. consider unconventional paths like writing industry experience papers or using a ph.d. to test business ideas before fully committing.
 
 2. **understand that choices come with opportunity costs.**
