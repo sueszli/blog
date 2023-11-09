@@ -1,10 +1,8 @@
-# introduction
-
 it’s important to be deliberate and data driven when thinking about your career choices.
 
-ask yourself, "is pursuing a ph.d. the right choice for me?"
+ask yourself, "is pursuing a ph.d. the right choice for me?".
 
-the following tips thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
+the following thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
 
 1. **recognise that there are multiple definitions of success and multiple ways to succeed.**
 
@@ -35,7 +33,43 @@ the following tips thought-provoking tips from jimmy lin’s course “asecs” 
    - normative: is your decision influenced by societal norms, personal values, or cultural expectations?
    - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
 
+# choosing our success metric: total compensation
+
+to be data-driven, we need measurable metrics. however, determining personal success metrics for a career is really hard. here are reasons why i think it's difficult:
+
+- most people don’t know their own metrics.
+
+  it takes a lot of introspection to figure out what you want in your career. personal desires can be overshadowed by societal expectations and wrong assumptions about potential rewards.
+
+- most people don’t like talking about their metrics.
+
+  some are motivated by curiosity and growth, while others are competitive. people may fear being judged for their desires.
+
+- metrics change throughout life.
+
+  with experience, needs change. ie. more experienced individuals might desire personal fulfillment over financial compensation.
+
+the personal metrics we use are basically assumptions based on our intuition, so we should treat them that way.
+
+even if we understand our personal values, desires, and success measures right away, most of them are qualitative (like your well-being) and are harder to measure accurately, although many see them as more important.
+
+that’s why a lot of research focuses on popular, easy-to-measure success metrics like:
+
+- **total compensation:** it’s harder to measure than you might think because it's not just about money. people can get paid in stock options, time off, or reduced workloads, which all contribute to work-life balance. sometimes, they can also use money that they don’t have direct access to, like grant money / funds from investors.
+
+- **outreach and influence/recognition:** this measures how many people you reach and how your work affects them. it's easier to quantify in industries through things like monthly active users or click-through rates. in academia, it might be measured through the number of publications or citations you have (h-index, total citations, etc.) although this is controversial.
+
+it's clear that achieving the same thing in industry versus academia can be different. even though skills like analytical thinking and technical writing are valuable in both, their application can vary.
+
+also, the reach and influence you have can affect how much you're compensated, and vice versa.
+
+to keep things simple, let's focus on total compensation. this brings us to the research question: “does getting a phd increase how much money i make?”.
+
+this question is different from where we started (“is a phd right for me?”), but exploring this question can show us how to use data to make decisions about a popular measure of success for many people.
+
 # WIP
+
+...
 
 ...
 
