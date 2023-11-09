@@ -91,6 +91,8 @@ here are the essential findings:
 
   keep in mind that salaries in non-tenure academic positions have always been significantly lower compared to industry positions available even to computer science undergraduates or master's degree holders, even outside big tech.
 
+  additionally to get a tenure-track position it is increasingly necessary to do one or more post-docs first, meaning you face even more time with very low pay.
+
 - **over 65% of ph.d. pursuits might be motivated by immigration**:
 
   approximately 66.9% of computer science ph.d.s were awarded to immigrants or nonresident aliens, suggesting that for many, a ph.d. was a pathway to american citizenship via the o1 visa.
@@ -105,7 +107,7 @@ one should also factor in the probability of not completing a ph.d. program in t
 
 in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question once again:
 
-> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_?”.
+> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_ (in north america)?”.
 
 this leads us to the next section.
 
@@ -113,11 +115,41 @@ this leads us to the next section.
 
 # beyond the ivory tower: phd industry earnings
 
-WIP...
+unfortunately, the taulbee survey doesn't provide data on the earnings of ph.d. holders in the industry and there are no other official sources that do. making our own dataset isn't an option either because it would be highly inaccurate.
 
-<br><br><br><br>
+given how many unknowns there are, it's hard to make a data-driven decision but we can still make some educated guesses.
 
-APA style
+the best information i found was from a non profit organization called [80000 hours](https://80000hours.org/career-reviews/computer-science-phd/).
+
+they mentioned a few important things worth noting:
+
+1. **massive opportunity cost:**
+
+   getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry.
+
+   the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+
+2. **skill mismatch:**
+
+   typically, a cs phd isn't meant to prepare you for industry jobs, except for the fortunate ~50% who get to do industry research (suggesting it may have been better for them to enter industry directly).
+
+   for the rest, the knowledge gained might be more theoretical and less practical (perhaps more suited for analytical roles such as data science, machine learning, security, etc.).
+
+   during your phd, you mainly learn about academic computer science and might miss exposure to other career areas.
+
+3. **access to leadership roles:**
+
+   while a bachelor's or master's degree may not be the best way to prepare for industry jobs, they're usually the minimum requirement.
+
+   similarly, a phd is often a must for high-level research and leadership roles in big companies. for these competitive positions, a phd is a hard requirement, and it's unlikely that you'll be considered without one.
+
+   a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition. and only within these roles does a phd become a worthwhile investment outside of academia.
+
+---
+
+in conclusion: given how many conditional probabilities there are, a phd is an extreme high-risk, high-reward investment that's only worthwhile for an extremely small subset of individuals. for others the cost is close to over a million dollars in lost earnings and career progression.
+
+<br><br>
 
 [^1]: [Lin, J. (2023). Art and Science of Empirical Computer Science. GitHub.](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
 [^2]: [Moreno, M. D. C. C., & Kollanus, S. (2013, October). On the motivations to enroll in doctoral studies in Computer Science—A comparison of PhD program models. In 2013 12th International Conference on Information Technology Based Higher Education and Training (ITHET) (pp. 1-8). IEEE.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6671028)
