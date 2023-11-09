@@ -6,6 +6,8 @@ at the vienna university of technology (tu wien), we mostly worked with java. ou
 
 in waterloo, it was the opposite. additionally, i discovered that what i wanted to work on wasn't commonly considered "systems" research. i felt confused and began asking people what they believed "systems" research meant, which led me into a rabbit hole.
 
+<br><br>
+
 # the term "systems" is acutally ambiguous
 
 a "systems researcher" or "systems engineer" can mean very different things depending on whom you ask.
@@ -40,6 +42,8 @@ again: the term "systems" is ambiguous. identifying as a "systems" researcher wh
 
 it's important to determine the specific type of systems research that interests you, understand the career prospects (having an industry backup plan if aiming for an academic position), and know the job's nature before starting your research.
 
+<br><br>
+
 # what is "distributed systems research"?
 
 distributed systems research is the study of how to make many computers work together over a network. the main goal is to create systems that can handle more work by adding more computers, instead of making each computer faster. this is called horizontal scaling.
@@ -51,6 +55,8 @@ some examples of topics in distributed systems research are:
 - algorithms and data structures: these are the rules and methods that computers use to communicate, agree, and store data in a distributed system. some examples are consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
 
 - systems components and designs: these are the building blocks and patterns that make up a distributed system. some examples are message brokers, caches, cdns, cloud services, containerization and virtualization, orchestration of microservices, infrastructure as code etc.
+
+<br><br>
 
 # what is "decentralized systems research"?
 
