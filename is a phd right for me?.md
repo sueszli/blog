@@ -173,7 +173,9 @@ this shows that a pay gap exists between ph.d. holders and those with a bachelor
 
   when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
 
-this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms. this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
+this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
+
+additionally this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
 
 <br><br>
 
