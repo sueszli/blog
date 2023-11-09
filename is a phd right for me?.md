@@ -107,6 +107,8 @@ in conclusion, it becomes evident that chasing a tenured position in academia is
 
 > “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_?”.
 
+this leads us to the next section.
+
 <br><br>
 
 # beyond the ivory tower: phd industry earnings
