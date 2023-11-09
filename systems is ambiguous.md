@@ -8,7 +8,7 @@ in waterloo, it was the opposite. additionally, i discovered that what i wanted 
 
 <br><br>
 
-# the term "systems" is acutally ambiguous
+# the term "systems" is actually ambiguous
 
 a "systems researcher" or "systems engineer" can mean very different things depending on whom you ask.
 
