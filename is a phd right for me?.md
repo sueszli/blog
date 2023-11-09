@@ -173,7 +173,19 @@ this shows that a pay gap exists between ph.d. holders and those with a bachelor
 
   when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
 
-this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
+this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms. this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
+
+<br><br>
+
+# conclusion
+
+in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning security, or research and development.
+
+for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay.
+
+however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for product development, management, sales, responsibility, and leadership. it's much harder to justify pay raises in these positions compared to those with more practical experience.
+
+therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your ph.d.
 
 <br><br>
 
