@@ -101,9 +101,9 @@ here are the essential findings:
 
   assuming these positions yield similar earnings as non-research roles, there arises a clear skill mismatch. ph.d. holders are predominantly trained for research tasks due to the nature of academia, which emphasizes novelty and competitive technical writing.
 
-one should also consider the probability of not completing a ph.d. program – for instance, at duke university, 35% of computer science students do not finish their ph.d. [^9].
+one should also factor in the probability of not completing a ph.d. program in the first place (ie. 35% of computer science students at the university of duke [^9]).
 
-in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question:
+in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question once again:
 
 > “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the industry_?”.
 
