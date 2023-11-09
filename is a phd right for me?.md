@@ -113,39 +113,43 @@ this leads us to the next section.
 
 <br><br>
 
-# beyond the ivory tower: phd industry earnings
+# beyond the ivory tower of academia: phd industry earnings
 
 unfortunately, the taulbee survey doesn't provide data on the earnings of ph.d. holders in the industry and there are no other official sources that do. making our own dataset isn't an option either because it would be highly inaccurate.
 
-given how many unknowns there are, it's hard to make a data-driven decision but we can still make some educated guesses.
+the best data source i found was from a non profit organization called [80000 hours](https://80000hours.org/career-reviews/computer-science-phd/).
 
-the best information i found was from a non profit organization called [80000 hours](https://80000hours.org/career-reviews/computer-science-phd/).
+the most important risk factors they identified are:
 
-they mentioned a few important things worth noting:
+- **massive opportunity cost:**
 
-1. **massive opportunity cost:**
+  getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
 
-   getting a cs phd usually takes longer than expected. it's not uncommon to spend six years or even more than 10. you will loose close to a decade of earnings and career progression that you could have had in industry which is equivalent to over a million dollars in lost earnings for most computer science ph.d. students.
+- **skill mismatch:**
 
-2. **skill mismatch:**
+  typically, a cs phd isn't meant to prepare you for industry jobs, except for the fortunate ~50% who get to do industry research (suggesting it may have been better for them to enter industry directly).
 
-   typically, a cs phd isn't meant to prepare you for industry jobs, except for the fortunate ~50% who get to do industry research (suggesting it may have been better for them to enter industry directly).
+  for the rest, the knowledge gained might be more theoretical and less practical (perhaps more suited for analytical roles such as data science, machine learning, security, etc.).
 
-   for the rest, the knowledge gained might be more theoretical and less practical (perhaps more suited for analytical roles such as data science, machine learning, security, etc.).
+  during your phd, you mainly learn about academic computer science and might miss exposure to other career areas.
 
-   during your phd, you mainly learn about academic computer science and might miss exposure to other career areas.
+  the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
 
-   the phd program is also very open-ended, meaning there aren't clear rules on progress or how to manage your time.
+the most important benefits they identified are:
 
-3. **access to leadership roles:**
+- **access to industry research and leadership roles:**
 
-   while a bachelor's or master's degree may not be the best way to prepare for industry jobs, they're usually the minimum requirement.
+  while a bachelor's or master's degree may not be the best way to prepare for industry jobs, they're usually the minimum requirement.
 
-   similarly, a phd is often a must for high-level research and leadership roles in big companies. for these competitive positions, a phd is a hard requirement, and it's unlikely that you'll be considered without one.
+  similarly, a phd is often a must for high-level research and leadership roles in big companies. for these competitive positions, a phd is a hard requirement, and it's unlikely that you'll be considered without one.
 
-   a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition. and only within these roles does a phd become a worthwhile investment outside of academia.
+  a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition.
 
-> **in conclusion:** considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d. you definitely shouldn't pursue a ph.d. – unless you're financially stable, from a top school, very gifted _and most importantly: have a clear plan for how you'll use your ph.d. to reach your goals_ and don't just want to do it to increase your long-term earnings in some vague way you haven't thought through as it is the case for most students.
+  and only within these roles does a phd become a worthwhile investment outside of academia.
+
+<br>
+
+**in conclusion:** considering the many uncertainties and risks, along with how few people _significantly_ benefit from their ph.d. you definitely shouldn't pursue a ph.d. –– unless you're in an exceptional position (financially stable, from a top school, very gifted, ...) and most importantly; have a clear plan for how you'll use your ph.d. to reach your goals and don't just want to do it to increase your long-term earnings in case such an opportunity should arise.
 
 <br><br>
 
