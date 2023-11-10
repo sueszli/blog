@@ -72,169 +72,167 @@ rankings based on multiple sources:
 
 # comparing languages
 
-- **javascript:** largest ecosystem, used for everything
+**javascript:** largest ecosystem, used for everything
 
-  see: [https://www.youtube.com/watch?v=2Z4fZtSKlcE](https://www.youtube.com/watch?v=2Z4fZtSKlcE)
+creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
-  creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
+- is the number one by a wide margin
 
-  - is the number one by a wide margin
+  about [≈65%](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for) of all js developers also use node.js
 
-    about [≈65%](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for) of all js developers also use node.js
+  has the best ecosystem and is used in almost every company
 
-    has the best ecosystem and is used in almost every company
+- performance difference to java and go gets substantial as you scale up your system - but is still better than python
 
-  - performance difference to java and go gets substantial as you scale up your system - but is still better than python
+- built-in async and worker threads: parallelism only through multiprocessing, not multithreading
 
-  - built-in async and worker threads: parallelism only through multiprocessing, not multithreading
+  worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
 
-    worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
+---
 
-<br>
+**python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
 
-- **python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
+created 1991
 
-  created 1991
+- extremely popular, ideal for building utilities and data analytics
 
-  - extremely popular, ideal for building utilities and data analytics
+- has fast c libraries but its own performance is poor which is why it is frequently 10-100x slower in benchmarks than node.js
 
-  - has fast c libraries but its own performance is poor which is why it is frequently 10-100x slower in benchmarks than node.js
+  global interpreter lock GIL (only one thread at a time), parallelism only through multiprocessing, not multithreading
 
-    global interpreter lock GIL (only one thread at a time), parallelism only through multiprocessing, not multithreading
+  a lot of progress has been made to improve the performance with fastapi
 
-    a lot of progress has been made to improve the performance with fastapi
+  new superset languages are being developed for simd like the “mojo” language
 
-    new superset languages are being developed for simd like the “mojo” language
+  - https://travisluong.medium.com/fastapi-vs-fastify-vs-spring-boot-vs-gin-benchmark-b672a5c39d6c
+  - https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html
+  - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
 
-    - https://travisluong.medium.com/fastapi-vs-fastify-vs-spring-boot-vs-gin-benchmark-b672a5c39d6c
-    - https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html
-    - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
+---
 
-<br>
+**java:** well established for systems but not not suitable for new projects
 
-- **java:** well established for systems but not not suitable for new projects
+created 1995
 
-  created 1995
+- old, extremely bulky and requires a lot of boilerplate - java is like the cobol of the 21st century: not fun to work with but here to stay
 
-  - old, extremely bulky and requires a lot of boilerplate - java is like the cobol of the 21st century: not fun to work with but here to stay
+  but it’s good to know for distributed systems developers as it has an established ecosystem for distributed systems, ie. apache libraries or akka
 
-    but it’s good to know for distributed systems developers as it has an established ecosystem for distributed systems, ie. apache libraries or akka
+- still trying to catch up in cloud computing and serverless applications through small native builds
 
-  - still trying to catch up in cloud computing and serverless applications through small native builds
+  - native binaries for fast startup time and low memory footprint: graalvm
 
-    - native binaries for fast startup time and low memory footprint: graalvm
+    ahead of time compiler which results in longer build times
 
-      ahead of time compiler which results in longer build times
+  - kubernetes deployment: quarkus
 
-    - kubernetes deployment: quarkus
+    small artifacts, fast boot times, and low first-byte latency
 
-      small artifacts, fast boot times, and low first-byte latency
+  - concurrency: project loom
 
-    - concurrency: project loom
+    lightweight and efficient virtual threads called fibers which are currently under development and will be finalized in java21
 
-      lightweight and efficient virtual threads called fibers which are currently under development and will be finalized in java21
+    but these technologies are still a work in progress and most enterprises are sticking to java8 and are reluctant to use newer versions of java or frameworks other than spring-boot
 
-      but these technologies are still a work in progress and most enterprises are sticking to java8 and are reluctant to use newer versions of java or frameworks other than spring-boot
+    - https://www.reddit.com/r/java/comments/11rp29f/jep_draft_8303683_virtual_threads/
+    - https://github.com/readme/featured/java-programming-language
+    - https://www.jetbrains.com/lp/devecosystem-2020/java/
 
-      - https://www.reddit.com/r/java/comments/11rp29f/jep_draft_8303683_virtual_threads/
-      - https://github.com/readme/featured/java-programming-language
-      - https://www.jetbrains.com/lp/devecosystem-2020/java/
+---
 
-<br>
+**c#:** not used for systems as often as java is and doesn’t have nice jvm interop
 
-- **c#:** not used for systems as often as java is and doesn’t have nice jvm interop
+---
 
-<br>
+**c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
 
-- **c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
+---
 
-<br>
+**php:** dead
 
-- **php:** dead
+---
 
-<br>
+**go:** minimalist systems language with easy concurrency and a moderate ecosystem
 
-- **go:** minimalist systems language with easy concurrency and a moderate ecosystem
+created 2009
 
-  created 2009
+good:
 
-  good:
+- decent ecosystem, almost as popular as java for distributed systems
 
-  - decent ecosystem, almost as popular as java for distributed systems
+- small native builds, built-in csp model
 
-  - small native builds, built-in csp model
+  designed specifically for distributed systems, microservices and cloud-native apps
 
-    designed specifically for distributed systems, microservices and cloud-native apps
+  - https://go.dev/doc/faq#What_is_the_purpose_of_the_project
+  - https://go.dev/talks/2012/splash.article
+  - https://www.reddit.com/r/golang/comments/11c9wv1/why_go/
 
-    - https://go.dev/doc/faq#What_is_the_purpose_of_the_project
-    - https://go.dev/talks/2012/splash.article
-    - https://www.reddit.com/r/golang/comments/11c9wv1/why_go/
+bad:
 
-  bad:
+- can be unergonomic, because of how little syntactic sugar it has, but it does a lot correct right out of the box (ie. error handling)
 
-  - can be unergonomic, because of how little syntactic sugar it has, but it does a lot correct right out of the box (ie. error handling)
+- growth seems to stagnate - it doesn’t have anything that could make it stick
 
-  - growth seems to stagnate - it doesn’t have anything that could make it stick
+- few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
 
-  - few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
+---
 
-<br>
+**ruby:** dead
 
-- **ruby:** dead
+---
 
-<br>
+**rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
 
-- **rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
+created 2015
 
-  created 2015
+good:
 
-  good:
+- solves a real problem with the ownership model: provides safety without sacrificing performance. this is why microsoft and the linux foundation are porting some of their networking code to it.
+- fastest growing language
 
-  - solves a real problem with the ownership model: provides safety without sacrificing performance. this is why microsoft and the linux foundation are porting some of their networking code to it.
-  - fastest growing language
+bad:
 
-  bad:
+- still very new, with a very small ecosystem
+- practically no jobs, most fans are just hobby developers. adoption will still take a couple of years
 
-  - still very new, with a very small ecosystem
-  - practically no jobs, most fans are just hobby developers. adoption will still take a couple of years
+- [https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#:~:text=The%20share%20of%20developers%20using,2021%20to%2018%25%20in%202022.&text=Florian:%20%E2%80%9CI've%20noticed,professional%20at%20a%20good%20rate)
+- https://www.jetbrains.com/lp/devecosystem-2020/rust/
 
-  - [https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#:~:text=The%20share%20of%20developers%20using,2021%20to%2018%25%20in%202022.&text=Florian:%20%E2%80%9CI've%20noticed,professional%20at%20a%20good%20rate)
-  - https://www.jetbrains.com/lp/devecosystem-2020/rust/
+---
 
-<br>
+**kotlin:** not a java superset, can't compete with java
 
-- **kotlin:** not a java superset, can't compete with java
+created 2011
 
-  created 2011
+good:
 
-  good:
+- null safety, coroutines, native builds
 
-  - null safety, coroutines, native builds
+  null safety can be achieved with lombok, java now supports virtual threads, graalvm enables native compilation
 
-    null safety can be achieved with lombok, java now supports virtual threads, graalvm enables native compilation
+bad:
 
-  bad:
+- default for android and gradle but still too few jobs - usually kotlin makes up a small part of a java job
 
-  - default for android and gradle but still too few jobs - usually kotlin makes up a small part of a java job
+- kotlin is not a superset of java (like typescript to javascript) but a standalone jvm language that is trying to compete with java. it does benefit from sharing the same ecosystem, but so did groovy, clojure, scala (which all failed to gain traction).
 
-  - kotlin is not a superset of java (like typescript to javascript) but a standalone jvm language that is trying to compete with java. it does benefit from sharing the same ecosystem, but so did groovy, clojure, scala (which all failed to gain traction).
+  - https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of
+  - https://www.quora.com/Is-Kotlin-a-superset-of-Java
+  - https://kotlinlang.org/docs/comparison-to-java.html
 
-    - https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of
-    - https://www.quora.com/Is-Kotlin-a-superset-of-Java
-    - https://kotlinlang.org/docs/comparison-to-java.html
+---
 
-<br>
+**swift:** mostly for ios development
 
-- **swift:** mostly for ios development
+---
 
-<br>
+**dart/flutter:** can’t compete with react-native’s ecosystem
 
-- **dart/flutter:** can’t compete with react-native’s ecosystem
+---
 
-<br>
+**lua:** mostly for embedded scripting
 
-- **lua:** mostly for embedded scripting
+---
 
-<br>
-
-- **scala:** dead
+**scala:** dead
