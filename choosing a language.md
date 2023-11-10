@@ -178,6 +178,8 @@ rankings based on multiple sources:
 
   - few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
 
+<br>
+
 - **ruby:** dead
 
 <br>
@@ -220,6 +222,8 @@ rankings based on multiple sources:
     - https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of
     - https://www.quora.com/Is-Kotlin-a-superset-of-Java
     - https://kotlinlang.org/docs/comparison-to-java.html
+
+<br>
 
 - **swift:** mostly for ios development
 
