@@ -90,9 +90,9 @@ _alternatives:_
 - [joplin](https://joplinapp.org/) – don’t like the ui
 - [nota](https://nota.md/buy.html) – txt editor, not markdown
 - [caret](https://caret.io/) (previous version of nota) – buggy and slow
-- [fsnotes](https://fsnot.es/) – not worth the paying for
-- [byword](https://apps.apple.com/app/byword/id420212497?mt=12) – not worth the paying for
-- [typora](https://typora.io/) – not worth the paying for
+- [fsnotes](https://fsnot.es/) – not worth paying for
+- [byword](https://apps.apple.com/app/byword/id420212497?mt=12) – not worth paying for
+- [typora](https://typora.io/) – not worth paying for
 
 <br><br>
 
