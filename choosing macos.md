@@ -1,4 +1,4 @@
-i was inspired to write this post through wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0).
+i was inspired to make this post because of wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0).
 
 i've used windows, linux and macos as my daily driver for years and thought i might share my thoughts on the topic.
 
