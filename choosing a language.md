@@ -1,5 +1,8 @@
 this ranking is specifically for teams that build web backends / distributed systems.
 
+i was inspired to write this, by theo/t3's video ["performance doesn't matter...until it does."
+](https://www.youtube.com/watch?v=2Z4fZtSKlcE).
+
 we take a look at technologies and tools that developers currently use ("popularity") and want to use in the future ("growth").
 
 - **popularity matters most**
