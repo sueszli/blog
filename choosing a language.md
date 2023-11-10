@@ -90,7 +90,6 @@ creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
   worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
 
 </details>
-<br>
 
 <details>
 <summary>python: growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon</summary>
@@ -112,7 +111,6 @@ created 1991
   - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
 
 </details>
-<br>
 
 <details>
 <summary>java: well established for distributed systems but not not suitable for new projects</summary>
@@ -144,7 +142,6 @@ created 1995
     - https://www.jetbrains.com/lp/devecosystem-2020/java/
 
 </details>
-<br>
 
 c#: not used for systems as often as java is and doesn’t have nice jvm interop
 
@@ -178,7 +175,6 @@ bad:
 - few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
 
 </details>
-<br>
 
 ruby: dead
 
@@ -201,7 +197,6 @@ bad:
 - https://www.jetbrains.com/lp/devecosystem-2020/rust/
 
 </details>
-<br>
 
 <details>
 <summary>kotlin: not a java superset, can't compete with java</summary>
@@ -225,7 +220,6 @@ bad:
   - https://kotlinlang.org/docs/comparison-to-java.html
 
 </details>
-<br>
 
 swift: mostly for ios development
 
