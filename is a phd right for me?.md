@@ -113,7 +113,7 @@ this leads us to the next section.
 
 <br><br>
 
-# beyond the ivory tower of academia: phd industry earnings
+# beyond academia: phd industry earnings
 
 understanding career opportunities for ph.d. holders in the industry, the non-profit organization "80000 hours" offers insights about job prospects and risks. before delving into statistics, it's worthwhile to explore these details.
 
