@@ -40,7 +40,7 @@ rankings based on multiple sources:
 
 - **code_report**
 
-  - https://plrank.com/ ⭐️ – is the most well-rounded ranking, based on multiple sources
+  - https://plrank.com/ – is the most well-rounded ranking, based on multiple sources
 
 - **stackoverflow**
 
