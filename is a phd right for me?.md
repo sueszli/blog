@@ -183,9 +183,7 @@ additionally this is consistent with the data from levels.fyi, which shows r&d p
 
 in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, security, or research and development (r&d).
 
-for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay.
-
-however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for product development, management, sales, responsibility, and leadership. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
+for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for product development, management, sales, responsibility, and leadership. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
 
 therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your ph.d.
 
