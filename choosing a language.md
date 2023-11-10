@@ -72,7 +72,7 @@ rankings based on multiple sources:
 
 # comparing languages
 
-⚪️ **javascript:** largest ecosystem, used for everything
+🌈 **javascript:** largest ecosystem, used for everything
 
 creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
@@ -90,7 +90,7 @@ creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
 ---
 
-⚪️ **python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
+🌈 **python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
 
 created 1991
 
@@ -110,7 +110,7 @@ created 1991
 
 ---
 
-⚪️ **java:** well established for systems but not not suitable for new projects
+🌈 **java:** well established for systems but not not suitable for new projects
 
 created 1995
 
@@ -140,19 +140,19 @@ created 1995
 
 ---
 
-⚪️ **c#:** not used for systems as often as java is and doesn’t have nice jvm interop
+🌈 **c#:** not used for systems as often as java is and doesn’t have nice jvm interop
 
 ---
 
-⚪️ **c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
+🌈 **c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
 
 ---
 
-⚪️ **php:** dead
+🌈 **php:** dead
 
 ---
 
-⚪️ **go:** minimalist systems language with easy concurrency and a moderate ecosystem
+🌈 **go:** minimalist systems language with easy concurrency and a moderate ecosystem
 
 created 2009
 
@@ -178,11 +178,11 @@ bad:
 
 ---
 
-⚪️ **ruby:** dead
+🌈 **ruby:** dead
 
 ---
 
-⚪️ **rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
+🌈 **rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
 
 created 2015
 
@@ -201,7 +201,7 @@ bad:
 
 ---
 
-⚪️ **kotlin:** not a java superset, can't compete with java
+🌈 **kotlin:** not a java superset, can't compete with java
 
 created 2011
 
@@ -223,16 +223,16 @@ bad:
 
 ---
 
-⚪️ **swift:** mostly for ios development
+🌈 **swift:** mostly for ios development
 
 ---
 
-⚪️ **dart/flutter:** can’t compete with react-native’s ecosystem
+🌈 **dart/flutter:** can’t compete with react-native’s ecosystem
 
 ---
 
-⚪️ **lua:** mostly for embedded scripting
+🌈 **lua:** mostly for embedded scripting
 
 ---
 
-⚪️ **scala:** dead
+🌈 **scala:** dead
