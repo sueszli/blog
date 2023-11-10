@@ -88,7 +88,7 @@ creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
   worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
 
----
+<br><br>
 
 🌈 **python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
 
@@ -108,7 +108,7 @@ created 1991
   - https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html
   - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
 
----
+<br><br>
 
 🌈 **java:** well established for systems but not not suitable for new projects
 
@@ -138,19 +138,19 @@ created 1995
     - https://github.com/readme/featured/java-programming-language
     - https://www.jetbrains.com/lp/devecosystem-2020/java/
 
----
+<br><br>
 
 🌈 **c#:** not used for systems as often as java is and doesn’t have nice jvm interop
 
----
+<br><br>
 
 🌈 **c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
 
----
+<br><br>
 
 🌈 **php:** dead
 
----
+<br><br>
 
 🌈 **go:** minimalist systems language with easy concurrency and a moderate ecosystem
 
@@ -176,11 +176,11 @@ bad:
 
 - few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
 
----
+<br><br>
 
 🌈 **ruby:** dead
 
----
+<br><br>
 
 🌈 **rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
 
@@ -199,7 +199,7 @@ bad:
 - [https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#:~:text=The%20share%20of%20developers%20using,2021%20to%2018%25%20in%202022.&text=Florian:%20%E2%80%9CI've%20noticed,professional%20at%20a%20good%20rate)
 - https://www.jetbrains.com/lp/devecosystem-2020/rust/
 
----
+<br><br>
 
 🌈 **kotlin:** not a java superset, can't compete with java
 
@@ -221,18 +221,18 @@ bad:
   - https://www.quora.com/Is-Kotlin-a-superset-of-Java
   - https://kotlinlang.org/docs/comparison-to-java.html
 
----
+<br><br>
 
 🌈 **swift:** mostly for ios development
 
----
+<br><br>
 
 🌈 **dart/flutter:** can’t compete with react-native’s ecosystem
 
----
+<br><br>
 
 🌈 **lua:** mostly for embedded scripting
 
----
+<br><br>
 
 🌈 **scala:** dead
