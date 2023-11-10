@@ -72,7 +72,8 @@ rankings based on multiple sources:
 
 # comparing languages
 
-🌈 **javascript:** largest ecosystem, used for everything
+<details>
+<summary>javascript: largest ecosystem, used for everything</summary>
 
 creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
@@ -88,9 +89,11 @@ creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
 
   worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
 
-<br><br>
+</details>
+<br>
 
-🌈 **python:** growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon
+<details>
+<summary>python: growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon</summary>
 
 created 1991
 
@@ -108,9 +111,11 @@ created 1991
   - https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html
   - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
 
-<br><br>
+</details>
+<br>
 
-🌈 **java:** well established for systems but not not suitable for new projects
+<details>
+<summary>java: well established for distributed systems but not not suitable for new projects</summary>
 
 created 1995
 
@@ -138,21 +143,17 @@ created 1995
     - https://github.com/readme/featured/java-programming-language
     - https://www.jetbrains.com/lp/devecosystem-2020/java/
 
-<br><br>
+</details>
+<br>
 
-🌈 **c#:** not used for systems as often as java is and doesn’t have nice jvm interop
+c#: not used for systems as often as java is and doesn’t have nice jvm interop
 
-<br><br>
+c/cpp: too difficult to build safe networked systems with - but has the best raw performance
 
-🌈 **c/cpp:** too difficult to build safe networked systems with - but has the best raw performance
+php: dead
 
-<br><br>
-
-🌈 **php:** dead
-
-<br><br>
-
-🌈 **go:** minimalist systems language with easy concurrency and a moderate ecosystem
+<details>
+<summary>go: minimalist systems language with easy concurrency and a moderate ecosystem</summary>
 
 created 2009
 
@@ -176,13 +177,13 @@ bad:
 
 - few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
 
-<br><br>
+</details>
+<br>
 
-🌈 **ruby:** dead
+ruby: dead
 
-<br><br>
-
-🌈 **rust:** safe c++ alternative for networked systems, but is lacking the ecosystem
+<details>
+<summary>rust: safe c++ alternative for networked systems, but is lacking the ecosystem</summary>
 
 created 2015
 
@@ -199,9 +200,11 @@ bad:
 - [https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#:~:text=The%20share%20of%20developers%20using,2021%20to%2018%25%20in%202022.&text=Florian:%20%E2%80%9CI've%20noticed,professional%20at%20a%20good%20rate)
 - https://www.jetbrains.com/lp/devecosystem-2020/rust/
 
-<br><br>
+</details>
+<br>
 
-🌈 **kotlin:** not a java superset, can't compete with java
+<details>
+<summary>kotlin: not a java superset, can't compete with java</summary>
 
 created 2011
 
@@ -221,18 +224,13 @@ bad:
   - https://www.quora.com/Is-Kotlin-a-superset-of-Java
   - https://kotlinlang.org/docs/comparison-to-java.html
 
-<br><br>
+</details>
+<br>
 
-🌈 **swift:** mostly for ios development
+swift: mostly for ios development
 
-<br><br>
+dart/flutter: can’t compete with react-native’s ecosystem
 
-🌈 **dart/flutter:** can’t compete with react-native’s ecosystem
+lua: mostly for embedded scripting
 
-<br><br>
-
-🌈 **lua:** mostly for embedded scripting
-
-<br><br>
-
-🌈 **scala:** dead
+scala: dead
