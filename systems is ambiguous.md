@@ -1,3 +1,5 @@
+# what is a "systems engineer" actually?
+
 when i began grad school at the university of waterloo, one of the most interesting things i noticed was how the labs were grouped by specific research areas.
 
 wanting to specialize in "distributed systems" research, i joined the "systems and networking" (syn) group. however, i was surprised to find that most research in the syn group focused on operating systems, not what i had expected.
@@ -52,20 +54,47 @@ distributed systems have many challenges, such as how to coordinate the actions 
 
 some examples of topics in distributed systems research are:
 
-- algorithms and data structures: these are the rules and methods that computers use to communicate, agree, and store data in a distributed system. some examples are consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
+- algorithms and data structures: these are the rules and methods that computers use to communicate, agree, and store data in a distributed system.
 
-- systems components and designs: these are the building blocks and patterns that make up a distributed system. some examples are message brokers, caches, cdns, cloud services, containerization and virtualization, orchestration of microservices, infrastructure as code etc.
+  some examples are consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
 
-<br><br>
+- distributed systems / software architectures: these are the ways that computers are connected together to form a distributed system.
 
-# what is "decentralized systems research"?
+  ie. client-server, peer-to-peer, leader-follower, and hybrid architectures.
 
-decentralized systems are special distributed systems that can organize themselves – a more fitting term for them is "self-organizing systems".
+  designing a distributed system involves choosing the building blocks and patterns that make up a distributed system.
 
-these systems are quite controversial because blockchains have often been used for cryptocurrency gambling, causing a loss of interest after incidents like the ftx scandal. however, i believe there are still many other interesting uses in this area.
+  ie. message brokers, service discovery, load balancing, and caching services.
 
-one of these uses is in peer-to-peer (p2p) architectures that could help create systems resistant to censorship and protective of privacy. some examples of topics in decentralized systems research include:
+  designing p2p systems used to be very popular in the 2000s but is now experiencing a resurgence due to the rise of blockchain technology. although controversial, there are still many interesting uses in this area about self-organizing systems:
 
-- mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
-- decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
-- decentralized file storage systems: ipfs/filecoin, sia.
+  - mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
+  - decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
+  - decentralized file storage systems: ipfs/filecoin, sia.
+
+- distributed systems programming: this is the process of writing code for distributed systems.
+
+  ie. socket programming, rpc, message passing, and distributed programming languages.
+
+- distributed systems security: this is the process of making sure that a distributed system is secure.
+  ie. authentication, authorization, encryption, and access control.
+
+- distributed systems performance: this is the process of measuring and improving the performance of a distributed system.
+
+  ie. load balancing, caching, and replication.
+
+- distributed systems testing: this is the process of testing a distributed system to make sure that it works correctly.
+
+  ie. unit testing, integration testing, and system testing.
+
+- distributed systems management: this is the process of managing a distributed system.
+
+  ie. monitoring, logging, and alerting.
+
+- distributed systems economics: this is the process of making sure that a distributed system is cost-effective.
+
+  ie. resource allocation, pricing, and billing.
+
+- distributed systems applications: these are the applications that use distributed systems.
+
+  ie. web applications, mobile applications, and desktop applications.

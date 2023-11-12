@@ -1,3 +1,5 @@
+# is a phd right for me?
+
 it’s important to be deliberate and data driven when thinking about your career choices.
 
 ask yourself, "is pursuing a ph.d. the right choice for me?".

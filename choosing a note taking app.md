@@ -1,18 +1,20 @@
+# which note taking app should i use?
+
 when looking at note taking software, we have to differentiate between the editors (notion, coda, asana, obsidian, ...) and file formats (html, markdown, asciidoc, restructuredtext, ...).
 
 <br><br>
 
 # file formats
 
-the file format must be future-proof.
+the file format must be future-proof and in plain text.
 
 - [comparison of lightweight markup languages](https://en.m.wikipedia.org/wiki/Lightweight_markup_language#:~:text=Comparison%20of%20language%20features)
 - [well-known document markup languages](https://en.m.wikipedia.org/wiki/List_of_document_markup_languages#:~:text=Well%2Dknown%20document%20markup%20languages)
 - [markdown vs. asciiDoc vs. reStructuredText](https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/)
 - [github gist](https://gist.github.com/ChrisTollefson/a3af6d902a74a0afd1c2d79aadc9bb3f)
-- [github markup](https://github.com/github/markup)
+- [github markup](https://github.com/github/markup) (the official github plaintext parser)
 
-the 4 most popular formats, which are supported by / rendered in github are:
+the 4 most popular formats, which are supported by github's parser, are:
 
 1. html:
    - created 1 year after xml (1996).
@@ -21,7 +23,7 @@ the 4 most popular formats, which are supported by / rendered in github are:
 2. markdown (md):
    - created in 2004.
    - huge community and ecosystem: supported by all static site generators, default language for github, stackoverflow, reddit, confluence.
-   - easy to write and export.
+   - easy to write and import/export into most other formats.
    - one of the least expressive: difficult to format and structure text. no vertical spacing.
    - ambiguous syntax: has too many dialects / flavors and the parser is implemented differently by every company (obsidian, github, confluence all have their own flavour).
 3. asciidoc (adoc):
@@ -32,7 +34,7 @@ the 4 most popular formats, which are supported by / rendered in github are:
    - unpopular and only used in the python community.
    - very elegant: lets you write nested blocks and lists (the only markup language that does this).
 
-in conclusion, the only 2 options here are html and markdown.
+in conclusion, the only 2 formats worth considering are: html, markdown.
 
 <br><br>
 
@@ -100,5 +102,5 @@ _alternatives:_
 
 notion and obsidian are the best choices – and they both have their own strengths and weaknesses.
 
-- notion is fun and convenient: it has the least mental overhead
-- obsidian is meant for larger projects: it’s best when you want to work on large files
+- notion is fun and convenient: it has the least mental overhead and gets the job done
+- obsidian is meant for larger projects: it’s best when you want to work on large projects and files
