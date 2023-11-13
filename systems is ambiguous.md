@@ -50,7 +50,7 @@ it's important to determine the specific type of systems research that interests
 
 distributed systems research is the study of how to make many computers work together over a network. the main goal is to create systems that can handle more work by adding more computers, instead of making each computer faster. this is called horizontal scaling.
 
-distributed systems have many challenges, such as how to coordinate the actions of different computers, how to deal with failures and errors, how to keep the data consistent and secure, and how to measure and improve the performance. systems researchers try to find solutions to these challenges by designing new algorithms, data structures, components, and architectures.
+distributed systems have many challenges, such as how to coordinate the actions of different computers, how to deal with failures and errors, how to keep the data consistent and secure, and how to measure and improve the performance. theses systems researchers try to find solutions to these challenges by designing new algorithms, data structures, components, and architectures.
 
 some examples of topics in distributed systems research are:
 
