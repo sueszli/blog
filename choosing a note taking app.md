@@ -4,7 +4,7 @@ when looking at note taking software, we have to differentiate between the edito
 
 <br><br>
 
-# file formats
+## file formats
 
 the file format must be future-proof and in plain text.
 
@@ -38,7 +38,7 @@ in conclusion, the only 2 formats worth considering are: html, markdown.
 
 <br><br>
 
-# best editor: html
+## best editor: html
 
 _best html editors:_
 
@@ -56,7 +56,7 @@ _best html editors:_
 
 <br><br>
 
-# best editor: md
+## best editor: md
 
 _best markdown editors:_
 
@@ -98,7 +98,7 @@ _alternatives:_
 
 <br><br>
 
-# conclusion
+## conclusion
 
 notion and obsidian are the best choices – and they both have their own strengths and weaknesses.
 

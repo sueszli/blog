@@ -39,7 +39,7 @@ let's start by exploring the first tip and choosing an arbitrary success metric 
 
 <br><br>
 
-# our metric of choice: total compensation
+## our metric of choice: total compensation
 
 to be data-driven, we need measurable metrics. however, determining personal success metrics for a career is really hard. here are reasons why i think it's difficult:
 
@@ -75,7 +75,7 @@ keep in mind that this is just one of many possible metrics and not the primary 
 
 <br><br>
 
-# academia: a labor of love
+## academia: a labor of love
 
 the computing research association's "taulbee survey" [^5] offers key insights into our query:
 
@@ -115,7 +115,7 @@ this leads us to the next section.
 
 <br><br>
 
-# beyond academia: phd industry earnings
+## beyond academia: phd industry earnings
 
 understanding career opportunities for ph.d. holders in the industry, the non-profit organization "80000 hours" offers insights about job prospects and risks. before delving into statistics, it's worthwhile to explore these details.
 
@@ -181,7 +181,7 @@ additionally this is consistent with the data from levels.fyi, which shows r&d p
 
 <br><br>
 
-# conclusion
+## conclusion
 
 in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, security, or research and development (r&d).
 

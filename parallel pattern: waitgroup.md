@@ -6,7 +6,7 @@ here's a little collection of implementations in different languages that also s
 
 <br>
 
-# java
+## java
 
 ```java
 package code;
@@ -56,7 +56,7 @@ public class ParallelPromisePattern {
 
 <br>
 
-# javascript
+## javascript
 
 ```js
 function sleep(ms) {
@@ -85,7 +85,7 @@ Promise.all(promises)
 
 <br>
 
-# python
+## python
 
 ```python
 import asyncio
@@ -118,7 +118,7 @@ loop.run_until_complete(main())
 
 <br>
 
-# go
+## go
 
 ```go
 package main
@@ -157,7 +157,7 @@ func main() {
 
 <br>
 
-# erlang
+## erlang
 
 ```erlang
 -module(main).
@@ -188,14 +188,14 @@ wait_for_workers(N) ->
 
 <br>
 
-# elixir
+## elixir
 
 ```elixir
 Enum.each(1..System.schedulers_online(), fn i ->
   Task.start(fn ->
     timeout = :rand.uniform(5) * 1000
     :timer.sleep(timeout)
-    IO.puts "Task #{i} returned result after #{timeout} ms"
+    IO.puts "Task ##{i} returned result after ##{timeout} ms"
   end)
 end)
 |> Enum.each(&Task.await/1)
@@ -205,7 +205,7 @@ IO.puts("all done")
 
 <br>
 
-# gleam
+## gleam
 
 ```gleam
 import gleam/number
@@ -233,7 +233,7 @@ io.println("all done")
 
 <br>
 
-# scala (akka framework)
+## scala (akka framework)
 
 ```scala
 import akka.actor.ActorSystem

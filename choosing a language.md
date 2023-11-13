@@ -39,7 +39,7 @@ we take a look at technologies and tools that developers currently use ("popular
 
 <br><br>
 
-# comparing data sources
+## comparing data sources
 
 these are my favorite data sources for comparing programming languages:
 
@@ -75,7 +75,7 @@ these are my favorite data sources for comparing programming languages:
 
 <br><br>
 
-# comparing languages
+## comparing languages
 
 <details>
 <summary>javascript: largest ecosystem, used for everything</summary>

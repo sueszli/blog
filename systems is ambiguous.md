@@ -10,7 +10,7 @@ in waterloo, it was the opposite. additionally, i discovered that what i wanted 
 
 <br><br>
 
-# the term "systems" is actually ambiguous
+## the term "systems" is actually ambiguous
 
 a "systems researcher" or "systems engineer" can mean very different things depending on whom you ask.
 
@@ -46,7 +46,7 @@ it's important to determine the specific type of systems research that interests
 
 <br><br>
 
-# what is "distributed systems research"?
+## what is "distributed systems research"?
 
 distributed systems research is the study of how to make many computers work together over a network. the main goal is to create systems that can handle more work by adding more computers, instead of making each computer faster. this is called horizontal scaling.
 
