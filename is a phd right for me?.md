@@ -189,6 +189,8 @@ for positions that emphasize leadership or heavy engineering, having a phd will 
 
 therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your ph.d.
 
+<img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
+
 <br><br>
 
 [^1]: [Lin, J. (2023). Art and Science of Empirical Computer Science. GitHub.](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
