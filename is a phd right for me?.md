@@ -107,6 +107,8 @@ here are the essential findings:
 
 one should also factor in the probability of not completing a ph.d. program in the first place (ie. 35% of computer science students at the university of duke [^9]).
 
+<img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
+
 in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question once again:
 
 > “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the north american industry_?”.
@@ -188,8 +190,6 @@ in summary, pursuing a phd in computer science can be very beneficial in the nor
 for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for product development, management, sales, responsibility, and leadership. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
 
 therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your ph.d.
-
-<img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
 
 <br><br>
 
