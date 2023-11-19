@@ -8,27 +8,7 @@ here's a little collection of implementations in different languages that also s
 
 ## java
 
-the most concise way to program this pattern out in java is to use lambdas. using lambdas in java is pretty unintuitive.
-
-you either have to definte your own types with `@FunctionalInterface` or know these expressions by heart:
-
-```
-Supplier       ()    -> x
-Consumer       x     -> ()
-BiConsumer     x, y  -> ()
-Callable       ()    -> x throws ex
-Runnable       ()    -> ()
-Function       x     -> y
-BiFunction     x,y   -> z
-Predicate      x     -> boolean
-UnaryOperator  x1    -> x2
-BinaryOperator x1,x2 -> x3
-```
-
-also see: 
-
-- https://programming.guide/java/list-of-functional-interfaces.html
-- https://stackoverflow.com/a/62434813/13045051
+here's the java implementation:
 
 ```java
 package code;
@@ -75,6 +55,23 @@ public class ParallelPromisePattern {
     }
 }
 ```
+
+the most concise way to program this pattern out in java is to use lambdas. but using lambdas in java is pretty unintuitive. you either have to definte your own types with `@FunctionalInterface` or know these expressions by heart:
+
+```
+Supplier       ()    -> x
+Consumer       x     -> ()
+BiConsumer     x, y  -> ()
+Callable       ()    -> x throws ex
+Runnable       ()    -> ()
+Function       x     -> y
+BiFunction     x,y   -> z
+Predicate      x     -> boolean
+UnaryOperator  x1    -> x2
+BinaryOperator x1,x2 -> x3
+```
+
+but fortunately, once you do, coding in java becomes a lot more fun.
 
 <br>
 
