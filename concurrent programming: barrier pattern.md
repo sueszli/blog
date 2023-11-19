@@ -1,6 +1,6 @@
-# the  pattern
+# the barrier programming pattern
 
-one of my favorite parallel programming patterns is the [barrier pattern](https://en.m.wikipedia.org/wiki/Barrier_(computer_science)). you
+one of my favorite parallel programming patterns is the [barrier pattern](https://en.m.wikipedia.org/wiki/Barrier_(computer_science)): "A barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier."
 
 it's a very simple pattern that lets you run multiple tasks in parallel and wait for them to finish and it's very easy to implement in any language.
 
