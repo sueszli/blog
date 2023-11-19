@@ -93,9 +93,9 @@ public class ParallelAkkaPattern {
         public Receive createReceive() {
             return receiveBuilder()
                     .match(Integer.class, i -> {
-                        int timeout = (int) (Math.random() * 5);
+                        var timeout = (int) (Math.random() * 5);
                         Thread.sleep(timeout * 1000);
-                        String msg = String.format("%s returned result after %ds", Thread.currentThread().getName(), timeout);
+                        var msg = String.format("%s returned result after %ds", Thread.currentThread().getName(), timeout);
                         getSender().tell(msg, getSelf());
                     })
                     .build();
