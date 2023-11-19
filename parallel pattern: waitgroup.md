@@ -1,4 +1,4 @@
-# the waitgroup / promise.all pattern
+# the waitgroup parallel programming pattern
 
 one of my favorite parallel programming patterns is the `waitgroup` pattern from golang. it's a very simple pattern that lets you run multiple tasks in parallel and wait for them to finish and it's very easy to implement in any language.
 
@@ -7,6 +7,28 @@ here's a little collection of implementations in different languages that also s
 <br>
 
 ## java
+
+the most concise way to program this pattern out in java is to use lambdas. using lambdas in java is pretty unintuitive.
+
+you either have to definte your own types with `@FunctionalInterface` or know these expressions by heart:
+
+```
+Supplier       ()    -> x
+Consumer       x     -> ()
+BiConsumer     x, y  -> ()
+Callable       ()    -> x throws ex
+Runnable       ()    -> ()
+Function       x     -> y
+BiFunction     x,y   -> z
+Predicate      x     -> boolean
+UnaryOperator  x1    -> x2
+BinaryOperator x1,x2 -> x3
+```
+
+also see: 
+
+- https://programming.guide/java/list-of-functional-interfaces.html
+- https://stackoverflow.com/a/62434813/13045051
 
 ```java
 package code;
