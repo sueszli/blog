@@ -10,7 +10,7 @@ here's a little collection of implementations in different languages that also s
 
 ## java
 
-here's the java implementation:
+here's one possible java implementation:
 
 ```java
 package code;
@@ -60,7 +60,7 @@ public class ParallelPromisePattern {
 
 the most concise way to program this pattern out in java is to use lambdas. but using lambdas in java is pretty unintuitive. you either have to definte your own types with `@FunctionalInterface` or know these expressions by heart:
 
-```
+```txt
 Supplier       ()    -> x
 Consumer       x     -> ()
 BiConsumer     x, y  -> ()
@@ -74,6 +74,76 @@ BinaryOperator x1,x2 -> x3
 ```
 
 but fortunately, once you do, coding in java becomes a lot more fun.
+
+and in case you were wondering, here's what the implementation would look like, if we would leverage the akka-framework:
+
+```java
+package code;
+
+import akka.actor.*;
+import akka.pattern.Patterns;
+import scala.concurrent.Future;
+
+import java.util.stream.IntStream;
+
+public class ParallelAkkaPattern {
+
+    static class AsyncTask extends AbstractActor {
+        @Override
+        public Receive createReceive() {
+            return receiveBuilder()
+                    .match(Integer.class, i -> {
+                        int timeout = (int) (Math.random() * 5);
+                        Thread.sleep(timeout * 1000);
+                        String msg = String.format("%s returned result after %ds", Thread.currentThread().getName(), timeout);
+                        getSender().tell(msg, getSelf());
+                    })
+                    .build();
+        }
+    }
+
+    public static void main(String[] args) {
+        final var system = ActorSystem.create("system");
+        final var asyncTaskActor = system.actorOf(Props.create(AsyncTask.class), "asyncTaskActor");
+
+        IntStream.range(0, Runtime.getRuntime().availableProcessors())
+                .mapToObj(i -> Patterns.ask(asyncTaskActor, i, 5000))
+                .forEach(future -> future.onComplete(result -> System.out.println(result.get()), system.dispatcher()));
+
+        System.out.println("all done");
+    }
+}
+```
+
+and here's a much more concise concise implementation that's leveraging the akka-framework in scala: 
+
+```scala
+import akka.actor.ActorSystem
+import akka.dispatch.{ExecutionContexts, Future}
+import scala.concurrent.duration._
+import scala.util.Random
+
+object ParallelPromisePattern extends App {
+  implicit val system: ActorSystem = ActorSystem("ParallelPromisePattern")
+  implicit val ec = ExecutionContexts.global()
+
+  val asyncTask = () => {
+    val timeout = Random.nextInt(5)
+    Thread.sleep(timeout * 1000)
+    val threadName = Thread.currentThread().getName
+    val msg = s"$threadName returned result after $timeout s"
+    msg
+  }
+
+  val numCores = Runtime.getRuntime.availableProcessors
+  val futures = for (_ <- 0 until numCores) yield Future(asyncTask())
+
+  Future.sequence(futures).onComplete { _ =>
+    println("all done")
+    system.terminate()
+  }
+}
+```
 
 <br>
 
@@ -250,36 +320,4 @@ let tasks =
 each(tasks, fn(task) { task.await() })
 
 io.println("all done")
-```
-
-<br>
-
-## scala (akka framework)
-
-```scala
-import akka.actor.ActorSystem
-import akka.dispatch.{ExecutionContexts, Future}
-import scala.concurrent.duration._
-import scala.util.Random
-
-object ParallelPromisePattern extends App {
-  implicit val system: ActorSystem = ActorSystem("ParallelPromisePattern")
-  implicit val ec = ExecutionContexts.global()
-
-  val asyncTask = () => {
-    val timeout = Random.nextInt(5)
-    Thread.sleep(timeout * 1000)
-    val threadName = Thread.currentThread().getName
-    val msg = s"$threadName returned result after $timeout s"
-    msg
-  }
-
-  val numCores = Runtime.getRuntime.availableProcessors
-  val futures = for (_ <- 0 until numCores) yield Future(asyncTask())
-
-  Future.sequence(futures).onComplete { _ =>
-    println("all done")
-    system.terminate()
-  }
-}
 ```
