@@ -75,35 +75,6 @@ but fortunately, once you do, coding in java becomes a lot more fun.
 
 <br>
 
-## javascript
-
-```js
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function asyncTask() {
-  const timeout = Math.floor(Math.random() * 5);
-  await sleep(timeout * 1000);
-  const threadName = `Thread ${Math.floor(Math.random() * 1000)}`;
-  const msg = `${threadName} returned result after ${timeout}s`;
-  return msg;
-}
-
-const numCores = navigator.hardwareConcurrency; // num of cores
-const promises = Array.from({ length: numCores }, () =>
-  asyncTask()
-    .then((t) => console.log(t))
-    .catch((err) => console.error(err.message))
-);
-
-Promise.all(promises)
-  .then(() => console.log("all done"))
-  .catch((err) => console.error(err.message));
-```
-
-<br>
-
 ## python
 
 ```python
@@ -133,6 +104,35 @@ async def main():
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
+```
+
+<br>
+
+## javascript
+
+```js
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function asyncTask() {
+  const timeout = Math.floor(Math.random() * 5);
+  await sleep(timeout * 1000);
+  const threadName = `Thread ${Math.floor(Math.random() * 1000)}`;
+  const msg = `${threadName} returned result after ${timeout}s`;
+  return msg;
+}
+
+const numCores = navigator.hardwareConcurrency; // num of cores
+const promises = Array.from({ length: numCores }, () =>
+  asyncTask()
+    .then((t) => console.log(t))
+    .catch((err) => console.error(err.message))
+);
+
+Promise.all(promises)
+  .then(() => console.log("all done"))
+  .catch((err) => console.error(err.message));
 ```
 
 <br>
