@@ -1,6 +1,8 @@
-# the waitgroup parallel programming pattern
+# the  pattern
 
-one of my favorite parallel programming patterns is the `waitgroup` pattern from golang. it's a very simple pattern that lets you run multiple tasks in parallel and wait for them to finish and it's very easy to implement in any language.
+one of my favorite parallel programming patterns is the [barrier pattern](https://en.m.wikipedia.org/wiki/Barrier_(computer_science)). you
+
+it's a very simple pattern that lets you run multiple tasks in parallel and wait for them to finish and it's very easy to implement in any language.
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
