@@ -115,7 +115,7 @@ public class ParallelAkkaPattern {
 }
 ```
 
-and here's a much more concise concise implementation that's leveraging the akka-framework in scala: 
+and here's a much more concise implementation that's leveraging the akka-framework in scala: 
 
 ```scala
 import akka.actor.ActorSystem
