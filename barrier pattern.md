@@ -184,6 +184,8 @@ loop.run_until_complete(main())
 
 ## javascript
 
+not much to say – it's baked right into the language and works great.
+
 ```js
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -212,6 +214,8 @@ Promise.all(promises)
 <br>
 
 ## go
+
+not much to say – it's baked right into the language, works great and is pretty fast.
 
 ```go
 package main
