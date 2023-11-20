@@ -170,7 +170,7 @@ _personal key takeaways:_
 - given how competitive research is, your schools reputation matters more than we'd like to admit and is a significant factor in determining your success:
 
   - top 10 schools: realistic chance of a tenure position, but still extremely competitive.
-  - top 30 schools: realistic chance of a research position in the industry.
+  - top 30 schools: realistic chance of a industry research position / leadership roles at a big company.
   - sub 30 schools: great for analytical / more theoretical industry roles. for these roles, you should aim to spend as little time in grad school, do as many aplied projects, and get as much industry experience as you possibly can. unfortunately, this is pretty difficult as your goals most likely won't align with your advisors which want to maximize their own research output to get tenure.
 
 <br><br>
