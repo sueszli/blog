@@ -255,6 +255,8 @@ Promise.all(promises)
 
 ## go
 
+i find both javascript and golang to have the most straightforward solutions – although the one in golang is a lot more performant.
+
 ```go
 package main
 
