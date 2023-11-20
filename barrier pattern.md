@@ -6,7 +6,7 @@ it's a straightforward method to execute multiple tasks simultaneously and await
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
-<br>
+<br><br>
 
 ## jvm languages
 
@@ -187,7 +187,7 @@ object ParallelPromisePattern extends App {
 }
 ```
 
-<br>
+<br><br>
 
 ## python
 
@@ -222,7 +222,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 ```
 
-<br>
+<br><br>
 
 ## javascript
 
@@ -251,7 +251,7 @@ Promise.all(promises)
   .catch((err) => console.error(err.message));
 ```
 
-<br>
+<br><br>
 
 ## go
 
@@ -292,7 +292,7 @@ func main() {
 }
 ```
 
-<br>
+<br><br>
 
 ## beam languages
 
@@ -370,7 +370,7 @@ each(tasks, fn(task) { task.await() })
 io.println("all done")
 ```
 
-<br>
+<br><br>
 
 ## rust
 
@@ -400,5 +400,86 @@ fn main() {
     }
 
     println!("all done");
+}
+```
+
+<br><br>
+
+## c/c++
+
+_c:_
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <time.h>
+
+void* worker(void *arg) {
+    int i = *((int *) arg);
+    int timeout = rand() % 5;
+    sleep(timeout);
+    printf("Thread %d returned result after %d seconds\n", i, timeout);
+    return NULL;
+}
+
+int main() {
+    srand(time(NULL)); // seed for random number generation
+
+    int numCores = sysconf(_SC_NPROCESSORS_ONLN); // get number of cores
+
+    pthread_t threads[numCores];
+    int thread_args[numCores];
+
+    // create threads
+    for (int i = 0; i < numCores; i++) {
+        thread_args[i] = i;
+        pthread_create(&threads[i], NULL, worker, &thread_args[i]);
+    }
+
+    // wait for all threads to finish
+    for (int i = 0; i < numCores; i++) {
+        pthread_join(threads[i], NULL);
+    }
+
+    printf("all done\n");
+
+    return 0;
+}
+```
+
+_cpp:_
+
+```cpp
+#include <iostream>
+#include <thread>
+#include <vector>
+#include <chrono>
+#include <random>
+
+int main() {
+    unsigned int numCores = std::thread::hardware_concurrency();
+    std::vector<std::thread> threads(numCores);
+
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_int_distribution<int> dist(0, 4);
+
+    for (unsigned int i = 0; i < numCores; ++i) {
+        threads[i] = std::thread(i, &mt, &dist {
+            int timeout = dist(mt);
+            std::this_thread::sleep_for(std::chrono::seconds(timeout));
+            std::cout << "Thread " << i << " returned result after " << timeout << " seconds\n";
+        });
+    }
+
+    for (auto& th : threads) {
+        th.join();
+    }
+
+    std::cout << "all done\n";
+
+    return 0;
 }
 ```
