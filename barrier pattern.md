@@ -149,7 +149,7 @@ object ParallelPromisePattern extends App {
 
 ## python
 
-unfortunately, since the [gil](https://wiki.python.org/moin/GlobalInterpreterLock) hasn't been removed from python yet, concurrent programming still is pretty difficult. but i'm certain that in a not so distant future, we'll be able to write the code snippet below in a much more elegant way.
+because of python's [gil](https://wiki.python.org/moin/GlobalInterpreterLock), concurrent programming isn't as fun as it could be – but i'm really looking forward [for this to change](https://peps.python.org/pep-0703/).
 
 ```python
 import asyncio
