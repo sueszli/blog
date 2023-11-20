@@ -215,7 +215,7 @@ Promise.all(promises)
 
 ## go
 
-not much to say – it's baked right into the language, works great and is pretty fast.
+not much to say – simple and effective.
 
 ```go
 package main
