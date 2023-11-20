@@ -248,7 +248,13 @@ func main() {
 
 <br>
 
-## erlang
+## BEAM languages
+
+finally, let's look at the most popular beam languages.
+
+i personally think the actor-paradigm is much better than the csp-paradigm as implemented in golang – i'd love to get better at programming in erlang at some point.
+
+_erlang:_
 
 ```erlang
 -module(main).
@@ -277,9 +283,7 @@ wait_for_workers(N) ->
   end.
 ```
 
-<br>
-
-## elixir
+_elixir:_
 
 ```elixir
 Enum.each(1..System.schedulers_online(), fn i ->
@@ -294,9 +298,7 @@ end)
 IO.puts("all done")
 ```
 
-<br>
-
-## gleam
+_gleam:_
 
 ```gleam
 import gleam/number
