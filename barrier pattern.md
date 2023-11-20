@@ -149,6 +149,8 @@ object ParallelPromisePattern extends App {
 
 ## python
 
+unfortunately, since the [gil](https://wiki.python.org/moin/GlobalInterpreterLock) hasn't been removed from python yet, concurrent programming still is pretty difficult. but i'm certain that in a not so distant future, we'll be able to write the code snippet below in a much more elegant way.
+
 ```python
 import asyncio
 import random
@@ -248,7 +250,7 @@ func main() {
 
 <br>
 
-## BEAM languages
+## beam languages
 
 finally, let's look at the most popular beam languages.
 
