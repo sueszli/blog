@@ -8,7 +8,7 @@ here's a little collection of implementations in different languages that also s
 
 <br>
 
-## java
+## jvm languages
 
 here's one possible java implementation:
 
@@ -75,7 +75,49 @@ BinaryOperator x1,x2 -> x3
 
 but fortunately, once you do, coding in java becomes a lot more fun.
 
-and in case you were wondering, here's what the implementation would look like, if we would leverage the akka-framework:
+here's the kotlin implementation:
+
+```kotlin
+package code
+
+import kotlinx.coroutines.*
+import java.util.stream.IntStream
+import kotlin.random.Random
+
+fun main() = runBlocking {
+    val asyncTask: suspend () -> String = {
+        val timeout = Random.nextInt(5)
+        delay((timeout * 1000).toLong())
+
+        val threadName = Thread.currentThread().name
+        val msg = String.format("%s returned result after %ds", threadName, timeout)
+        msg
+    }
+
+    val numCores = Runtime.getRuntime().availableProcessors()
+    val promises = IntStream
+        .range(0, numCores)
+        .mapToObj { i ->
+            async(Dispatchers.Default) {
+                try {
+                    asyncTask()
+                } catch (t: Throwable) {
+                    println(t.message)
+                    null
+                }
+            }
+        }
+        .toList()
+
+    promises.forEach { promise ->
+        println(promise.await())
+    }
+
+    println("all done")
+}
+```
+
+and in case you were wondering, here's what the it would look like in java, if we would leverage the akka-framework:
 
 ```java
 package code;
@@ -115,7 +157,7 @@ public class ParallelAkkaPattern {
 }
 ```
 
-and here's a much more concise implementation that's leveraging the akka-framework in scala: 
+and here's a much more concise akka-version in scala: 
 
 ```scala
 import akka.actor.ActorSystem
@@ -184,8 +226,6 @@ loop.run_until_complete(main())
 
 ## javascript
 
-not much to say – it's baked right into the language and works great.
-
 ```js
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -214,8 +254,6 @@ Promise.all(promises)
 <br>
 
 ## go
-
-not much to say – simple and effective.
 
 ```go
 package main
@@ -328,4 +366,37 @@ let tasks =
 each(tasks, fn(task) { task.await() })
 
 io.println("all done")
+```
+
+<br>
+
+## rust
+
+```rust
+use std::thread;
+use std::time::Duration;
+use rand::Rng;
+
+fn main() {
+    let num_cores = num_cpus::get();
+
+    let mut handles = vec![];
+
+    for i in 0..num_cores {
+        let handle = thread::spawn(move || {
+            let timeout = rand::thread_rng().gen_range(0..5);
+            thread::sleep(Duration::from_secs(timeout));
+
+            println!("thread {} returned result after {}s", i, timeout);
+        });
+
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().unwrap();
+    }
+
+    println!("all done");
+}
 ```
