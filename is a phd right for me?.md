@@ -79,7 +79,7 @@ the computing research association's "taulbee survey" [^5] offers key insights i
 
 here are the essential findings:
 
-- **only around 2% secure tenure positions:**
+- <u>only around 2% secure tenure positions:</u>
 
   that is, only 7% of the ~30% that actually pursue an academic career which is equivalent to ~2% of all phds.
 
@@ -89,7 +89,7 @@ here are the essential findings:
 
   given the significantly better working conditions and salaries in the industry (both for research and non-research roles), _it's hard to justify a phd for a tenure position_ and highly unlikely that you'll get one.
 
-- **around ~30% of ph.d. graduates venture into research roles in the industry:**
+- <u>around ~30% of ph.d. graduates venture into research roles in the industry:</u>
 
   in total (both inside and outside the usa), 69.5% of ph.d. holders pursue careers outside academia, ~38-53% of which are research roles. this means that ~30% of ph.d. graduates venture into research roles in the industry.
 
@@ -105,13 +105,13 @@ here are the essential findings:
 
   but keep in mind that a skill mismatch doesn't necessarily lead to a lower salary: a phd is often a must for leadership roles in big companies (a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition). but simultaniously, it's harder to justify a higher salary when competing with other candidates who have more relevant experience which does impose the risk of overqualification.
 
-- **over 65% of ph.d. pursuits might be motivated by immigration:**
+- <u>over 65% of ph.d. pursuits might be motivated by immigration:</u>
 
   approximately 66.9% of computer science ph.d.s were awarded to immigrants or nonresident aliens, suggesting that for many, a ph.d. was a pathway to american citizenship via the o1 visa.
 
   it's noteworthy that 33.1% of the remaining ph.d. holders are non-immigrants, of which 20.1% are white. this shows that phd programs are surprisingly diverse – which is great or a sign of a broken system, depending on your perspective.
 
-- **completion rates are low – but for the wrong reasons:**
+- <u>completion rates are low – but for the wrong reasons:</u>
 
   regarding the completion rate, the data is inconclusive: 35% of computer science students at the university of duke [^9] don't complete their phd program. but i personally believe that this is due to the fact that it's significantly easier to get funding for a phd than for a master's degree, which motivates students to plan to master out from the beginning. additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the _intention of completing their program_ is much higher.
 
