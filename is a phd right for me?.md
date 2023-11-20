@@ -17,14 +17,14 @@ the following thought-provoking tips from jimmy lin’s course “asecs” [^1] 
 
 2. **understand that choices come with opportunity costs.**
 
-   - consider time and money: years spent pursuing a ph.d. or being unemployed mean missing out on paychecks.
+   - consider time and money: years spent pursuing a ph.d. or being unemployed mean missing out on almost a million dollars in lost paychecks.
    - risk of overspecialization: too much study may make you overqualified for certain positions.
    - mental strain: the competitive nature of academia could overwhelm or exhaust you.
 
 3. **accept the role of skill as well as luck.**
 
    - no academic degree guarantees success; it only improves your chances if you put in the effort.
-   - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter).
+   - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter, but also cause you to start with your thesis later).
 
 4. **think about distributions vs. samples.**
 
@@ -36,10 +36,6 @@ the following thought-provoking tips from jimmy lin’s course “asecs” [^1] 
    - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
 
 let's start by exploring the first tip and choosing an arbitrary success metric to demonstrate how data-driven decision making would work in practice.
-
-<br><br>
-
-## our metric of choice: total compensation
 
 to be data-driven, we need measurable metrics. however, determining personal success metrics for a career is really hard. here are reasons why i think it's difficult:
 
@@ -65,7 +61,7 @@ that’s why a lot of research focuses on popular, easy-to-measure success metri
 
 - **outreach and influence/recognition:** this measures how many people you reach and how your work affects them. it's easier to quantify in industries through things like monthly active users or click-through rates. in academia, it might be measured through the number of publications or citations you have (h-index, total citations, etc.) although this is controversial.
 
-to keep things simple, let's focus on total compensation. this brings us to the research question:
+to keep things simple, let's focus on total compensation. this brings us to the question:
 
 > “does getting a phd increase how much money i make compared to someone who doesn’t have a phd?”.
 
@@ -75,7 +71,7 @@ keep in mind that this is just one of many possible metrics and not the primary 
 
 <br><br>
 
-## academia: a labor of love
+## paths and probabilities
 
 the computing research association's "taulbee survey" [^5] offers key insights into our query:
 
@@ -83,85 +79,55 @@ the computing research association's "taulbee survey" [^5] offers key insights i
 
 here are the essential findings:
 
-- **around 70% of ph.d. graduates move into non-academic roles**:
+- **only around 2% secure tenure positions:**
 
-  in total (both inside and outside the usa), 69.5% of ph.d. holders pursue careers outside academia.
+  that is, only 7% of the ~30% that actually pursue an academic career which is equivalent to ~2% of all phds.
 
-- **only 7% secure tenure positions**:
+  there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including _the school attended [^7], the race and gender [^8] of the individuals_. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
 
-  that is, only 7% of the ~30% that actually pursue an academic career, which results in ~2% of all phds.  
+  additionally to get a tenure-track assistant professor position it is increasingly necessary to do one or more post-docs first. and even then, you will still have to compete with the other assistant professors which can be a very long and exhausting and most importantly very unfair process that is not based on merit.
 
-  there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including **the school attended [^7], the race and gender [^8] of the individuals**. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
+  given the significantly better working conditions and salaries in the industry (both for research and non-research roles), _it's hard to justify a phd for a tenure position_ and highly unlikely that you'll get one.
 
-  additionally to get a tenure-track position it is increasingly necessary to do one or more post-docs first, meaning you face even more time with very low pay.
+- **around ~30% of ph.d. graduates venture into research roles in the industry:**
 
-- **over 65% of ph.d. pursuits might be motivated by immigration**:
+  in total (both inside and outside the usa), 69.5% of ph.d. holders pursue careers outside academia, ~38-53% of which are research roles. this means that ~30% of ph.d. graduates venture into research roles in the industry.
+
+  if only ~30% of ph.d. graduates venture into research roles in the industry, then ~70% end up with a skill mismatch.
+
+  - few industry jobs require the strong analytical skills that you'll gain during a ph.d.
+
+    during a phd you're trained for novelty driven research and analysis, which only aligns with a small subset of non-research industry jobs like data analytics, machine learning and theoretical security.
+
+  - being narrowly focused on a single research topic for several years leaves you overqualified and under-prepared.
+
+    industry's needs and skill requirements which can be a significant disadvantage and cause a skill mismatch and leave you completely overqualified and simultaneously under-prepared for most industry jobs.
+
+  but keep in mind that a skill mismatch doesn't necessarily lead to a lower salary: a phd is often a must for leadership roles in big companies (a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition). but simultaniously, it's harder to justify a higher salary when competing with other candidates who have more relevant experience which does impose the risk of overqualification.
+
+- **over 65% of ph.d. pursuits might be motivated by immigration:**
 
   approximately 66.9% of computer science ph.d.s were awarded to immigrants or nonresident aliens, suggesting that for many, a ph.d. was a pathway to american citizenship via the o1 visa.
 
-  it's noteworthy that 33.1% of the remaining ph.d. holders are non-immigrants, of which 20.1% are white.
+  it's noteworthy that 33.1% of the remaining ph.d. holders are non-immigrants, of which 20.1% are white. this shows that phd programs are surprisingly diverse – which is great or a sign of a broken system, depending on your perspective.
 
-- **47.2-61.5% of ph.d. graduates venture into research roles in the industry**:
+- **completion rates are low – but for the wrong reasons:**
 
-  ph.d. holders are predominantly trained for research tasks due to the nature of academia, which emphasizes novelty and competitive technical writing. but industry positions are usually a lot more profit driven.
-
-one should also factor in the probability of not completing a ph.d. program in the first place (ie. 35% of computer science students at the university of duke [^9]).
+  regarding the completion rate, the data is inconclusive: 35% of computer science students at the university of duke [^9] don't complete their phd program. but i personally believe that this is due to the fact that it's significantly easier to get funding for a phd than for a master's degree, which motivates students to plan to master out from the beginning. additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the _intention of completing their program_ is much higher.
 
 <img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
 
-in conclusion, it becomes evident that chasing a tenured position in academia is statistically an unrealistic dream. thus, we must reframe our research question once again:
-
-> “does getting a phd increase how much money i make compared to someone who doesn’t have a phd _in the north american industry_?”.
-
-this leads us to the next section.
-
 <br><br>
 
-## beyond academia: phd industry earnings
-
-understanding career opportunities for ph.d. holders in the industry, the non-profit organization "80000 hours" offers insights about job prospects and risks. before delving into statistics, it's worthwhile to explore these details.
-
-i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/
-
-the most critical risk factors identified are:
-
-- **massive opportunity cost:**
-
-  obtaining a computer science ph.d. typically takes longer than expected, often spanning six years or sometimes more than 10. the duration depends on your research area, advisor, and institution. the ph.d. program lacks specific guidelines for progress or time management.
-
-  you'll sacrifice nearly a decade of potential earnings and career growth in the industry, which could amount to over a million dollars in lost income for most computer science ph.d. students.
-
-  it's important to note that european ph.d.s, which mandate a master's degree beforehand, are notably shorter than american ph.d. programs. they often last only 3-4 years and, in some cases, offer a decent salary and encourage internships in the industry.
-
-- **skill mismatch:**
-
-  ph.d.s focus on research rather than engineering or product development. they suit research roles in the industry (of which only about 50% secure positions), or fields like data analytics, machine learning, security, and cryptography. however, they might not prepare you for most other job roles.
-
-  additionally, the skills gained during a ph.d. might not align with industry demand. the academic community's interests often differ significantly from industry needs. consequently, even if a ph.d. enhances earnings, you might spend time on tasks loosely connected to your desired job.
-
-the most significant benefits identified are:
-
-- **access to industry research and leadership roles:**
-
-  while a bachelor's or master's degree may not be the best way to prepare for industry jobs, they're usually the minimum requirement.
-
-  similarly, a phd is often a must for high-level research and leadership roles in big companies. for these competitive positions, a phd is a hard requirement, and it's unlikely that you'll be considered without one.
-
-  a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition.
-
-  and only within these roles does a phd become a worthwhile investment outside of academia.
-
-now, we understand which industry positions best align with a ph.d., where a ph.d. is an absolute requirement, and the financial opportunity cost involved in pursuing a ph.d.
-
-given this context, let's delve into the numbers.
-
-<br>
+## industry salaries
 
 the data from websites like glassdoor and payscale were very wrong about salary information. instead, other sources provide a clearer picture of salaries in the tech industry.
 
 - **levels.fyi**[^10] is a significant survey site for computer science jobs. it's one of the most extensive databases available. according to their data from 2022, the median pay for tech jobs in san francisco is $234,000 per year, and in washington d.c., it's $148,000, placing it at the 10th position. overall, _tech jobs range between $160,000 to $210,000 in median pay_ for the second half of 2022. the _top-paying companies offer salaries ranging from $220,000 to $274,000_ for their entry-level positions (l1).
 
-this gives us a baseline to compare against. let's look at the data for ph.d. holders.
+this gives us a baseline to compare against for the average tech salary in the industry.
+
+let's look at the data for ph.d. holders.
 
 - the **united states census bureau** also conducted several surveys.
 
@@ -169,7 +135,7 @@ this gives us a baseline to compare against. let's look at the data for ph.d. ho
 
   in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, those with a bachelor's degree earned approximately $3,044,000 over their working life, while _those with a master's degree earned around $3,541,000 and ph.d. holders earned about $3,890,000_. these statistics cover 25 to 64-year-olds who work full-time throughout the year.
 
-this shows that a pay gap exists between ph.d. holders and those with a bachelor's or master's degree. however, it's unclear whether this gap is due to the ph.d. or other factors like the type of job or the company.
+this shows that a pay gap exists between ph.d. holders and those with a bachelor's or master's degree.however, it's unclear whether this gap is due to the ph.d. or other factors like the type of job or the company.
 
 - the **national center for biotechnology information (ncbi) / national library of medicine (nlm)**[^13] found that doctoral recipients from eight universities showed variations in earnings based on where they were employed.
 
@@ -181,17 +147,37 @@ this data suggests that ph.d. holders in the industry earn more than those in ac
 
 additionally this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
 
+this means a phd can be justified for roles in r&d and more analytical positions in the industry and lead to a significant pay increase.
+
 <br><br>
 
 ## conclusion
 
-in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, security, or research and development (r&d).
+in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, theoretical security, or just positions in the research and development (r&d) sector.
 
-for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for product development, management, sales, responsibility, and leadership. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
+for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for those roles. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
 
-therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your ph.d.
+therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your phd.
+
+<br>
+
+_personal key takeaways:_
+
+- only do a phd if you actually enjoy the process of research, are curious and want to be the best in your field. if you're not sure, try to get a summer research internship or do a master's degree.
+
+  although doing a masters first means you'll get to start with your thesis later and result in a competitive disadvantage, unfortunately many professors in north america abuse the power dynamic between them and their students to get free labor for many years. therefore the european track of doing a masters first can be a good alternative to avoid this problem and additionally you'll get better salaries and working conditions as you'll be protected by the labor laws of the european union.
+
+- given how competitive research is, your schools reputation matters more than we'd like to admit and is a significant factor in determining your success:
+
+  - top 10 schools: realistic chance of a tenure position, but still extremely competitive.
+  - top 30 schools: realistic chance of a research position in the industry.
+  - sub 30 schools: great for analytical / more theoretical industry roles. for these roles, you should aim to spend as little time in grad school, do as many aplied projects, and get as much industry experience as you possibly can. unfortunately, this is pretty difficult as your goals most likely won't align with your advisors which want to maximize their own research output to get tenure.
 
 <br><br>
+
+## references
+
+this post is heavily inspired by the "80000h" article about job prospects and risks of a computer science phd. i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/.
 
 [^1]: [Lin, J. (2023). Art and Science of Empirical Computer Science. GitHub.](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
 [^2]: [Moreno, M. D. C. C., & Kollanus, S. (2013, October). On the motivations to enroll in doctoral studies in Computer Science—A comparison of PhD program models. In 2013 12th International Conference on Information Technology Based Higher Education and Training (ITHET) (pp. 1-8). IEEE.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6671028)
