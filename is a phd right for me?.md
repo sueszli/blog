@@ -13,7 +13,7 @@ the following thought-provoking tips from jimmy lin’s course “asecs” [^1] 
      - traditional measures: like total compensation (in the industry) or recognition in the academic community.
      - personal benchmarks: fulfillment, personal and professional growth, freedom, and authority over others.
 
-   - avoid thinking in extremes. consider unconventional paths like writing industry experience papers or using a ph.d. to test business ideas before fully committing.
+   - avoid thinking in extremes. consider unconventional paths like writing papers in collaboration with the industry or using a ph.d. to test business ideas before fully committing and looking for seed funding.
 
 2. **understand that choices come with opportunity costs.**
 
@@ -89,9 +89,9 @@ here are the essential findings:
 
 - **only 7% secure tenure positions**:
 
-  there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including the school attended [^7] and the race and gender [^8] of the individuals. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
+  that is, only 7% of the ~30% that actually pursue an academic career, which results in ~2% of all phds.  
 
-  keep in mind that salaries in non-tenure academic positions have always been significantly lower compared to industry positions available even to computer science undergraduates or master's degree holders, even outside big tech.
+  there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including **the school attended [^7], the race and gender [^8] of the individuals**. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
 
   additionally to get a tenure-track position it is increasingly necessary to do one or more post-docs first, meaning you face even more time with very low pay.
 
@@ -103,7 +103,7 @@ here are the essential findings:
 
 - **47.2-61.5% of ph.d. graduates venture into research roles in the industry**:
 
-  assuming these positions yield similar earnings as non-research roles, there arises a clear skill mismatch. ph.d. holders are predominantly trained for research tasks due to the nature of academia, which emphasizes novelty and competitive technical writing.
+  ph.d. holders are predominantly trained for research tasks due to the nature of academia, which emphasizes novelty and competitive technical writing. but industry positions are usually a lot more profit driven.
 
 one should also factor in the probability of not completing a ph.d. program in the first place (ie. 35% of computer science students at the university of duke [^9]).
 
