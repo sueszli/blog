@@ -8,32 +8,32 @@ the following thought-provoking tips from jimmy lin’s course “asecs” [^1] 
 
 1. **recognise that there are multiple definitions of success and multiple ways to succeed.**
 
-   - set clear goals. define what success means to you by creating your own "utility function" and "success metrics":
+      - set clear goals. define what success means to you by creating your own "utility function" and "success metrics":
 
-     - traditional measures: like total compensation (in the industry) or recognition in the academic community.
-     - personal benchmarks: fulfillment, personal and professional growth, freedom, and authority over others.
+           - traditional measures: like total compensation (in the industry) or recognition in the academic community.
+           - personal benchmarks: fulfillment, personal and professional growth, freedom, and authority over others.
 
-   - avoid thinking in extremes. consider unconventional paths like writing papers in collaboration with the industry or using a ph.d. to test business ideas before fully committing and looking for seed funding.
+      - avoid thinking in extremes. consider unconventional paths like writing papers in collaboration with the industry or using a ph.d. to test business ideas before fully committing and looking for seed funding.
 
 2. **understand that choices come with opportunity costs.**
 
-   - consider time and money: years spent pursuing a ph.d. or being unemployed mean missing out on almost a million dollars in lost paychecks.
-   - risk of overspecialization: too much study may make you overqualified for certain positions.
-   - mental strain: the competitive nature of academia could overwhelm or exhaust you.
+      - consider time and money: years spent pursuing a ph.d. or being unemployed mean missing out on almost a million dollars in lost paychecks.
+      - risk of overspecialization: too much study may make you overqualified for certain positions.
+      - mental strain: the competitive nature of academia could overwhelm or exhaust you.
 
 3. **accept the role of skill as well as luck.**
 
-   - no academic degree guarantees success; it only improves your chances if you put in the effort.
-   - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter, but also cause you to start with your thesis later).
+      - no academic degree guarantees success; it only improves your chances if you put in the effort.
+      - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter, but also cause you to start with your thesis later).
 
 4. **think about distributions vs. samples.**
 
-   - be data driven. don't base decisions solely on conversations with successful individuals due to survivorship bias.
+      - be data driven. don't base decisions solely on conversations with successful individuals due to survivorship bias.
 
 5. **reflect on the differences between normative vs. positive approaches.**
 
-   - normative: is your decision influenced by societal norms, personal values, or cultural expectations?
-   - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
+      - normative: is your decision influenced by societal norms, personal values, or cultural expectations?
+      - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
 
 let's start by exploring the first tip and choosing an arbitrary success metric to demonstrate how data-driven decision making would work in practice.
 
@@ -41,15 +41,15 @@ to be data-driven, we need measurable metrics. however, determining personal suc
 
 - most people don’t know their own metrics.
 
-  it takes a lot of introspection to figure out what you want in your career. personal desires can be overshadowed by societal expectations and wrong assumptions about potential rewards.
+     it takes a lot of introspection to figure out what you want in your career. personal desires can be overshadowed by societal expectations and wrong assumptions about potential rewards.
 
 - most people don’t like talking about their metrics.
 
-  some are motivated by curiosity and growth, while others are competitive. people may fear being judged for their desires.
+     some are motivated by curiosity and growth, while others are competitive. people may fear being judged for their desires.
 
 - metrics change throughout life.
 
-  with experience, needs change. ie. more experienced individuals might desire personal fulfillment over financial compensation.
+     with experience, needs change. ie. more experienced individuals might desire personal fulfillment over financial compensation.
 
 the personal metrics we use are basically assumptions based on our intuition, so we should treat them that way.
 
@@ -81,39 +81,39 @@ here are the essential findings:
 
 - **only around 2% secure tenure positions:**
 
-  that is, only 7% of the ~30% that actually pursue an academic career which is equivalent to ~2% of all phds.
+     that is, only 7% of the ~30% that actually pursue an academic career which is equivalent to ~2% of all phds.
 
-  there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including _the school attended [^7], the race and gender [^8] of the individuals_. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
+     there are very few tenure positions compared to the number of ph.d. holders [^6]. the scarcity of tenure positions persists even as the number of ph.d. graduates increases. moreover, the allocation of tenure positions isn’t even across different research fields. it leans towards areas that align better with abstract or better-funded tasks like data analysis, ai, or security. this trend is influenced by several factors, including _the school attended [^7], the race and gender [^8] of the individuals_. it highlights that research institutions don't solely operate based on merit but are also influenced by politics and nepotism.
 
-  additionally to get a tenure-track assistant professor position it is increasingly necessary to do one or more post-docs first. and even then, you will still have to compete with the other assistant professors which can be a very long and exhausting and most importantly very unfair process that is not based on merit.
+     additionally to get a tenure-track assistant professor position it is increasingly necessary to do one or more post-docs first. and even then, you will still have to compete with the other assistant professors which can be a very long and exhausting and most importantly very unfair process that is not based on merit.
 
-  given the significantly better working conditions and salaries in the industry (both for research and non-research roles), _it's hard to justify a phd for a tenure position_ and highly unlikely that you'll get one.
+     given the significantly better working conditions and salaries in the industry (both for research and non-research roles), _it's hard to justify a phd for a tenure position_ and highly unlikely that you'll get one.
 
 - **around ~30% of ph.d. graduates venture into research roles in the industry:**
 
-  in total (both inside and outside the usa), 69.5% of ph.d. holders pursue careers outside academia, ~38-53% of which are research roles. this means that ~30% of ph.d. graduates venture into research roles in the industry.
+     in total (both inside and outside the usa), 69.5% of ph.d. holders pursue careers outside academia, ~38-53% of which are research roles. this means that ~30% of ph.d. graduates venture into research roles in the industry.
 
-  if only ~30% of ph.d. graduates venture into research roles in the industry, then ~70% end up with a skill mismatch.
+     if only ~30% of ph.d. graduates venture into research roles in the industry, then ~70% end up with a skill mismatch.
 
-  - few industry jobs require the strong analytical skills that you'll gain during a ph.d.
+     - few industry jobs require the strong analytical skills that you'll gain during a ph.d.
 
-    during a phd you're trained for novelty driven research and analysis, which only aligns with a small subset of non-research industry jobs like data analytics, machine learning and theoretical security.
+          during a phd you're trained for novelty driven research and analysis, which only aligns with a small subset of non-research industry jobs like data analytics, machine learning and theoretical security.
 
-  - being narrowly focused on a single research topic for several years leaves you overqualified and under-prepared.
+     - being narrowly focused on a single research topic for several years leaves you overqualified and under-prepared.
 
-    industry's needs and skill requirements which can be a significant disadvantage and cause a skill mismatch and leave you completely overqualified and simultaneously under-prepared for most industry jobs.
+          industry's needs and skill requirements which can be a significant disadvantage and cause a skill mismatch and leave you completely overqualified and simultaneously under-prepared for most industry jobs.
 
-  but keep in mind that a skill mismatch doesn't necessarily lead to a lower salary: a phd is often a must for leadership roles in big companies (a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition). but simultaniously, it's harder to justify a higher salary when competing with other candidates who have more relevant experience which does impose the risk of overqualification.
+     but keep in mind that a skill mismatch doesn't necessarily lead to a lower salary: a phd is often a must for leadership roles in big companies (a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition). but simultaniously, it's harder to justify a higher salary when competing with other candidates who have more relevant experience which does impose the risk of overqualification.
 
 - **over 65% of ph.d. pursuits might be motivated by immigration:**
 
-  approximately 66.9% of computer science ph.d.s were awarded to immigrants or nonresident aliens, suggesting that for many, a ph.d. was a pathway to american citizenship via the o1 visa.
+     approximately 66.9% of computer science ph.d.s were awarded to immigrants or nonresident aliens, suggesting that for many, a ph.d. was a pathway to american citizenship via the o1 visa.
 
-  it's noteworthy that 33.1% of the remaining ph.d. holders are non-immigrants, of which 20.1% are white. this shows that phd programs are surprisingly diverse – which is great or a sign of a broken system, depending on your perspective.
+     it's noteworthy that 33.1% of the remaining ph.d. holders are non-immigrants, of which 20.1% are white. this shows that phd programs are surprisingly diverse – which is great or a sign of a broken system, depending on your perspective.
 
 - **completion rates are low – but for the wrong reasons:**
 
-  regarding the completion rate, the data is inconclusive: 35% of computer science students at the university of duke [^9] don't complete their phd program. but i personally believe that this is due to the fact that it's significantly easier to get funding for a phd than for a master's degree, which motivates students to plan to master out from the beginning. additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the _intention of completing their program_ is much higher.
+     regarding the completion rate, the data is inconclusive: 35% of computer science students at the university of duke [^9] don't complete their phd program. but i personally believe that this is due to the fact that it's significantly easier to get funding for a phd than for a master's degree, which motivates students to plan to master out from the beginning. additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the _intention of completing their program_ is much higher.
 
 <img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
 
@@ -131,17 +131,17 @@ let's look at the data for ph.d. holders.
 
 - the **united states census bureau** also conducted several surveys.
 
-  in a community survey from 2009-2011[^11] salaries in computers and mathematics were around $73,000 for a bachelor's degree, $90,000 for a master's degree, and $104,000 for a ph.d – this observation seems to be out of date.
+     in a community survey from 2009-2011[^11] salaries in computers and mathematics were around $73,000 for a bachelor's degree, $90,000 for a master's degree, and $104,000 for a ph.d – this observation seems to be out of date.
 
-  in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, those with a bachelor's degree earned approximately $3,044,000 over their working life, while _those with a master's degree earned around $3,541,000 and ph.d. holders earned about $3,890,000_. these statistics cover 25 to 64-year-olds who work full-time throughout the year.
+     in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, those with a bachelor's degree earned approximately $3,044,000 over their working life, while _those with a master's degree earned around $3,541,000 and ph.d. holders earned about $3,890,000_. these statistics cover 25 to 64-year-olds who work full-time throughout the year.
 
 this shows that a pay gap exists between ph.d. holders and those with a bachelor's or master's degree.however, it's unclear whether this gap is due to the ph.d. or other factors like the type of job or the company.
 
 - the **national center for biotechnology information (ncbi) / national library of medicine (nlm)**[^13] found that doctoral recipients from eight universities showed variations in earnings based on where they were employed.
 
-  those placed in industry had significantly higher earnings a year after leaving university compared to those in government or academia.
+     those placed in industry had significantly higher earnings a year after leaving university compared to those in government or academia.
 
-  when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
+     when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
 
 this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
 
@@ -165,13 +165,13 @@ _personal key takeaways:_
 
 - only do a phd if you actually enjoy the process of research, are curious and want to be the best in your field. if you're not sure, try to get a summer research internship or do a master's degree.
 
-  although doing a masters first means you'll get to start with your thesis later and result in a competitive disadvantage, unfortunately many professors in north america abuse the power dynamic between them and their students to get free labor for many years. therefore the european track of doing a masters first can be a good alternative to avoid this problem and additionally you'll get better salaries and working conditions as you'll be protected by the labor laws of the european union.
+     although doing a masters first means you'll get to start with your thesis later and result in a competitive disadvantage, unfortunately many professors in north america abuse the power dynamic between them and their students to get free labor for many years. therefore the european track of doing a masters first can be a good alternative to avoid this problem and additionally you'll get better salaries and working conditions as you'll be protected by the labor laws of the european union.
 
 - given how competitive research is, your schools reputation matters more than we'd like to admit and is a significant factor in determining your success:
 
-  - top 10 schools: realistic chance of a tenure position, but still extremely competitive.
-  - top 30 schools: realistic chance of a industry research position / leadership roles at a big company.
-  - sub 30 schools: great for analytical / more theoretical industry roles. for these roles, you should aim to spend as little time in grad school, do as many applied projects, and get as much industry experience as you possibly can. unfortunately, this is pretty difficult as your goals most likely won't align with your advisors which want to maximize their own research output to get tenure.
+     - top 10 schools: realistic chance of a tenure position, but still extremely competitive.
+     - top 30 schools: realistic chance of a industry research position / leadership roles at a big company.
+     - sub 30 schools: great for analytical / more theoretical industry roles. for these roles, you should aim to spend as little time in grad school, do as many applied projects, and get as much industry experience as you possibly can. unfortunately, this is pretty difficult as your goals most likely won't align with your advisors which want to maximize their own research output to get tenure.
 
 <br><br>
 

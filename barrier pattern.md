@@ -228,27 +228,27 @@ loop.run_until_complete(main())
 
 ```js
 function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+        return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
 async function asyncTask() {
-  const timeout = Math.floor(Math.random() * 5);
-  await sleep(timeout * 1000);
-  const threadName = `Thread ${Math.floor(Math.random() * 1000)}`;
-  const msg = `${threadName} returned result after ${timeout}s`;
-  return msg;
+        const timeout = Math.floor(Math.random() * 5)
+        await sleep(timeout * 1000)
+        const threadName = `Thread ${Math.floor(Math.random() * 1000)}`
+        const msg = `${threadName} returned result after ${timeout}s`
+        return msg
 }
 
-const numCores = navigator.hardwareConcurrency; // num of cores
+const numCores = navigator.hardwareConcurrency // num of cores
 const promises = Array.from({ length: numCores }, () =>
-  asyncTask()
-    .then((t) => console.log(t))
-    .catch((err) => console.error(err.message))
-);
+        asyncTask()
+                .then((t) => console.log(t))
+                .catch((err) => console.error(err.message))
+)
 
 Promise.all(promises)
-  .then(() => console.log("all done"))
-  .catch((err) => console.error(err.message));
+        .then(() => console.log('all done'))
+        .catch((err) => console.error(err.message))
 ```
 
 <br><br>

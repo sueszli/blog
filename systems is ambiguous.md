@@ -25,13 +25,13 @@ in the industry, there's a distinction between:
 
 - "distributed systems engineers": these professionals are typically backend web architects/system designers who also code.
 
-  - other job titles: cloud architect, devops engineer, backend developer.
-  - responsibilities include task orchestration, distributed computing, data replication, load balancing management, system performance monitoring, and socket programming.
+     - other job titles: cloud architect, devops engineer, backend developer.
+     - responsibilities include task orchestration, distributed computing, data replication, load balancing management, system performance monitoring, and socket programming.
 
 - "systems engineers": managing a company's on-premises infrastructure or working on low-level software close to the os.
 
-  - other job titles: system administrator, network engineer, systems programmer, network administrator.
-  - responsibilities include network programming, working on os-level communication, data transfer management, and ensuring network security.
+     - other job titles: system administrator, network engineer, systems programmer, network administrator.
+     - responsibilities include network programming, working on os-level communication, data transfer management, and ensuring network security.
 
 some argue that labeling those who write software for managing distributed systems as "systems engineers" is incorrect.
 
@@ -56,20 +56,20 @@ some examples of topics in distributed systems research are:
 
 - algorithms and data structures:
 
-  these are the rules and methods that computers use to communicate, agree, and store data in a distributed system.
+     these are the rules and methods that computers use to communicate, agree, and store data in a distributed system.
 
-  some popular examples include: consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
+     some popular examples include: consensus algorithms (paxos, raft), gossiping/flooding algorithms, leader election, global averaging, ntp etc., key value stores, distributed hash tables.
 
 - software design / software architectures:
 
-  some examples of distributed system architectures are: client-server, peer-to-peer, leader-follower, and hybrid architectures.
+     some examples of distributed system architectures are: client-server, peer-to-peer, leader-follower, and hybrid architectures.
 
-  designing a distributed system involves choosing the building blocks and patterns that make up a distributed system, like: message brokers, service discovery, load balancing, and caching services.
+     designing a distributed system involves choosing the building blocks and patterns that make up a distributed system, like: message brokers, service discovery, load balancing, and caching services.
 
-  designing p2p systems used to be very popular in the 2000s but is now experiencing a resurgence due to the rise of blockchain technology and more local-first software. although controversial, there are still many interesting uses in this area about self-organizing systems:
+     designing p2p systems used to be very popular in the 2000s but is now experiencing a resurgence due to the rise of blockchain technology and more local-first software. although controversial, there are still many interesting uses in this area about self-organizing systems:
 
-  - mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
-  - decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
-  - decentralized file storage systems: ipfs/filecoin, sia.
+     - mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
+     - decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
+     - decentralized file storage systems: ipfs/filecoin, sia.
 
 these are just a few examples of distributed systems research and it's hard to give a complete overview of the field.
