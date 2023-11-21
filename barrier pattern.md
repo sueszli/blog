@@ -1,6 +1,6 @@
 # the barrier pattern
 
-one of my favorite patterns is chunking the work, running as many workers as you have cores and then waiting for each worker to finish based on the [barrier pattern](https://en.m.wikipedia.org/wiki/Barrier_(computer_science)): "a barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier."
+one of my favorite patterns is chunking the work, running as many workers as you have cores and then waiting for each worker to finish based on the [barrier pattern](<https://en.m.wikipedia.org/wiki/Barrier_(computer_science)>): "a barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier."
 
 it's a straightforward method to execute multiple tasks simultaneously and await their completion. this pattern is highly adaptable and the best part is: you can leverage the language's runtime or the operating system for scheduling, eliminating the need to create a separate [executor instance](https://stackoverflow.com/questions/32621990/what-are-workers-executors-cores-in-spark-standalone-cluster) or write your own task scheduler.
 
@@ -157,7 +157,7 @@ public class ParallelAkkaPattern {
 }
 ```
 
-and here's a much more concise akka-version in scala: 
+and here's a much more concise akka-version in scala:
 
 ```scala
 import akka.actor.ActorSystem
@@ -450,6 +450,8 @@ int main() {
 ```
 
 _cpp:_
+
+the interesting thing about the cpp implementation below is how it is more complicated and verbose than the c version although it has so many abstractions for convenience.
 
 ```cpp
 #include <iostream>
