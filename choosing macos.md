@@ -91,4 +91,4 @@ _my favorite things about macos:_
 
 - a single package manager that is accepted by the entire community: brew
 
-- the ability to test software on the safari browser and ios simulator
+- the ability to test software on the safari browser and ios emulator
