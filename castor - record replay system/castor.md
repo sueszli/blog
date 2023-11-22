@@ -1,7 +1,5 @@
 # castor
 
-https://rcs.uwaterloo.ca/castor/
-
 https://rcs.uwaterloo.ca/pubs/asplos17-castor.pdf
 
 low overhead (2-10%) record/replay for multi-core apps.
