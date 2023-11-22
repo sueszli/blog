@@ -30,7 +30,7 @@ we take a look at technologies and tools that developers currently use ("popular
      technologies, for customers or developers, must solve problems and be ✨convenient✨ to use and for replacing existing ones. when making choices, consider the "programming language triangle":
 
      - simplicity = faster development cycles, easier maintenance → lower time to market
-     - efficiency = high performance, low resource usage (memory, cpu, disk, network) → lower costs
+     - efficiency = high performance, low resource usage (memory, cpu, disk, network) → lower infrastructure costs
      - safety = robustness, security, minimal runtime exceptions, clear stack traces → higher availability and reliability
 
      based on which stage a business is in (startup, growth, or scale), it will prioritize different parts of the triangle but overall most businesses prioritize simplicity and safety over performance, leading to the incorporation of garbage collection in most popular languages.
