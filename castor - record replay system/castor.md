@@ -1,4 +1,4 @@
-# castor record/replay
+# castor
 
 https://rcs.uwaterloo.ca/castor/
 
