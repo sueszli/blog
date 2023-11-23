@@ -30,6 +30,12 @@ _shortcomings of paxos_
 
 # raft essentials
 
+![simplified](./assets/SCR-20231122-mllb.png)
+
+![states](./assets/Pasted%20image%2020231122144216.png)
+
+![bbb](./assets/Pasted%20image%2020231122183926.png)
+
 _components_
 
 - **leader election**
@@ -43,8 +49,6 @@ _components_
      - state machine safety: all servers must keep their state machine consistent by applying the exact same log indices in the same order (safety means correctness of results by using the state machine across all servers).
 - **membership changes**
      - majorities of two different configurations must overlap during transitions
-
-![simplified](./assets/SCR-20231122-mllb.png)
 
 _server states_
 
@@ -61,8 +65,6 @@ a raft cluster contains multiple servers. each server has a role:
      - if a client requests something from a follower, it gets forwarded to the leader.
 - candidate:
      - only exist during leader election, not normal operation.
-
-![states](./assets/Pasted%20image%2020231122144216.png)
 
 _terms_
 
@@ -104,8 +106,6 @@ _log replication_
       - consistency check: conflicting entries in followers will be overwritten with that of the leader (but a leader can only append it’s own log).
 4. leader sends response back to client.
 
-![bbb](./assets/Pasted%20image%2020231122183926.png)
-
 _safety / consistency_
 
 - leader completeness constraint: upon election, leader must hold complete log of all previous terms – when compared to the majority of voters
@@ -129,5 +129,3 @@ _cluster membership changes_
      - each server transitions individually.
      - any agreement between these phases requires 2 separate majorities.
      - in both phases log entries are replicated to all servers and any machine can be a leader.
-
-![cluster](./assets/Pasted%20image%2020231122222249.png)
