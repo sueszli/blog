@@ -34,8 +34,6 @@ _shortcomings of paxos_
 
 ![states](./assets/Pasted%20image%2020231122144216.png)
 
-![bbb](./assets/Pasted%20image%2020231122183926.png)
-
 _components_
 
 - **leader election**
