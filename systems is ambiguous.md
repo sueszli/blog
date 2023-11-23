@@ -66,10 +66,4 @@ some examples of topics in distributed systems research are:
 
      designing a distributed system involves choosing the building blocks and patterns that make up a distributed system, like: message brokers, service discovery, load balancing, and caching services.
 
-     designing p2p systems used to be very popular in the 2000s but is now experiencing a resurgence due to the rise of blockchain technology and more local-first software. although controversial, there are still many interesting uses in this area about self-organizing systems:
-
-     - mobile mesh networks: these enable the formation of delay-tolerant, mobile networks for blackout resistance, network resilience, and wider coverage.
-     - decentralized social networks: platforms like mastodon, diaspora, bluesky, minds, peepeth.
-     - decentralized file storage systems: ipfs/filecoin, sia.
-
 these are just a few examples of distributed systems research and it's hard to give a complete overview of the field.
