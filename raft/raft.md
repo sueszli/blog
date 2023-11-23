@@ -44,7 +44,7 @@ _components_
 - **membership changes**
      - majorities of two different configurations must overlap during transitions
 
-![simplified](SCR-20231122-mllb.png)
+![simplified](./assets/SCR-20231122-mllb.png)
 
 _server states_
 
@@ -62,7 +62,7 @@ a raft cluster contains multiple servers. each server has a role:
 - candidate:
      - only exist during leader election, not normal operation.
 
-![states](Pasted%20image%2020231122144216.png)
+![states](./assets/Pasted%20image%2020231122144216.png)
 
 _terms_
 
@@ -104,7 +104,7 @@ _log replication_
       - consistency check: conflicting entries in followers will be overwritten with that of the leader (but a leader can only append it’s own log).
 4. leader sends response back to client.
 
-![bbb](Pasted%20image%2020231122183926.png)
+![bbb](./assets/Pasted%20image%2020231122183926.png)
 
 _safety / consistency_
 
@@ -130,4 +130,4 @@ _cluster membership changes_
      - any agreement between these phases requires 2 separate majorities.
      - in both phases log entries are replicated to all servers and any machine can be a leader.
 
-![cluster](Pasted%20image%2020231122222249.png)
+![cluster](./assets/Pasted%20image%2020231122222249.png)
