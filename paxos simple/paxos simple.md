@@ -85,7 +85,7 @@ there are many ways to implement this:
 - learners broadcasting a request to learn to all acceptors.
 - acceptors broadcasting to a subset of learners which are responsible to then forwarding / broadcasting the request to all learners - called the **”distinguished learners”**.
 
-# the state machine
+## the state machine
 
 in a simple client-server architecture the server can be described as a deterministic state-machine that performs client instructions by executing a series of steps.
 
