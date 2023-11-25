@@ -6,8 +6,6 @@ it's a straightforward method to execute multiple tasks simultaneously and await
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
-<br><br>
-
 ## jvm languages
 
 here's one possible java implementation:
@@ -187,8 +185,6 @@ object ParallelPromisePattern extends App {
 }
 ```
 
-<br><br>
-
 ## python
 
 because of python's [gil](https://wiki.python.org/moin/GlobalInterpreterLock), concurrent programming isn't as fun as it could be – but i'm really looking forward [for this to change](https://peps.python.org/pep-0703/).
@@ -222,8 +218,6 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 ```
 
-<br><br>
-
 ## javascript
 
 ```js
@@ -250,8 +244,6 @@ Promise.all(promises)
         .then(() => console.log('all done'))
         .catch((err) => console.error(err.message))
 ```
-
-<br><br>
 
 ## go
 
@@ -291,8 +283,6 @@ func main() {
 	fmt.Println("all done")
 }
 ```
-
-<br><br>
 
 ## beam languages
 
@@ -370,8 +360,6 @@ each(tasks, fn(task) { task.await() })
 io.println("all done")
 ```
 
-<br><br>
-
 ## rust
 
 ```rust
@@ -402,8 +390,6 @@ fn main() {
     println!("all done");
 }
 ```
-
-<br><br>
 
 ## c/c++
 
