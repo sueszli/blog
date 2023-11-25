@@ -3,7 +3,7 @@
 this ranking is specifically for teams that build distributed web backends.
 
 i was inspired to write this, by theo/t3's video called ["performance doesn't matter...until it does."
-](https://www.youtube.com/watch?v=2Z4fZtSKlcE).
+](https://www.youtube.com/watch?v=2Z4fZtSKlcE) as well as ["is 'full stack' even real?](https://youtu.be/rAjd8z-Fx5A).
 
 we take a look at technologies and tools that developers currently use ("popularity") and want to use in the future ("growth").
 
