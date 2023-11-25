@@ -37,8 +37,6 @@ we take a look at technologies and tools that developers currently use ("popular
 
      raw performance optimization usually occurs in specific and limited parts of a system once a business reaches a specific scale.
 
-<br><br>
-
 ## comparing data sources
 
 these are my favorite data sources for comparing programming languages:
@@ -72,8 +70,6 @@ these are my favorite data sources for comparing programming languages:
 - **google**
 
      - https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
-
-<br><br>
 
 ## comparing languages
 
