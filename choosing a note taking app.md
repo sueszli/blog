@@ -2,8 +2,6 @@
 
 when looking at note taking software, we have to differentiate between the editors (notion, coda, asana, obsidian, ...) and file formats (html, markdown, asciidoc, restructuredtext, ...).
 
-<br><br>
-
 ## file formats
 
 the file format must be future-proof and in plain text.
@@ -36,8 +34,6 @@ the 4 most popular formats, which are supported by github's parser, are:
 
 in conclusion, the only 2 formats worth considering are: html, markdown.
 
-<br><br>
-
 ## best editor: html
 
 _best html editors:_
@@ -53,8 +49,6 @@ _best html editors:_
 - mem: not as popular yet
 - microsoft loop: not released yet
 - anytype: not released yet
-
-<br><br>
 
 ## best editor: md
 
@@ -95,8 +89,6 @@ _alternatives:_
 - [fsnotes](https://fsnot.es/) – not worth paying for
 - [byword](https://apps.apple.com/app/byword/id420212497?mt=12) – not worth paying for
 - [typora](https://typora.io/) – not worth paying for
-
-<br><br>
 
 ## conclusion
 
