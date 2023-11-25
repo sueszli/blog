@@ -41,18 +41,18 @@ we take a look at technologies and tools that developers currently use ("popular
 
 these are my favorite data sources for comparing programming languages:
 
-- **code_report**
+- code_report
 
      - https://plrank.com/ – is the most well-rounded ranking, based on multiple sources
 
-- **stackoverflow**
+- stackoverflow
 
      - official: https://survey.stackoverflow.co/2023/ → [comparing popularity vs. growth](https://survey.stackoverflow.co/2023/?utm_source=banner&utm_medium=display&utm_campaign=dev-survey-results-2023&utm_content=survey-results#section-admired-and-desired-programming-scripting-and-markup-languages)
 
      - https://survey.stackoverflow.co/2022/#worked-with-vs-want-to-work-with-language-worked-want-prof
      - https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cjavascript%2Ctypescript%2Cgo%2Crust%2Cnode.js
 
-- **github**
+- github
 
      - official: https://octoverse.github.com/2022/top-programming-languages
 
@@ -63,11 +63,11 @@ these are my favorite data sources for comparing programming languages:
      - https://githut.info/
      - https://live.ossinsight.io/
 
-- **jetbrains**
+- jetbrains
 
      - https://www.jetbrains.com/lp/devecosystem-2022 → [specifically based on platforms](https://www.jetbrains.com/lp/devecosystem-2022/#platfroms-by-language)
 
-- **google**
+- google
 
      - https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
 
