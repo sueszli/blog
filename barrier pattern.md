@@ -6,7 +6,7 @@ it's a straightforward method to execute multiple tasks simultaneously and await
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
-## jvm languages
+# jvm languages
 
 here's one possible java implementation:
 
@@ -185,7 +185,7 @@ object ParallelPromisePattern extends App {
 }
 ```
 
-## python
+# python
 
 because of python's [gil](https://wiki.python.org/moin/GlobalInterpreterLock), concurrent programming isn't as fun as it could be – but i'm really looking forward [for this to change](https://peps.python.org/pep-0703/).
 
@@ -218,7 +218,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 ```
 
-## javascript
+# javascript
 
 ```js
 function sleep(ms) {
@@ -245,7 +245,7 @@ Promise.all(promises)
         .catch((err) => console.error(err.message))
 ```
 
-## go
+# go
 
 i find both javascript and golang to have the most straightforward solutions – although the one in golang is a lot more performant.
 
@@ -284,7 +284,7 @@ func main() {
 }
 ```
 
-## beam languages
+# beam languages
 
 finally, let's look at the most popular beam languages.
 
@@ -360,7 +360,7 @@ each(tasks, fn(task) { task.await() })
 io.println("all done")
 ```
 
-## rust
+# rust
 
 ```rust
 use std::thread;
@@ -391,7 +391,7 @@ fn main() {
 }
 ```
 
-## c/c++
+# c/c++
 
 _c:_
 
