@@ -105,11 +105,11 @@ here are the essential findings:
 
      additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the intention of completing their program is much higher.
 
-<img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
+![](./assets/img1.png)
 
 here's a simplified perspective that also includes the result of the conditional probabilities:
 
-<img width="1148" alt="image" src="https://github.com/sueszli/blog/assets/61852663/a6c1e4be-b680-4a39-8278-191eb7acad1c">
+![](./assets/img2.png)
 
 <br><br>
 
