@@ -6,7 +6,7 @@ ask yourself, "is pursuing a ph.d. the right choice for me?".
 
 the following thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
 
-1. **recognise that there are multiple definitions of success and multiple ways to succeed.**
+1. **recognize that there are multiple definitions of success and multiple ways to succeed.**
 
       - set clear goals. define what success means to you by creating your own "utility function" and "success metrics":
 
