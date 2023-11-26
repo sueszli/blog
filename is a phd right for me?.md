@@ -115,35 +115,41 @@ here's a simplified perspective that also includes the result of the conditional
 
 ## salary comparison
 
-the data from websites like glassdoor and payscale were very wrong about salary information. instead, other sources provide a clearer picture of salaries in the tech industry.
+finally we try to get some salary data to compare the different paths.
 
-- **levels.fyi**[^10] is a significant survey site for computer science jobs. it's one of the most extensive databases available. according to their data from 2022, the median pay for tech jobs in san francisco is $234,000 per year, and in washington d.c., it's $148,000, placing it at the 10th position. overall, tech jobs range between $160,000 to $210,000 in median pay for the second half of 2022. the _top-paying companies offer salaries ranging from $220,000 to $274,000_ for their entry-level positions (l1).
+- **median industry earnings:**
 
-this gives us a baseline to compare against for the average tech salary in the industry.
+     websites like glassdoor and payscale were very wrong about salary information while levels.fyi [^10], one of the most extensive databases available, was very accurate. according to their data from 2022 the median yearly pay for tech jobs is the following:
 
-let's look at the data for ph.d. holders.
+     - san francisco: $234,000 (1st position)
+     - washington d.c.: $148,000 (10th position)
+     - overall median ranges from $160,000-$210,000
+     - l1 positions at the top-paying faang companies: $220,000-$274,000
+     - research scientist positions at the top-paying faang companies: $280,000+ (not enough data)
 
-- the **united states census bureau** also conducted several surveys.
+- **lifelong earnings:**
 
-     in a community survey from 2009-2011[^11] salaries in computers and mathematics were around $73,000 for a bachelor's degree, $90,000 for a master's degree, and $104,000 for a ph.d – this observation seems to be out of date.
+     the united states census bureau also conducted several surveys.
 
-     in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, those with a bachelor's degree earned approximately $3,044,000 over their working life, while _those with a master's degree earned around $3,541,000 and ph.d. holders earned about $3,890,000_. these statistics cover 25 to 64-year-olds who work full-time throughout the year.
+     in a community survey from 2009-2011[^11] salaries in computers and mathematics were around $73,000 for a bachelor's degree, $90,000 for a master's degree, and $104,000 for a ph.d. but this observation seems to be out of date.
 
-this shows that a pay gap exists between ph.d. holders and those with a bachelor's or master's degree.however, it's unclear whether this gap is due to the ph.d. or other factors like the type of job or the company.
+     in another survey[^12] they also studied lifelong earnings. for individuals in computers and mathematics, the following results were found regarding their earnings over their working life (25-64 years, full-time):
 
-- the **national center for biotechnology information (ncbi) / national library of medicine (nlm)**[^13] found that doctoral recipients from eight universities showed variations in earnings based on where they were employed.
+     - bachelor's degree: $3,044,000
+     - master's degree: $3,541,000
+     - ph.d. degree: $3,890,000
+
+     this should be taken with a grain of salt as it's based on a small sample size.
+
+- **r&d earnings (difference unclear):**
+
+     the national center for biotechnology information (ncbi) / national library of medicine (nlm)[^13] found that doctoral recipients from eight universities showed variations in earnings based on where they were employed.
 
      those placed in industry had significantly higher earnings a year after leaving university compared to those in government or academia.
 
      when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
 
-in conclusion:
-
-this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
-
-additionally this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
-
-for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for those roles. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
+the data is inconclusive and it's hard to draw conclusions from it. but it's safe to say that while a ph.d. might not guarantee a higher salary, it does open up the door to higher-paying positions.
 
 <br><br>
 
