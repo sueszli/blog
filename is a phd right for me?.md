@@ -121,7 +121,7 @@ here are the essential findings:
 
 <img width="1468" alt="SCR-20231114-bivf" src="https://github.com/sueszli/blog/assets/61852663/b2768c5e-bc9c-485f-835e-37154eb150d4">
 
-here's another perspective:
+here's a simplified perspective:
 
 <img width="1148" alt="image" src="https://github.com/sueszli/blog/assets/61852663/a6c1e4be-b680-4a39-8278-191eb7acad1c">
 
