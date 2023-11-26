@@ -6,7 +6,7 @@ ask yourself, "is pursuing a ph.d. the right choice for me?".
 
 <br><br>
 
-## introduction
+## (not so related) introduction
 
 the following thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection before we start digging into the numbers.
 
@@ -129,9 +129,11 @@ here's a simplified perspective:
 
 ## industry salaries
 
+
+
 the data from websites like glassdoor and payscale were very wrong about salary information. instead, other sources provide a clearer picture of salaries in the tech industry.
 
-- **levels.fyi**[^10] is a significant survey site for computer science jobs. it's one of the most extensive databases available. according to their data from 2022, the median pay for tech jobs in san francisco is $234,000 per year, and in washington d.c., it's $148,000, placing it at the 10th position. overall, _tech jobs range between $160,000 to $210,000 in median pay_ for the second half of 2022. the _top-paying companies offer salaries ranging from $220,000 to $274,000_ for their entry-level positions (l1).
+- **levels.fyi**[^10] is a significant survey site for computer science jobs. it's one of the most extensive databases available. according to their data from 2022, the median pay for tech jobs in san francisco is $234,000 per year, and in washington d.c., it's $148,000, placing it at the 10th position. overall, tech jobs range between $160,000 to $210,000 in median pay for the second half of 2022. the _top-paying companies offer salaries ranging from $220,000 to $274,000_ for their entry-level positions (l1).
 
 this gives us a baseline to compare against for the average tech salary in the industry.
 
@@ -151,11 +153,13 @@ this shows that a pay gap exists between ph.d. holders and those with a bachelor
 
      when looking at the distribution of earnings, doctoral recipients, particularly those employed by research and development (r&d) firms, had higher earnings compared to the average u.s. workforce. a majority of doctoral recipients ended up in academia, while a significant percentage found employment in industry, particularly within r&d performing firms.
 
+in conclusion: 
+
 this data suggests that ph.d. holders in the industry earn more than those in academia, particularly in r&d firms.
 
 additionally this is consistent with the data from levels.fyi, which shows r&d positions in big tech companies pay significantly more than other roles.
 
-this means a phd can be justified for roles in r&d and more analytical positions in the industry and lead to a significant pay increase.
+for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for those roles. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
 
 <br><br>
 
@@ -163,11 +167,11 @@ this means a phd can be justified for roles in r&d and more analytical positions
 
 in summary, pursuing a phd in computer science can be very beneficial in the north american industry, especially for roles that require strong analytical skills in fields like data science, machine learning, theoretical security, or just positions in the research and development (r&d) sector.
 
-for positions that emphasize leadership or heavy engineering, having a phd will enhance your reputation and likely lead to increased pay. however, a phd might not be the most efficient route for these roles since it doesn't necessarily equip you with the skills needed for those roles. it's much harder to justify pay raises in these positions when competing with other candidates who have more relevant experience.
-
 therefore, deciding whether to pursue a phd should be a decision aimed at securing a specific industry job or position that would otherwise be difficult to attain and aligns well with the skills that you'll gain during your phd.
 
-<br>
+<br><br>
+
+## personal takeaways
 
 _personal key takeaways:_
 
