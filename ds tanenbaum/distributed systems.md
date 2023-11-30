@@ -1,5 +1,3 @@
-> distributed systems by andrew s. tanenbaum and maarten van steen
-
 # 1. introduction
 
 _”distributed system” definitions_
