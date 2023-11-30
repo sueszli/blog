@@ -4,8 +4,6 @@ this is just a personal story on how i came to love macos and in no way a recomm
 
 i was inspired to make this post because of wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0).
 
-<br>
-
 i've used windows, linux and macos as my daily driver for years and thought i might share my thoughts on the topic.
 
 i initially started using windows xp on our family laptop, which was a sony vaio.
@@ -20,7 +18,7 @@ at first i was a bit annoyed since i used to poke fun at macos users for and "pa
 
 so here's a list of the things that bother me about other operating systems and why i really enjoy using macos.
 
-<br>
+---
 
 _my issues with linux:_
 
@@ -50,7 +48,7 @@ _my issues with linux:_
 
      this becomes less of an issue as you learn to use the terminal more, and become less dependent on the gui but it's still annoying and definitely something that makes linux less accessible to new users.
 
-<br>
+---
 
 _my issues with windows:_
 
@@ -77,7 +75,7 @@ _my issues with windows:_
 
      - package managers like scoop, winget and chocolatey don't work well together and are not as good as brew or apt.
 
-<br>
+---
 
 _my favorite things about macos:_
 
