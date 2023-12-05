@@ -42,6 +42,4 @@ if __name__ == '__main__':
         f.write('\n\n')
         f.write(toc)
         f.write('\n\n')
-        f.write('---')
-        f.write('\n\n')
-        f.write('want to stay updated? subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)')
+        f.write('subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)')

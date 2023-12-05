@@ -1,21 +1,26 @@
 name: Generate README
 
 on:
-  push:
-    branches:
-      - main
+        push:
+                branches:
+                        - main
+
+permissions:
+        contents: write
+        pages: write
+        id-token: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+        build:
+                runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v2
+                steps:
+                        - uses: actions/checkout@v2
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
+                        - name: Set up Python 3.8
+                          uses: actions/setup-python@v2
+                          with:
+                                  python-version: 3.8
 
-    - name: Generate README
-      run: python ./.github/workflows/toc.py
+                        - name: Generate README
+                          run: python ./.github/workflows/toc.py
