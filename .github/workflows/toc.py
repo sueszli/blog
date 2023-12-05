@@ -22,7 +22,7 @@ def gen_toc(startdir, indent=0):
             continue
 
         if os.path.isfile(path):
-            toc += '\t'*indent + f"- [{node.split('.')[0]}](<{path}>)\n"
+            toc += '\t'*indent + f"- [{node.split('.')[0]}](<{path.replace('.md', '')}>)\n"
 
         elif os.path.isdir(path):
             toc += '\t'*indent + '- ' + node + '\n'
