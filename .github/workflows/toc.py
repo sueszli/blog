@@ -1,4 +1,6 @@
 import os
+import time
+
 
 def is_markdown(path):
     # file is .md
@@ -33,6 +35,7 @@ if __name__ == '__main__':
     os.system('rm -rf README.md && touch README.md')
     
     toc = gen_toc('.')
+    
     with open('README.md', 'w') as f:
         f.write('_last posts:_\n\n')
         f.write(toc)
