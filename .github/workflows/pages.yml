@@ -1,6 +1,5 @@
 name: Generate readme
 
-# define trigger
 on:
   push:
     branches: ["main"]
