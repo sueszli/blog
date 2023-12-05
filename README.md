@@ -1,6 +1,6 @@
 ## sueszli's blog
 
-_posts:_
+_file tree:_
 
 - xv6 os
 	- [xv6 os](<./xv6 os/xv6 os.md>)
