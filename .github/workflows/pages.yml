@@ -26,7 +26,6 @@ jobs:
           python ./.github/workflows/generate-readme.py
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull
           git add .
           git commit -m "generated readme"
           git push
