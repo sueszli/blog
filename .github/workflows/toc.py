@@ -42,4 +42,4 @@ if __name__ == '__main__':
         f.write('\n\n')
         f.write('---')
         f.write('\n\n')
-        f.write('subscribe via the github watch list: https://github.com/sueszli/blog/subscription')
+        f.write('subscribe via the github watch list: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)')
