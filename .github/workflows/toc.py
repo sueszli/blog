@@ -37,7 +37,8 @@ if __name__ == '__main__':
     toc = gen_toc('.')
     
     with open('README.md', 'w') as f:
-        f.write('_last posts:_\n\n')
+        f.write('## sueszli\'s blog')
+        f.write('\n\n')
         f.write(toc)
         f.write('\n\n')
         f.write('---')
