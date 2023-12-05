@@ -41,7 +41,7 @@ if __name__ == '__main__':
     with open('README.md', 'w') as f:
         f.write('## sueszli\'s blog')
         f.write('\n\n')
-        f.write('_posts:_')
+        f.write('_file tree:_')
         f.write('\n\n')
         f.write(toc)
         f.write('\n\n')
