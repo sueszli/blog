@@ -1,26 +1,47 @@
 name: Generate README
 
 on:
-        push:
-                branches:
-                        - main
-
+  push:
+    branches: ["main"]
+  
 permissions:
-        contents: write
-        pages: write
-        id-token: write
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-        build:
-                runs-on: ubuntu-latest
+  deploy:
 
-                steps:
-                        - uses: actions/checkout@v2
+    environment:
+      name: github-pages
 
-                        - name: Set up Python 3.8
-                          uses: actions/setup-python@v2
-                          with:
-                                  python-version: 3.8
+    runs-on: ubuntu-latest
 
-                        - name: Generate README
-                          run: python ./.github/workflows/toc.py
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v3      
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.8
+
+      - name: Generate toc
+        run: |
+          git config --global user.email "jabaryyahya@gmail.com"
+          git config --global user.name "sueszli"
+          date
+          python ./.github/workflows/toc.py
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
