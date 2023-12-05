@@ -21,8 +21,7 @@ def gen_toc(startdir, indent=0):
             continue
 
         if os.path.isfile(path):
-            # link = path.replace('.md', '') --> uncomment if you want this to work in the web version
-            link = path
+            link = path.replace('.md', '')
             toc += '\t'*indent + f"- [{node.split('.')[0]}](<{link}>)\n"
 
         elif os.path.isdir(path):
@@ -32,7 +31,7 @@ def gen_toc(startdir, indent=0):
     return toc
 
 
-if __name__ == '__main__':
+def main():
     if os.path.isfile('README.md'):
         os.remove('README.md')
     
@@ -48,3 +47,7 @@ if __name__ == '__main__':
         f.write('<br>')
         f.write('\n\n')
         f.write('subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)')
+
+
+if __name__ == '__main__':
+    # main()
