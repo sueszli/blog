@@ -37,7 +37,7 @@ if __name__ == '__main__':
     toc = gen_toc('.')    
     
     with open('README.md', 'w') as f:
-        f.write('## sueszli\'s blog')
+        f.write('## sueszli\'s blog:')
         f.write('\n\n')
         f.write('_posts:_')
         f.write('\n\n')
