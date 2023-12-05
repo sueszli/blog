@@ -1,5 +1,4 @@
 import os
-import time
 
 
 def is_markdown(path):
