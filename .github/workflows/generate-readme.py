@@ -32,12 +32,10 @@ def gen_toc(startdir, indent=0):
 
 
 if __name__ == '__main__':
-    print('generating toc...')
-    
     if os.path.isfile('README.md'):
         os.remove('README.md')
     
-    toc = gen_toc('.')    
+    toc = gen_toc('.')
     
     with open('README.md', 'w') as f:
         f.write('## sueszli\'s blog')
