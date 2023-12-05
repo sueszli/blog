@@ -32,7 +32,8 @@ def gen_toc(startdir, indent=0):
 
 
 if __name__ == '__main__':
-    os.system('rm -rf README.md && touch README.md')
+    if os.path.isfile('README.md'):
+        os.remove('README.md')
     
     toc = gen_toc('.')
     
