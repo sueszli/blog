@@ -81,13 +81,11 @@ in short: a system is the sum of its primitives.
 
 these primitives can be anything ranging from people (social networks), intelligent agents (multiagent systems), autonomous vehicles (robotics), to software modules, services or entire hardware components.
 
-you could argue that anyone working on any of these primitives could be considered a "systems person".
+you could argue that anyone working on any of these primitives could be considered a "systems person" – but obviously we're always referring to the category mentioned above.
 
-but effectively, the term "systems" is used to refer to the categories in the "systems" cluster mentioned above.
+but it's more complicated than that.
 
-but even within these categories, there's a lot to unpack as they are covering a wide range of abstraction levels.
-
-and even people within the same lab could be working on completely different things.
+even "systems people" within the same community or lab could be working on completely different things.
 
 - as a distributed systems researcher you could be writing formal proofs in TLA+ or Coq to create a new distributed consensus algorithm, extending the kernel for faster RDMA access, sniffing packets to find vulnerabilities in network protocols, or writing a new load balancer for a web backend that implements machine learning to optimize resource allocation.
 
