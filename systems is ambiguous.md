@@ -1,33 +1,107 @@
-# the term "systems" is actually ambiguous
+# what is systems research?
 
-a "systems researcher" or "systems engineer" can mean very different things depending on whom you ask.
+i like to build. so naturally, i'm interested in systems of all kinds.
 
-in academia, the term "systems" can refer to (also see: [acm classification](https://cran.r-project.org/web/classifications/ACM.html)):
+people who work on systems are often referred to as "systems people", as in a "systems researcher" or a "systems engineer" – but what does that actually mean?
 
-- "computer systems organization": managing loosely coupled computing resources.
-- "operating systems": working close to the kernel.
+it isn't as straightforward as it seems. the term "systems" is ambiguous.
 
-but most often, people refer to the latter.
+it's very hard to classify the entirety of computer science research. some good starting points are the [acm research classification](https://cran.r-project.org/web/classifications/ACM.html) the [arxiv taxonomy](https://arxiv.org/category_taxonomy) and the [csrankings](http://csrankings.org/) website.
 
-in the industry, there's a distinction between:
+i personally like the arxiv taxonomy and the csranking classification the most. here's how i would combine them:
 
-- "distributed systems engineers": these professionals are typically backend web architects/system designers who also code.
+- data
 
-     - other job titles: cloud architect, devops engineer, backend developer.
-     - responsibilities include task orchestration, distributed computing, data replication, load balancing management, system performance monitoring, and socket programming.
+     - cs.AI (Artificial Intelligence)
+     - cs.CE (Computational Engineering, Finance, and Science)
+     - cs.CV (Computer Vision and Pattern Recognition)
+     - cs.DB (Databases)
+     - cs.MA (Multiagent Systems)
+     - cs.LG (Machine Learning)
+     - cs.DL (Digital Libraries)
+     - cs.IR (Information Retrieval)
+     - cs.NE (Neural and Evolutionary Computing)
 
-- "systems engineers": managing a company's on-premises infrastructure or working on low-level software close to the os.
+- systems
 
-     - other job titles: system administrator, network engineer, systems programmer, network administrator.
-     - responsibilities include network programming, working on os-level communication, data transfer management, and ensuring network security.
+     - cs.SE (Software Engineering)
+     - cs.NI (Networking and Internet Architecture)
+     - cs.DC (Distributed, Parallel, and Cluster Computing)
+     - cs.AR (Hardware Architecture)
+     - cs.RO (Robotics)
 
-some argue that labeling those who write software for managing distributed systems as "systems engineers" is incorrect.
+- security
 
-this has been debated on stack overflow and reddit due to golang being described as a "systems programming language", although it's garbage collected and primarily used for writing web servers:
+     - cs.CR (Cryptography and Security)
+     - cs.OS (Operating Systems)
+     - cs.PF (Performance)
+     - cs.PL (Programming Languages)
+
+- theory
+
+     - cs.CC (Computational Complexity)
+     - cs.CG (Computational Geometry)
+     - cs.CL (Computation and Language)
+     - cs.SY (Systems and Control)
+     - cs.IT (Information Theory)
+     - cs.DM (Discrete Mathematics)
+     - cs.DS (Data Structures and Algorithms)
+     - cs.NA (Numerical Analysis)
+     - cs.GT (Computer Science and Game Theory)
+     - cs.FL (Formal Languages and Automata Theory)
+     - cs.MS (Mathematical Software)
+     - cs.LO (Logic in Computer Science)
+     - cs.SC (Symbolic Computation)
+
+- graphics and hci
+
+     - cs.GR (Graphics)
+     - cs.MM (Multimedia)
+     - cs.HC (Human-Computer Interaction)
+     - cs.SD (Sound)
+
+- interdisciplinary areas
+
+     - cs.GL (General Literature)
+     - cs.OH (Other Computer Science)
+     - cs.CY (Computers and Society)
+     - cs.SI (Social and Information Networks)
+     - cs.ET (Emerging Technologies)
+
+in short: a system is the sum of its primitives.
+
+these primitives can be anything ranging from people (social networks), intelligent agents (multiagent systems), autonomous vehicles (robotics), to software modules, services or entire hardware components.
+
+you could argue that anyone working on any of these primitives could be considered a "systems person".
+
+but effectively, the term "systems" is used to refer to the following:
+
+- cs.SE (Software Engineering)
+
+     - question: how do we write code at scale?
+     - research topics: tools, software metrics, testing and debugging, programming environments
+
+- cs.NI (Networking and Internet Architecture) + cs.DC (Distributed, Parallel, and Cluster Computing)
+
+     - question: how do we make computers collaborate?
+     - research topics: network protocols and architectures, network security, web backend architectures, distributed computing, parallel computing, cluster computing, cloud computing
+
+- cs.AR (Hardware Architecture) + cs.RO (Robotics)
+
+     - question: how can we make things from the real world interact with software?
+     - research topics: hardware design, embedded systems, operating systems, internet of things, robotics
+
+but even within these categories, there's a lot to unpack as they are covering a wide range of abstraction levels.
+
+and even people within the same lab could be working on completely different things.
+
+- as a distributed systems researcher you could be writing formal proofs in TLA+ or Coq to create a new distributed consensus algorithm, extending the kernel for faster RDMA access, sniffing packets to find vulnerabilities in network protocols, or writing a new load balancer for a web backend that implements machine learning to optimize resource allocation.
+
+- the same applies to kernel researchers: while one could be hardening the kernel against power side-channel and physical memory attacks, the other could be working on fault tolerant network protocols for space exploration.
+
+as you can see, the only thing these people have in common are the journals and conferences they publish in.
+
+this explains why the term "systems" is so ambiguous and why people disagree on what it means:
 
 - https://stackoverflow.com/questions/4106930/what-does-it-mean-by-a-systems-language
 - https://www.reddit.com/r/golang/comments/73pe61/what_does_this_author_mean_by_golang_is_a_systems/
-
-again: the term "systems" is ambiguous. identifying as a "systems" researcher while writing web backends (or even frontends) might be annoying to some, but it's technically not incorrect.
-
-it's important to determine the specific type of systems research that interests you, understand the career prospects (having an industry backup plan if aiming for an academic position), and know the job's nature before starting your research.
