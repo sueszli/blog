@@ -34,14 +34,13 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.SE (Software Engineering)
      - cs.NI (Networking and Internet Architecture)
      - cs.DC (Distributed, Parallel, and Cluster Computing)
+     - cs.PF (Performance)
      - cs.AR (Hardware Architecture)
+     - cs.OS (Operating Systems)
 
 - security
 
      - cs.CR (Cryptography and Security)
-     - cs.OS (Operating Systems)
-     - cs.PF (Performance)
-     - cs.PL (Programming Languages)
 
 - theory
 
@@ -58,6 +57,7 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.MS (Mathematical Software)
      - cs.LO (Logic in Computer Science)
      - cs.SC (Symbolic Computation)
+     - cs.PL (Programming Languages)
 
 - graphics and hci
 
