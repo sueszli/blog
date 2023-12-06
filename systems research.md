@@ -7,7 +7,9 @@ people who work on systems are often referred to as "systems people", as in a "s
 - https://stackoverflow.com/questions/4106930/what-does-it-mean-by-a-systems-language
 - https://www.reddit.com/r/golang/comments/73pe61/what_does_this_author_mean_by_golang_is_a_systems
 
-there's a lot more to it than you might think. the term "systems" is ambiguous.
+this confusion on social media is justified.
+
+there's a lot more to it than you might think. the term "systems" is ambiguous and the meaning always depends on which context it's used in.
 
 ## classification
 
