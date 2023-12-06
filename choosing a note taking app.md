@@ -95,5 +95,4 @@ _alternatives:_
 notion and obsidian are the best choices – and they both have their own strengths and weaknesses.
 
 - notion is fun and convenient: it has the least mental overhead and gets the job done. ideal for working in teams.
-- obsidian is meant for larger projects: it’s best when you want to work on large projects and files.
-
+- obsidian is meant for larger projects: ideal for taking research notes.
