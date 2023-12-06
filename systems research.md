@@ -85,20 +85,11 @@ you could argue that anyone working on any of these primitives could be consider
 
 but effectively, the term "systems" is used to refer to the following:
 
-- cs.SE (Software Engineering)
+- cs.SE (Software Engineering) → asks the question: how do we write code at scale?
 
-     - question: how do we write code at scale?
-     - research topics: tools, software metrics, testing and debugging, programming environments
+- cs.NI (Networking and Internet Architecture) + cs.DC (Distributed, Parallel, and Cluster Computing) → asks the question: how do we make computers collaborate?
 
-- cs.NI (Networking and Internet Architecture) + cs.DC (Distributed, Parallel, and Cluster Computing)
-
-     - question: how do we make computers collaborate?
-     - research topics: network protocols and architectures, network security, web backend architectures, distributed computing, parallel computing, cluster computing, cloud computing
-
-- cs.AR (Hardware Architecture) +  cs.OS (Operating Systems)
-
-     - question: how can we make things from the real world interact with software?
-     - research topics: hardware design, embedded systems, operating systems, internet of things, robotics
+- cs.AR (Hardware Architecture) + cs.OS (Operating Systems) → asks the question: how can we make things from the real world interact with software?
 
 but even within these categories, there's a lot to unpack as they are covering a wide range of abstraction levels.
 
