@@ -47,6 +47,7 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.CC (Computational Complexity)
      - cs.CG (Computational Geometry)
      - cs.CL (Computation and Language)
+     - cs.PL (Programming Languages)
      - cs.SY (Systems and Control)
      - cs.IT (Information Theory)
      - cs.DM (Discrete Mathematics)
@@ -57,7 +58,6 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.MS (Mathematical Software)
      - cs.LO (Logic in Computer Science)
      - cs.SC (Symbolic Computation)
-     - cs.PL (Programming Languages)
 
 - graphics and hci
 
@@ -95,7 +95,7 @@ but effectively, the term "systems" is used to refer to the following:
      - question: how do we make computers collaborate?
      - research topics: network protocols and architectures, network security, web backend architectures, distributed computing, parallel computing, cluster computing, cloud computing
 
-- cs.AR (Hardware Architecture)
+- cs.AR (Hardware Architecture) +  cs.OS (Operating Systems)
 
      - question: how can we make things from the real world interact with software?
      - research topics: hardware design, embedded systems, operating systems, internet of things, robotics
