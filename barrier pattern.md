@@ -203,13 +203,7 @@ async def main():
     num_cores = multiprocessing.cpu_count()
     with ThreadPoolExecutor(max_workers=num_cores) as executor:
         loop = asyncio.get_event_loop()
-        futures = [
-            loop.run_in_executor(
-                executor,
-                async_task
-            )
-            for _ in range(num_cores)
-        ]
+        futures = [loop.run_in_executor(executor, async_task) for _ in range(num_cores)]
         for response in await asyncio.gather(*futures):
             print(response)
     print("all done")
