@@ -85,7 +85,7 @@ you could argue that anyone working on any of these primitives could be consider
 
 but it's more complicated than that.
 
-even "systems people" within the same community or lab could be working on completely different things.
+even "systems people" within the same community or lab could be working on vastly different things.
 
 - as a distributed systems researcher you could be writing formal proofs in TLA+ or Coq to create a new distributed consensus algorithm, extending the kernel for faster RDMA access, sniffing packets to find vulnerabilities in network protocols, or writing a new load balancer for a web backend that implements machine learning to optimize resource allocation.
 
