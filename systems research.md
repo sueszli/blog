@@ -4,7 +4,10 @@ i like to build. so naturally, i'm interested in systems of all kinds.
 
 people who work on systems are often referred to as "systems people", as in a "systems researcher" or a "systems engineer" – but what does that actually mean?
 
-it isn't as straightforward as it seems. the term "systems" is ambiguous.
+- https://stackoverflow.com/questions/4106930/what-does-it-mean-by-a-systems-language
+- https://www.reddit.com/r/golang/comments/73pe61/what_does_this_author_mean_by_golang_is_a_systems/
+
+there's a lot more to it than you might think. the term "systems" is ambiguous.
 
 ## classification
 
@@ -104,8 +107,3 @@ and even people within the same lab could be working on completely different thi
 - the same applies to kernel researchers: while one could be hardening the kernel against power side-channel and physical memory attacks, the other could be working on fault tolerant network protocols for space exploration.
 
 as you can see, the only thing these people have in common are the journals and conferences they publish in.
-
-this explains why the term "systems" is so ambiguous and why people disagree on what it means:
-
-- https://stackoverflow.com/questions/4106930/what-does-it-mean-by-a-systems-language
-- https://www.reddit.com/r/golang/comments/73pe61/what_does_this_author_mean_by_golang_is_a_systems/
