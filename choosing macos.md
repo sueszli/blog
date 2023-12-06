@@ -18,7 +18,7 @@ at first i was a bit annoyed since i used to poke fun at macos users for and "pa
 
 so here's a list of the things that bother me about other operating systems and why i really enjoy using macos.
 
----
+## linux
 
 _my issues with linux:_
 
@@ -48,7 +48,7 @@ _my issues with linux:_
 
      this becomes less of an issue as you learn to use the terminal more, and become less dependent on the gui but it's still annoying and definitely something that makes linux less accessible to new users.
 
----
+## windows
 
 _my issues with windows:_
 
@@ -75,7 +75,7 @@ _my issues with windows:_
 
      - package managers like scoop, winget and chocolatey don't work well together and are not as good as brew or apt.
 
----
+## macos
 
 _my favorite things about macos:_
 
