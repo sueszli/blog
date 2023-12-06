@@ -35,7 +35,6 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.NI (Networking and Internet Architecture)
      - cs.DC (Distributed, Parallel, and Cluster Computing)
      - cs.AR (Hardware Architecture)
-     - cs.RO (Robotics)
 
 - security
 
@@ -74,6 +73,7 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.CY (Computers and Society)
      - cs.SI (Social and Information Networks)
      - cs.ET (Emerging Technologies)
+     - cs.RO (Robotics)
 
 ## conclusion
 
@@ -95,7 +95,7 @@ but effectively, the term "systems" is used to refer to the following:
      - question: how do we make computers collaborate?
      - research topics: network protocols and architectures, network security, web backend architectures, distributed computing, parallel computing, cluster computing, cloud computing
 
-- cs.AR (Hardware Architecture) + cs.RO (Robotics)
+- cs.AR (Hardware Architecture)
 
      - question: how can we make things from the real world interact with software?
      - research topics: hardware design, embedded systems, operating systems, internet of things, robotics
