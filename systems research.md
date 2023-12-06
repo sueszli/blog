@@ -6,6 +6,8 @@ people who work on systems are often referred to as "systems people", as in a "s
 
 it isn't as straightforward as it seems. the term "systems" is ambiguous.
 
+## classification
+
 it's very hard to classify the entirety of computer science research. some good starting points are the [acm research classification](https://cran.r-project.org/web/classifications/ACM.html) the [arxiv taxonomy](https://arxiv.org/category_taxonomy) and the [csrankings](http://csrankings.org/) website.
 
 i personally like the arxiv taxonomy and the csranking classification the most. here's how i would combine them:
@@ -67,6 +69,8 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
      - cs.CY (Computers and Society)
      - cs.SI (Social and Information Networks)
      - cs.ET (Emerging Technologies)
+
+## conclusion
 
 in short: a system is the sum of its primitives.
 
