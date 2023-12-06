@@ -83,19 +83,7 @@ these primitives can be anything ranging from people (social networks), intellig
 
 you could argue that anyone working on any of these primitives could be considered a "systems person".
 
-but effectively, the term "systems" is used to refer to the following:
-
-- cs.SE (Software Engineering)
-
-     → asks the question: how do we write code at scale?
-
-- cs.NI (Networking and Internet Architecture) + cs.DC (Distributed, Parallel, and Cluster Computing)
-
-     → asks the question: how do we make computers collaborate?
-
-- cs.AR (Hardware Architecture) + cs.OS (Operating Systems)
-
-     → asks the question: how can we make things from the real world interact with software?
+but effectively, the term "systems" is used to refer to the categories in the "systems" cluster mentioned above.
 
 but even within these categories, there's a lot to unpack as they are covering a wide range of abstraction levels.
 
