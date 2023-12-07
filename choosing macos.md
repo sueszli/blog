@@ -8,7 +8,9 @@ i've used windows, linux and macos as my daily driver for years and thought i mi
 
 i initially started using windows xp on our family laptop, which was a sony vaio.
 
-i then switched to ubuntu on my first personal laptop, which was a huge lenovo machine. i hopped through a bunch of distros until i settled on "pop_os!" and "zorin os" for older machines. i also used arch and some \*BSD distros on my servers and vms for the fun of it.
+i then switched to ubuntu on my first personal laptop, which was a huge lenovo machine. i hopped through a bunch of distros until i settled on "pop_os!" as my daily driver and "zorin os" for older machines. i also used arch and some \*BSD distros on my servers and vms for the fun of it.
+
+i later learned how dual boots work.
 
 running a dual boot machine allowed me to switch between windows and linux whenever i needed to and enjoy the best of both worlds.
 
