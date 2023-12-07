@@ -51,3 +51,4 @@ def main():
 
 if __name__ == '__main__':
     # main()
+    print("generation of toc is currently disabled")
