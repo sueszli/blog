@@ -35,36 +35,21 @@ caring too early about performance leads to premature optimization, while caring
 
 the most popular benchmark, called [the benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html), also clusters languages into tiers based on performance.
 
-0. tier: closest to metal.
-
+0. tier – closest to metal:
       - c
       - c++
-           - smart pointers and raii which are optional
       - rust
-           - ownership model and borrow checker are mandatory
-
-1. tier: loss of performance is negligible.
-
+1. tier – loss of performance is negligible.
       - c#
       - go
-           - the simplicity of python, the speed of java and also compiles to small binaries. very popular for cloud native apps.
       - swift
       - java
-           - verbose and bulky. trying to catch up with new frameworks and features like graalvm, quarkus, and project loom.
       - ocaml
       - node.js
-           - performance difference to java and go gets substantial as you scale up your system.
-           - has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
-
-2. tier: loss of performance is noticeable.
-
+2. tier – loss of performance is noticeable.
       - php
       - erlang
       - python
-           - will be faster without GIL soon.
-           - new superset languages are being developed for simd like “mojo”.
-           - has great interopt with c/c++.
-           - frequently 10-100x slower in benchmarks than node.js.
       - lua
       - perl
       - ruby
@@ -74,31 +59,6 @@ the most popular benchmark, called [the benchmark game](https://benchmarksgame-t
 we want to be able to collaborate and take advantage of existing ecosystems.
 
 this means having to constrain ourselves to some of the most popular languages.
-
-i've also further reduced the list based on my own experience and preferences:
-
-1. **JavaScript/TypeScript**
-      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
-2. **Python**
-3. **Java**
-4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
-5. **C/C++**
-6. ~~PHP~~ – node.js is preferred to php.
-7. ~~Shell~~
-8. **Go**
-9. **Rust**
-      - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
-10. ~~Kotlin~~ – java is preferred to kotlin because it's not a java superset and can't compete with it.
-       - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
-       - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
-11. ~~Ruby~~ – python is preferred to ruby because ruby is losing popularity fast.
-12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift's is more widely adopted.
-13. ~~R~~
-14. ~~PowerShell~~
-15. ~~Dart~~ – javascript (react-native) is preferred to dart (flutter) until flutter's ecosystem catches up.
-16. ~~Lua~~
-17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
-18. ~~Visual Basic~~
 
 this decision is based on the following sources:
 
@@ -121,3 +81,52 @@ this decision is based on the following sources:
      - https://www.jetbrains.com/lp/devecosystem-2023/
      - https://www.jetbrains.com/lp/devecosystem-2022/
 - google: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
+
+## conclusion
+
+1. **JavaScript/TypeScript**
+
+      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
+      - performance difference to java and go gets substantial as you scale up your system.
+      - has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
+
+2. **Python**
+
+      - will be faster without GIL soon.
+      - new superset languages are being developed for simd like “mojo”.
+      - has great interopt with c/c++.
+      - frequently 10-100x slower in benchmarks than node.js.
+
+3. **Java**
+
+      - verbose and bulky. trying to catch up with new frameworks and features like graalvm, quarkus, and project loom.
+
+4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
+
+5. **C/C++**
+
+      - smart pointers and raii for memory safety.
+
+6. ~~PHP~~ – node.js is preferred to php.
+7. ~~Shell~~
+
+8. **Go**
+
+      - the simplicity of python, the speed of java and also compiles to small binaries. very popular for cloud native apps.
+
+9. **Rust**
+
+      - ownership model and borrow checker for memory safety.
+      - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
+
+10. ~~Kotlin~~ – java is preferred to kotlin because it's not a java superset and can't compete with it.
+       - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
+       - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
+11. ~~Ruby~~ – python is preferred to ruby because ruby is losing popularity fast.
+12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift's is more widely adopted.
+13. ~~R~~
+14. ~~PowerShell~~
+15. ~~Dart~~ – javascript (react-native) is preferred to dart (flutter) until flutter's ecosystem catches up.
+16. ~~Lua~~
+17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
+18. ~~Visual Basic~~
