@@ -86,34 +86,33 @@ this decision is based on the following sources:
 
 1. **JavaScript/TypeScript**
 
-      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
+      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node users alone still outnumber python users.
       - performance difference to java and go becomes really noticable as you scale up.
-      - node worker_threads are closer to lightweight processes than threads. each have their own v8 enginr and event loop instance.
+      - node worker_threads are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
 
 2. **Python** ⭐
 
-      - low performance is very noticeable. frequently 10-100x slower than node. this will change soon work is being put into removing the GIL.
+      - low performance is very noticeable. frequently 10-100x slower than node. this will change soon, as a lot of work is being put into removing the GIL.
       - new superset languages are being developed for simd like “mojo”.
       - has great interopt with c/c++.
 
 3. **Java** ⭐
 
-      - catching up with projects like graalvm, quarkus, and loom.
+      - catching up with projects like graalvm, quarkus and loom.
 
 4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
 
-5. **C/C++** ⭐
+5. **C/C++**
 
-      - cpp syntax feels really awkward.
-      - for networked systems, cpp is preferred over c because of smart pointers and RAII. but they're really hard to get right.
+      - cpp is preferred over c for networked systems, because of smart pointers and RAII. but they're really hard to get right.
 
 6. ~~PHP~~ – node.js is preferred to php.
 7. ~~Shell~~
 
 8. **Go** ⭐
 
-      - the simplicity of python with the speed of java.
-      - compilable to small binaries. very popular for cloud native development and networked systems.
+      - the simplicity of python with the speed of java. very simple concurrency model. perfect for networked systems.
+      - compilable to small binaries. very popular for cloud native development.
 
 9. **Rust** ⭐
 
