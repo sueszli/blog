@@ -100,8 +100,6 @@ i've also further reduced the list based on my own experience and preferences:
 17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
 18. ~~Visual Basic~~
 
-this means that we are left with the following languages: javascript, python, java, c/c++, go, rust.
-
 this decision is based on the following sources:
 
 - code_report:
