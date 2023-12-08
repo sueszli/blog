@@ -90,31 +90,31 @@ this decision is based on the following sources:
       - performance difference to java and go gets substantial as you scale up your system.
       - has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
 
-2. **Python**
+2. **Python** ⭐
 
       - will be faster without GIL soon.
       - new superset languages are being developed for simd like “mojo”.
       - has great interopt with c/c++.
       - frequently 10-100x slower in benchmarks than node.js.
 
-3. **Java**
+3. **Java** ⭐
 
       - verbose and bulky. trying to catch up with new frameworks and features like graalvm, quarkus, and project loom.
 
 4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
 
-5. **C/C++**
+5. **C/C++** ⭐
 
-      - smart pointers and raii for memory safety.
+      - smart pointers and RAII can be used in cpp for memory safety.
 
 6. ~~PHP~~ – node.js is preferred to php.
 7. ~~Shell~~
 
-8. **Go**
+8. **Go** ⭐
 
-      - the simplicity of python, the speed of java and also compiles to small binaries. very popular for cloud native apps.
+      - the simplicity of python, the speed of java and compilable to small binaries. very popular for cloud native development and networked systems.
 
-9. **Rust**
+9. **Rust** ⭐
 
       - ownership model and borrow checker for memory safety.
       - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
