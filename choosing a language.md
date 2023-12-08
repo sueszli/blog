@@ -87,17 +87,18 @@ this decision is based on the following sources:
 1. **JavaScript/TypeScript**
 
       - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
-      - performance difference to java and go becomes really noticable as you scale up. has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
+      - performance difference to java and go becomes really noticable as you scale up.
+      - node worker_threads are closer to lightweight processes than threads. each have their own v8 enginr and event loop instance.
 
 2. **Python** ⭐
 
-      - low performance is very noticeable. frequently 10-100x slower than nodejs. this will change soon as a lot of effort is being put into removing the GIL.
+      - low performance is very noticeable. frequently 10-100x slower than node. this will change soon work is being put into removing the GIL.
       - new superset languages are being developed for simd like “mojo”.
       - has great interopt with c/c++.
 
 3. **Java** ⭐
 
-      - verbose and bulky. trying to catch up with like projects like graalvm, quarkus, and loom.
+      - catching up with projects like graalvm, quarkus, and loom.
 
 4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
 
