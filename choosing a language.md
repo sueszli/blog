@@ -87,43 +87,43 @@ this decision is based on the following sources:
 1. **JavaScript/TypeScript**
 
       - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
-      - performance difference to java and go gets substantial as you scale up your system.
-      - has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
+      - performance difference to java and go becomes really noticable as you scale up. has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
 
 2. **Python** ⭐
 
-      - will be faster without GIL soon.
+      - low performance is very noticeable. frequently 10-100x slower than nodejs. this will change soon as a lot of effort is being put into removing the GIL.
       - new superset languages are being developed for simd like “mojo”.
       - has great interopt with c/c++.
-      - frequently 10-100x slower in benchmarks than node.js.
 
 3. **Java** ⭐
 
-      - verbose and bulky. trying to catch up with new frameworks and features like graalvm, quarkus, and project loom.
+      - verbose and bulky. trying to catch up with like projects like graalvm, quarkus, and loom.
 
 4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
 
 5. **C/C++** ⭐
 
-      - smart pointers and RAII can be used in cpp for memory safety.
+      - cpp syntax feels really awkward.
+      - for networked systems, cpp is preferred over c because of smart pointers and RAII. but they're really hard to get right.
 
 6. ~~PHP~~ – node.js is preferred to php.
 7. ~~Shell~~
 
 8. **Go** ⭐
 
-      - the simplicity of python, the speed of java and compilable to small binaries. very popular for cloud native development and networked systems.
+      - the simplicity of python with the speed of java.
+      - compilable to small binaries. very popular for cloud native development and networked systems.
 
 9. **Rust** ⭐
 
-      - ownership model and borrow checker for memory safety.
+      - great competitor to cpp: ownership model and borrow checker enforce memory safety.
       - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
 
 10. ~~Kotlin~~ – java is preferred to kotlin because it's not a java superset and can't compete with it.
        - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
        - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
 11. ~~Ruby~~ – python is preferred to ruby because ruby is losing popularity fast.
-12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift's is more widely adopted.
+12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift is more widely adopted.
 13. ~~R~~
 14. ~~PowerShell~~
 15. ~~Dart~~ – javascript (react-native) is preferred to dart (flutter) until flutter's ecosystem catches up.
