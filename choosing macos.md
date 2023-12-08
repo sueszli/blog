@@ -1,20 +1,8 @@
-# a love letter to macos
+# choosing macos
 
-this is just a personal story on how i surprisingly came to love macos and in no way a recommendation for you to switch to macos. please use whatever works best for you and ✨brings you the most joy✨.
+here's a list of the things that bother me about other operating systems, so much so that i'm willing to pay the apple tax to use macos.
 
-i was inspired to make this post because of wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0).
-
-## backstory
-
-i've now used linux, windows and macos as my daily driver for years and thought i might share my thoughts on the topic.
-
-i initially started using windows xp on our family laptop, which was a sony vaio. then on my first personal laptop i used windows 7 and later switched to ubuntu. i then hopped through a bunch of distros until i settled on "pop_os!" as my daily driver and "zorin os" for the older machines i found in thrift stores. i also used arch and some \*BSD distros on my servers and vms for the fun of it. but that's a story for another time.
-
-i later learned how dual booting work. running a dual boot machine allowed me to switch between windows and linux whenever i needed to. this way i enjoyed the best of both worlds.
-
-and i actually had never used a mac until i started working at a startup in vienna, where i was given a macbook pro as my work machine. at first i was a bit annoyed since i used to poke fun at macos users for and "paying for the brand" but i've come to realize that macos is actually amazing (at least for me).
-
-so here's a list of the things that bother me about other operating systems and why i really enjoy using macos.
+this is in no way a recommendation for you to switch to macos. please use whatever works best for your workflow. also check out wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0) as it covers a lot of the same points.
 
 ## downsides of linux
 
@@ -79,13 +67,3 @@ _my issues with windows:_
      - environment variables must be set through the gui.
      - the file system makes deleting "node_module" folders or uninstalling programs really difficult. programs are unintuively spread across multiple folders you have no overview of.
      - package managers like scoop, winget and chocolatey don't work well together and are not as good as brew or apt.
-
-## upsides of macos
-
-the reason i love macos is because for me it's the best of both worlds. you get both the nice bits of linux and windows and have to sacrifice very little.
-
-- proprietary software support
-- tightly integrated laptop hardware
-- unix based, bash shell, great package manager
-- beautiful gui
-- access to the apple ecosystem (swift, xcode, safari, etc.)

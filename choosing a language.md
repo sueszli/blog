@@ -1,231 +1,125 @@
-# which programming language should i use for my next project?
+# choosing a programming language
 
-this ranking is specifically for teams that build distributed web backends.
+programming languages are abstractions over machine code.
 
-i was inspired to write this, by theo/t3's video called ["performance doesn't matter...until it does."
-](https://www.youtube.com/watch?v=2Z4fZtSKlcE) as well as ["is 'full stack' even real?](https://youtu.be/rAjd8z-Fx5A).
+but the compilers and interpreters that translate these abstractions into machine code can never be as efficient as hand-written assembly code.
 
-we take a look at technologies and tools that developers currently use ("popularity") and want to use in the future ("growth").
+so by using any programming language other than assembly, you are already trading off control and performance over convenience.
 
-- **popularity matters most**
+the same tradeoff applies to the choice of programming language.
 
-     popularity is crucial because it brings more resources: libraries, tools, developers, and job opportunities.
+_purposes of abstractions:_
 
-     for me, when adopting a new language, the libraries and ecosystem are key. i aim to prototype quickly and collaborate with a large pool of people. practicality is prioritized over elegant code in esoteric languages.
+- simplicity:
 
-- **growth is usually just hype**
+     - productivity: easier for you to write code.
+     - quality: easier for you to read other people's code.
+     - community: more people to collaborate with, a larger ecosystem.
 
-     it's wise to wait before immediately adopting fast-growing languages.
+     when your code gets run more than it gets written, these things become irrelevant.
 
-     new languages emerge frequently, but it takes about 5 years for them to gain critical mass. for example:
+- safety:
 
-     - c took 11 years (1975 to 1985)
-     - java and other garbage-collected languages took 5-6 years (1995 to 2001)
-     - ruby trended for 13 years (2006 to 2019) but never achieved widespread adoption.
+     - runtime safety: hurts performance as we waste cpu cycles on checks and memory management.
+     - compile-time safety: doesn't impact performance.
 
-     for some context, it's work taking a look at [wikipedia's history of programming languages](https://en.m.wikipedia.org/wiki/history_of_programming_languages).
+     when your code gets run more than it gets written, people get in fights over whether sacrificing runtime safety for performance is worth the risks involved.
 
-- **technology adoption needs a reason**
+you should start investing in performance when your infrastructure costs exceed your developer costs.
 
-     technologies, for customers or developers, must solve problems and be ✨convenient✨ to use and for replacing existing ones. when making choices, consider the "programming language triangle":
+caring too early about performance leads to premature optimization, while caring too late leads to costly rewrites.
 
-     - simplicity = faster development cycles, easier maintenance → lower time to market
-     - efficiency = high performance, low resource usage (memory, cpu, disk, network) → lower infrastructure costs
-     - safety = robustness, security, minimal runtime exceptions, clear stack traces → higher availability and reliability
+> i highly recommend checking out theo/t3's videos called ["performance doesn't matter...until it does."](https://www.youtube.com/watch?v=2Z4fZtSKlcE) and ["is 'full stack' even real?"](https://youtu.be/rAjd8z-Fx5A) as well as [uncle bob's discussion on performance](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md) as they cover a lot of the same points.
 
-     based on which stage a business is in (startup, growth, or scale), it will prioritize different parts of the triangle but overall most businesses prioritize simplicity and safety over performance, leading to the incorporation of garbage collection in most popular languages.
+## performance
 
-     raw performance optimization usually occurs in specific and limited parts of a system once a business reaches a specific scale.
+the most popular benchmark, called [the benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html), also clusters languages into tiers based on performance.
 
-## comparing data sources
+0. tier: closest to metal.
 
-these are my favorite data sources for comparing programming languages:
+      - c
+      - c++
+           - smart pointers and raii which are optional
+      - rust
+           - ownership model and borrow checker are mandatory
 
-- code_report
+1. tier: loss of performance is negligible.
 
-     - https://plrank.com/ – is the most well-rounded ranking, based on multiple sources
+      - c#
+      - go
+           - the simplicity of python, the speed of java and also compiles to small binaries. very popular for cloud native apps.
+      - swift
+      - java
+           - verbose and bulky. trying to catch up with new frameworks and features like graalvm, quarkus, and project loom.
+      - ocaml
+      - node.js
+           - performance difference to java and go gets substantial as you scale up your system.
+           - has built-in async and worker threads: parallelism only through multiprocessing, not multithreading. worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance.
 
+2. tier: loss of performance is noticeable.
+
+      - php
+      - erlang
+      - python
+           - will be faster without GIL soon.
+           - new superset languages are being developed for simd like “mojo”.
+           - has great interopt with c/c++.
+           - frequently 10-100x slower in benchmarks than node.js.
+      - lua
+      - perl
+      - ruby
+
+## popularity
+
+we want to be able to collaborate and take advantage of existing ecosystems.
+
+this means having to constrain ourselves to some of the most popular languages.
+
+i've also further reduced the list based on my own experience and preferences:
+
+1. **JavaScript/TypeScript**
+      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node.js users alone still outnumber python users.
+2. **Python**
+3. **Java**
+4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
+5. **C/C++**
+6. ~~PHP~~ – node.js is preferred to php.
+7. ~~Shell~~
+8. **Go**
+9. **Rust**
+      - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
+10. ~~Kotlin~~ – java is preferred to kotlin because it's not a java superset and can't compete with it.
+       - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
+       - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
+11. ~~Ruby~~ – python is preferred to ruby because ruby is losing popularity fast.
+12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift's is more widely adopted.
+13. ~~R~~
+14. ~~PowerShell~~
+15. ~~Dart~~ – javascript (react-native) is preferred to dart (flutter) until flutter's ecosystem catches up.
+16. ~~Lua~~
+17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
+18. ~~Visual Basic~~
+
+this means that we are left with the following languages: javascript, python, java, c/c++, go, rust.
+
+this decision is based on the following sources:
+
+- code_report:
+     - https://plrank.com/
 - stackoverflow
-
-     - official: https://survey.stackoverflow.co/2023/ → [comparing popularity vs. growth](https://survey.stackoverflow.co/2023/?utm_source=banner&utm_medium=display&utm_campaign=dev-survey-results-2023&utm_content=survey-results#section-admired-and-desired-programming-scripting-and-markup-languages)
-
-     - https://survey.stackoverflow.co/2022/#worked-with-vs-want-to-work-with-language-worked-want-prof
-     - https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cjavascript%2Ctypescript%2Cgo%2Crust%2Cnode.js
-
+     - 2023: https://survey.stackoverflow.co/2023/
+     - 2022: https://survey.stackoverflow.co/2022/
+     - all time: https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cjavascript%2Ctypescript%2Cgo%2Crust%2Cnode.js
 - github
-
-     - official: https://octoverse.github.com/2022/top-programming-languages
-
-     - https://ossinsight.io/collections/programming-language/trends/ → [specifically for distributed systems](https://ossinsight.io/explore/?id=dffebb3a-e5b8-4726-883c-137df2436c16)
+     - 2023: https://github.blog/wp-content/uploads/2023/11/github-top-10-programming-languages.png?w=1024&resize=1024%2C576
+     - 2022: https://octoverse.github.com/2022/top-programming-languages
+     - https://ossinsight.io/collections/programming-language/trends/
      - https://anvaka.github.io/map-of-github/#2/0/0
      - https://tjpalmer.github.io/languish/
      - https://madnight.github.io/githut/
      - https://githut.info/
      - https://live.ossinsight.io/
-
 - jetbrains
-
-     - https://www.jetbrains.com/lp/devecosystem-2022 → [specifically based on platforms](https://www.jetbrains.com/lp/devecosystem-2022/#platfroms-by-language)
-
-- google
-
-     - https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
-
-## comparing languages
-
-<details>
-<summary>javascript: largest ecosystem, used for everything</summary>
-
-creation dates: javascript in 1995, nodejs in 2009, typescript in 2012
-
-- is the number one by a wide margin
-
-     about [≈65%](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for) of all js developers also use node.js
-
-     has the best ecosystem and is used in almost every company
-
-- performance difference to java and go gets substantial as you scale up your system - but is still better than python
-
-- built-in async and worker threads: parallelism only through multiprocessing, not multithreading
-
-     worker threads do not operate exactly like threads. each worker thread has its own v8 and event loop instance
-
-</details>
-
-<details>
-<summary>python: growing fast with ai hype, best for data processing and analysis, will be faster without GIL soon</summary>
-
-created 1991
-
-- extremely popular, ideal for building utilities and data analytics
-
-- has fast c libraries but its own performance is poor which is why it is frequently 10-100x slower in benchmarks than node.js
-
-     global interpreter lock GIL (only one thread at a time), parallelism only through multiprocessing, not multithreading
-
-     a lot of progress has been made to improve the performance with fastapi
-
-     new superset languages are being developed for simd like the “mojo” language
-
-     - https://travisluong.medium.com/fastapi-vs-fastify-vs-spring-boot-vs-gin-benchmark-b672a5c39d6c
-     - https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html
-     - https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html
-
-</details>
-
-<details>
-<summary>java: well established for distributed systems but not not suitable for new projects</summary>
-
-created 1995
-
-- old, extremely bulky and requires a lot of boilerplate - java is like the cobol of the 21st century: not fun to work with but here to stay
-
-     but it’s good to know for distributed systems developers as it has an established ecosystem for distributed systems, ie. apache libraries or akka
-
-- still trying to catch up in cloud computing and serverless applications through small native builds
-
-     - native binaries for fast startup time and low memory footprint: graalvm
-
-          ahead of time compiler which results in longer build times
-
-     - kubernetes deployment: quarkus
-
-          small artifacts, fast boot times, and low first-byte latency
-
-     - concurrency: project loom
-
-          lightweight and efficient virtual threads called fibers which are currently under development and will be finalized in java21
-
-          but these technologies are still a work in progress and most enterprises are sticking to java8 and are reluctant to use newer versions of java or frameworks other than spring-boot
-
-          - https://www.reddit.com/r/java/comments/11rp29f/jep_draft_8303683_virtual_threads/
-          - https://github.com/readme/featured/java-programming-language
-          - https://www.jetbrains.com/lp/devecosystem-2020/java/
-
-</details>
-
-c#: not used for systems as often as java is and doesn’t have nice jvm interop
-
-c/cpp: too difficult to build safe networked systems with - but has the best raw performance
-
-php: dead
-
-<details>
-<summary>go: minimalist systems language with easy concurrency and a moderate ecosystem</summary>
-
-created 2009
-
-good:
-
-- decent ecosystem, almost as popular as java for distributed systems
-
-- small native builds, built-in csp model
-
-     designed specifically for distributed systems, microservices and cloud-native apps
-
-     - https://go.dev/doc/faq#What_is_the_purpose_of_the_project
-     - https://go.dev/talks/2012/splash.article
-     - https://www.reddit.com/r/golang/comments/11c9wv1/why_go/
-
-bad:
-
-- can be unergonomic, because of how little syntactic sugar it has, but it does a lot correct right out of the box (ie. error handling)
-
-- growth seems to stagnate - it doesn’t have anything that could make it stick
-
-- few jobs but they are well paid because they are reserved for seniors (which makes it difficult to get into)
-
-</details>
-
-ruby: dead
-
-<details>
-<summary>rust: safe c++ alternative for networked systems, but is lacking the ecosystem</summary>
-
-created 2015
-
-good:
-
-- solves a real problem with the ownership model: provides safety without sacrificing performance. this is why microsoft and the linux foundation are porting some of their networking code to it.
-- fastest growing language
-
-bad:
-
-- still very new, with a very small ecosystem
-- practically no jobs, most fans are just hobby developers. adoption will still take a couple of years
-
-- [https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#:~:text=The%20share%20of%20developers%20using,2021%20to%2018%25%20in%202022.&text=Florian:%20%E2%80%9CI've%20noticed,professional%20at%20a%20good%20rate)
-- https://www.jetbrains.com/lp/devecosystem-2020/rust/
-
-</details>
-
-<details>
-<summary>kotlin: not a java superset, can't compete with java</summary>
-
-created 2011
-
-good:
-
-- null safety, coroutines, native builds
-
-     null safety can be achieved with lombok, java now supports virtual threads, graalvm enables native compilation
-
-bad:
-
-- default for android and gradle but still too few jobs - usually kotlin makes up a small part of a java job
-
-- kotlin is not a superset of java (like typescript to javascript) but a standalone jvm language that is trying to compete with java. it does benefit from sharing the same ecosystem, but so did groovy, clojure, scala (which all failed to gain traction).
-
-     - https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of
-     - https://www.quora.com/Is-Kotlin-a-superset-of-Java
-     - https://kotlinlang.org/docs/comparison-to-java.html
-
-</details>
-
-swift: mostly for ios development
-
-dart/flutter: can’t compete with react-native’s ecosystem
-
-lua: mostly for embedded scripting
-
-scala: dead
+     - https://www.jetbrains.com/lp/devecosystem-2023/
+     - https://www.jetbrains.com/lp/devecosystem-2022/
+- google: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang

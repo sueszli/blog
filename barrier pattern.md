@@ -2,9 +2,7 @@
 
 one of my favorite patterns is chunking the work, running as many workers as you have cores and then waiting for each worker to finish based on the [barrier pattern](<https://en.m.wikipedia.org/wiki/Barrier_(computer_science)>): "a barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier."
 
-it's a simple pattern to execute multiple tasks simultaneously and await their completion without the need to create a separate [executor instance](https://stackoverflow.com/questions/32621990/what-are-workers-executors-cores-in-spark-standalone-cluster) or write your own task scheduler to manage the workers.
-
-it's also pretty universal, both in terms of languages, concurrency models and process/thread-types.
+it's a very simple pattern to execute multiple tasks simultaneously and await their completion without the need to create a separate [executor instance](https://stackoverflow.com/questions/32621990/what-are-workers-executors-cores-in-spark-standalone-cluster) or write your own task scheduler to manage the workers.
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
