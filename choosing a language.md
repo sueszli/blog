@@ -84,7 +84,7 @@ this decision is based on the following sources:
 
 ## conclusion
 
-1. **Python** ⭐
+1. **Python**
 
       - low performance is very noticeable. frequently 10-100x slower than node. this will change soon, as a lot of work is being put into removing the GIL.
       - new superset languages are being developed for simd like “mojo”.
