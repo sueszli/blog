@@ -84,19 +84,19 @@ this decision is based on the following sources:
 
 ## conclusion
 
-1. **JavaScript/TypeScript**
-
-      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node users alone still outnumber python users.
-      - performance difference to java and go becomes really noticable as you scale up.
-      - node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
-
-2. **Python** ⭐
+1. **Python** ⭐
 
       - low performance is very noticeable. frequently 10-100x slower than node. this will change soon, as a lot of work is being put into removing the GIL.
       - new superset languages are being developed for simd like “mojo”.
       - has great interopt with c/c++.
 
-3. **Java** ⭐
+2. **JavaScript/TypeScript**
+
+      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). i don't think that the node.js users outnumber python users.
+      - performance difference to java and go becomes really noticable as you scale up.
+      - node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
+
+3. **Java**
 
       - catching up with projects like graalvm, quarkus and loom.
 
@@ -104,17 +104,17 @@ this decision is based on the following sources:
 
 5. **C/C++**
 
-      - cpp is preferred over c for networked systems, because of smart pointers and RAII. but they're really hard to get right.
+      - c++ is preferred over c for networked systems, because of smart pointers and RAII. but they're really hard to get right.
 
 6. ~~PHP~~ – node.js is preferred to php.
 7. ~~Shell~~
 
-8. **Go** ⭐
+8. **Go**
 
-      - the simplicity of python with the speed of java. very simple concurrency model without "colored functions".perfect for networked systems.
+      - the simplicity of python with the speed of java. very simple concurrency model without "colored functions". perfect for networked systems.
       - compilable to small binaries. very popular for cloud native development.
 
-9. **Rust** ⭐
+9. **Rust**
 
       - great competitor to cpp: ownership model and borrow checker enforce memory safety.
       - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
