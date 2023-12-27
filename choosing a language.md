@@ -88,7 +88,7 @@ this decision is based on the following sources:
 
       - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). it's unclear whether the node users alone still outnumber python users.
       - performance difference to java and go becomes really noticable as you scale up.
-      - node worker_threads are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
+      - node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
 
 2. **Python** ⭐
 
@@ -111,7 +111,7 @@ this decision is based on the following sources:
 
 8. **Go** ⭐
 
-      - the simplicity of python with the speed of java. very simple concurrency model. perfect for networked systems.
+      - the simplicity of python with the speed of java. very simple concurrency model without "colored functions".perfect for networked systems.
       - compilable to small binaries. very popular for cloud native development.
 
 9. **Rust** ⭐
