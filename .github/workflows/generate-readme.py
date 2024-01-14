@@ -6,7 +6,7 @@ def is_markdown(path):
     if os.path.isfile(path) and path.endswith('.md') and path.split('/')[-1] != 'README.md':
         return True
     
-    # one of subdirectory is .md
+    # one of subdirectories is .md
     elif os.path.isdir(path):
         return any([is_markdown(os.path.join(path, node)) for node in os.listdir(path)])
 
