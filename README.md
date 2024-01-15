@@ -1,4 +1,6 @@
-## sueszli's blog
+
+
+hello there, kind internet stranger!
 
 welcome to my minimalist blog, built with nothing but markdown and github actions.
 
