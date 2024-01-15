@@ -2,7 +2,7 @@
 
 _the retrieval problem:_
 
-- = given an information need expressed as a query $`q`$, the text retrieval task is to return a ranked list of $`k`$ texts $`d_1, d_2, ..., d_k`$ from an arbitrarily large but finite collection of texts $`C = d_i`$ that maximizes a metric of interest, for example, nDCG, AP, etc.
+- = given an information need expressed as a query $q$, the text retrieval task is to return a ranked list of $k$ texts $d_1, d_2, ..., d_k$ from an arbitrarily large but finite collection of texts $C = d_i$ that maximizes a metric of interest, for example, nDCG, AP, etc.
 - information retrieval is about searching information.
 - in most contexts, "ranking" and "retrieval" mean the same thing.
 - alternative names: the search problem, the information retrieval problem, the text ranking problem, the top-k document retrieval problem.
