@@ -80,6 +80,8 @@ def main():
             "to stay up to date with new posts subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)"
         )
         f.write("\n\n")
+        f.write("<br>")
+        f.write("\n\n")
         f.write("_file tree:_")
         f.write("\n\n")
         f.write(toc)
