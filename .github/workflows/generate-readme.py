@@ -1,5 +1,9 @@
 import os
 import json
+import urllib.parse
+
+
+BASE_URL = "https://sueszli.github.io/blog"
 
 
 def read_file_tree(path: str) -> dict:
@@ -45,17 +49,27 @@ def filter_file_tree(dic: dict) -> dict:
 
 def dic_to_markdown(dic: dict, indent: int = 0) -> str:
     output = ""
-    get_filename = lambda x: x.split("/")[-1].split(".")[0]
+
+    def get_url(v: str) -> str:
+        v = v[2:]  # remove "./"
+        if v.endswith(".md"):
+            v = v[:-3]  # remove ".md"
+        url = urllib.parse.quote(v)
+        return f"{BASE_URL}/{url}"
 
     for _, value in dic.items():
         assert type(value) == list
         for v in value:
             if type(v) == dict:
-                dictname = list(v.keys())[0]
-                output += "\t" * indent + "- " + get_filename(dictname) + "\n"
+                dictname = list(v.keys())[0].split("/")[-1]
+                output += "\t" * indent + "- " + dictname + "\n"
                 output += dic_to_markdown(v, indent + 1)
             else:
-                output += "\t" * indent + f"- [{get_filename(v)}](<{v}>)\n"
+                filename = v.split("/")[-1].split(".")[0].strip()
+                fileext = "(pdf)" if v.endswith(".pdf") else ""
+                filename = (filename + " " + fileext).strip()
+                url = get_url(v)
+                output += "\t" * indent + f"- [{filename}](<{url}>)\n"
 
     return output
 
@@ -68,6 +82,7 @@ def main():
     dic = filter_file_tree(dic)
     print(json.dumps(dic, indent=1))
     toc = dic_to_markdown(dic)
+    print(toc)
 
     with open("README.md", "w") as f:
         f.write("## sueszli's blog")
