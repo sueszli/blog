@@ -66,8 +66,8 @@ def dic_to_markdown(dic: dict, indent: int = 0) -> str:
                 output += dic_to_markdown(v, indent + 1)
             else:
                 filename = v.split("/")[-1].split(".")[0].strip()
-                fileext = "(pdf)" if v.endswith(".pdf") else ""
-                filename = (filename + " " + fileext).strip()
+                fileext = v.split("/")[-1].split(".")[-1]
+                filename = filename + (f" ({fileext})" if fileext != "md" else filename)
                 url = get_url(v)
                 output += "\t" * indent + f"- [{filename}](<{url}>)\n"
 
