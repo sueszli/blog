@@ -85,15 +85,13 @@ def main():
     print(toc)
 
     with open("README.md", "w") as f:
-        f.write("## sueszli's blog")
+        # f.write("## sueszli's blog")
         f.write("\n\n")
-        f.write(
-            "welcome to my minimalist blog, built with nothing but markdown and github actions."
-        )
+        f.write("hello there, kind internet stranger!")
         f.write("\n\n")
-        f.write(
-            "to stay up to date with new posts subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)"
-        )
+        f.write("welcome to my minimalist blog, built with nothing but markdown and github actions.")
+        f.write("\n\n")
+        f.write("to stay up to date with new posts subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)")
         f.write("\n\n")
         f.write("<br>")
         f.write("\n\n")
