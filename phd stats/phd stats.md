@@ -8,7 +8,7 @@ in this post, i'll explore whether a ph.d. in computer science is worth it from 
 
 to understand whether a ph.d. can contribute to your success, you need to define what success means to you.
 
-the following thought-provoking tips from jimmy lin’s course “asecs” [^1] are a great starting point for some introspection:
+the following thought-provoking tips from prof. jimmy lin’s course “asecs” [^1] are a great starting point for some introspection:
 
 1. **recognize that there are multiple definitions of success and multiple ways to succeed.**
 
