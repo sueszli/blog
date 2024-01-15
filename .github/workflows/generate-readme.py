@@ -1,54 +1,89 @@
 import os
+import json
 
 
-def is_markdown(path):
-    # file is .md
-    if os.path.isfile(path) and path.endswith('.md') and path.split('/')[-1] != 'README.md':
-        return True
-    
-    # one of subdirectories is .md
-    elif os.path.isdir(path):
-        return any([is_markdown(os.path.join(path, node)) for node in os.listdir(path)])
+def read_file_tree(path: str) -> dict:
+    dic = {}
+    dic[path] = []
+
+    for item in os.listdir(path):
+        item_path = os.path.join(path, item)
+        if os.path.isdir(item_path):
+            dic[path].append(read_file_tree(item_path))
+        else:
+            dic[path].append(item_path)
+
+    # sort: alphabetical order
+    dic[path].sort(key=lambda x: x if type(x) == str else list(x.keys())[0])
+
+    # sort: directories first
+    dic[path].sort(key=lambda x: type(x) == str)
+    return dic
 
 
-def gen_toc(startdir, indent=0):
-    toc = ''
-    
-    for node in os.listdir(startdir):
-        path = os.path.join(startdir, node)
+def filter_file_tree(dic: dict) -> dict:
+    is_valid_file = lambda x: type(x) == str and x.endswith(".md") or x.endswith(".pdf")
 
-        if not is_markdown(path):
-            continue
+    output = {}
 
-        if os.path.isfile(path):
-            link = path.replace('.md', '')
-            toc += '\t'*indent + f"- [{node.split('.')[0]}](<{link}>)\n"
+    for key, value in dic.items():
+        assert type(value) == list
+        new_value = []
 
-        elif os.path.isdir(path):
-            toc += '\t'*indent + '- ' + node + '\n'
-            toc += gen_toc(path, indent + 1)
-    
-    return toc
+        for v in value:
+            if type(v) == dict:
+                subdic = filter_file_tree(v)
+                new_value.append(subdic) if subdic else None
+            elif is_valid_file(v):
+                new_value.append(v)
+
+        if new_value:
+            output[key] = new_value
+
+    return output
+
+
+def dic_to_markdown(dic: dict, indent: int = 0) -> str:
+    output = ""
+    get_filename = lambda x: x.split("/")[-1].split(".")[0]
+
+    for _, value in dic.items():
+        assert type(value) == list
+        for v in value:
+            if type(v) == dict:
+                dictname = list(v.keys())[0]
+                output += "\t" * indent + "- " + get_filename(dictname) + "\n"
+                output += dic_to_markdown(v, indent + 1)
+            else:
+                output += "\t" * indent + f"- [{get_filename(v)}](<{v}>)\n"
+
+    return output
 
 
 def main():
-    if os.path.isfile('README.md'):
-        os.remove('README.md')
-    
-    toc = gen_toc('.')
-    
-    with open('README.md', 'w') as f:
-        f.write('## sueszli\'s blog')
-        f.write('\n\n')
-        f.write('_file tree:_')
-        f.write('\n\n')
+    if os.path.isfile("README.md"):
+        os.remove("README.md")
+
+    dic = read_file_tree(".")
+    dic = filter_file_tree(dic)
+    print(json.dumps(dic, indent=1))
+    toc = dic_to_markdown(dic)
+
+    with open("README.md", "w") as f:
+        f.write("## sueszli's blog")
+        f.write("\n\n")
+        f.write(
+            "welcome to my minimalist blog, built with nothing but markdown and github actions."
+        )
+        f.write("\n\n")
+        f.write(
+            "to stay up to date with new posts subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)"
+        )
+        f.write("\n\n")
+        f.write("_file tree:_")
+        f.write("\n\n")
         f.write(toc)
-        f.write('\n\n')
-        f.write('<br>')
-        f.write('\n\n')
-        f.write('subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)')
 
 
-if __name__ == '__main__':
-    # main()
-    exit(0)
+if __name__ == "__main__":
+    main()
