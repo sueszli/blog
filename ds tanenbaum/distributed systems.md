@@ -158,16 +158,4 @@ _resource virtualization_
      - process virtual machine / runtime system = abstract instruction set, like java virtual machine or os emulators like wine.
      - native virtual machine = mimicking the isa (hardware instruction set architecture) or system calls. allows having multiple guest operating systems.
 
-…WIP
-
-# 4. communication
-
-# 5. naming
-
-# 6. coordination
-
-# 7. replication
-
-# 8. fault tolerance
-
-# 9. security
+...
