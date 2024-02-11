@@ -187,7 +187,7 @@ object ParallelPromisePattern extends App {
 
 # python
 
-because of python's [gil](https://wiki.python.org/moin/GlobalInterpreterLock), concurrent programming isn't as fun as it could be – but i'm really looking forward [for this to change](https://peps.python.org/pep-0703/).
+this actually doesn't make a lot of sense in python because of the gil.
 
 ```python
 import asyncio
