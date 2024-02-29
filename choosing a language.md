@@ -29,7 +29,7 @@ you should start investing in performance when your infrastructure costs exceed 
 
 caring too early about performance leads to premature optimization, while caring too late leads to costly rewrites.
 
-> i highly recommend checking out theo/t3's videos called ["performance doesn't matter...until it does."](https://www.youtube.com/watch?v=2Z4fZtSKlcE) and ["is 'full stack' even real?"](https://youtu.be/rAjd8z-Fx5A) as well as [uncle bob's discussion on performance](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md) as they cover a lot of the same points.
+> i highly recommend checking out theo/t3's videos called ["performance doesn't matter...until it does."](https://www.youtube.com/watch?v=2Z4fZtSKlcE), ["is 'full stack' even real?"](https://youtu.be/rAjd8z-Fx5A), [uncle bob's discussion on performance](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md) and [brett cannon's blog post](https://snarky.ca/programming-language-selection-is-a-form-of-premature-optimization/), as they cover a lot of the same points.
 
 ## performance
 
