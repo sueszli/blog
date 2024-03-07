@@ -18,7 +18,6 @@ _file tree:_
 	- [castor](<https://sueszli.github.io/blog/castor%20-%20record%20replay%20system/castor>)
 - ds tanenbaum
 	- [distributed systems](<https://sueszli.github.io/blog/ds%20tanenbaum/distributed%20systems>)
-	- [distributed systems (pdf)](<https://sueszli.github.io/blog/ds%20tanenbaum/distributed%20systems.pdf>)
 - farm - fast remote memory
 	- [farm slides (pdf)](<https://sueszli.github.io/blog/farm%20-%20fast%20remote%20memory/farm%20slides.pdf>)
 	- [farm](<https://sueszli.github.io/blog/farm%20-%20fast%20remote%20memory/farm>)
