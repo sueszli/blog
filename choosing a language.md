@@ -84,6 +84,8 @@ this decision is based on the following sources:
 
 ## conclusion
 
+_(last updated: dez 2023)_
+
 1. **Python**
 
       - low performance is very noticeable. frequently 10-100x slower than node. this will change soon, as a lot of work is being put into removing the GIL.
