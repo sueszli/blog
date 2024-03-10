@@ -39,14 +39,14 @@ the most popular benchmark, called [the benchmark game](https://benchmarksgame-t
       - c
       - c++
       - rust
-1. loss of performance is negligible.
+1. loss of performance is negligible:
       - c#
       - go
       - swift
       - java
       - ocaml
       - node.js
-2. loss of performance is noticeable.
+2. loss of performance is noticeable:
       - php
       - erlang
       - python
