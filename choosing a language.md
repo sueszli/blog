@@ -84,7 +84,7 @@ this decision is based on the following sources:
 
 ## conclusion
 
-_(last updated: dez 2023)_
+_(last updated: dec 2023)_
 
 1. **Python**
 
