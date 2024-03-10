@@ -133,7 +133,7 @@ this decision is based on the following sources:
 
 <br><br>
 
-# references
+## references
 
 _inspiration:_
 
