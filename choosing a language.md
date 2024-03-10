@@ -20,16 +20,16 @@ _purposes of abstractions:_
 
 - safety:
 
-     - runtime safety: hurts performance as we waste cpu cycles on checks and memory management.
-     - compile-time safety: doesn't impact performance.
+     we want to avoid spacial and temporal memory errors [^mem]
 
+     - runtime checks: hurts performance as we waste cpu cycles on checks and memory management.
+     - compile-time checks: doesn't impact performance.
+  
      when your code gets run more than it gets written, people get in fights over whether sacrificing runtime safety for performance is worth the risks involved.
 
 you should start investing in performance when your infrastructure costs exceed your developer costs.
 
 caring too early about performance leads to premature optimization, while caring too late leads to costly rewrites.
-
-> i highly recommend checking out theo/t3's videos called ["performance doesn't matter...until it does."](https://www.youtube.com/watch?v=2Z4fZtSKlcE), ["is 'full stack' even real?"](https://youtu.be/rAjd8z-Fx5A), [uncle bob's discussion on performance](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md) and [brett cannon's blog post](https://snarky.ca/programming-language-selection-is-a-form-of-premature-optimization/), as they cover a lot of the same points.
 
 ## performance
 
@@ -130,3 +130,16 @@ this decision is based on the following sources:
 16. ~~Lua~~
 17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
 18. ~~Visual Basic~~
+
+<br><br>
+
+# references
+
+_inspiration:_
+
+- [brett cannon's blog post](https://snarky.ca/programming-language-selection-is-a-form-of-premature-optimization/)
+- theo/t3: ["performance doesn't matter...until it does."](https://www.youtube.com/watch?v=2Z4fZtSKlcE)
+- theo/t3: ["is 'full stack' even real?"](https://youtu.be/rAjd8z-Fx5A)
+- [uncle bob's discussion on performance](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md)
+
+[^mem]: report from the white house https://stackoverflow.blog/2024/03/04/in-rust-we-trust-white-house-office-urges-memory-safety/#:~:text=spatial%20and%20temporal
