@@ -131,8 +131,6 @@ this decision is based on the following sources:
 17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
 18. ~~Visual Basic~~
 
-<br><br>
-
 ## references
 
 _inspiration:_
