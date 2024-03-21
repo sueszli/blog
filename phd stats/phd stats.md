@@ -107,7 +107,7 @@ here are the essential findings:
 
 ![](./assets/img1.png)
 
-here's a simplified perspective that also includes the result of the conditional probabilities:
+here's a simplified perspective that also includes the results of the probabilities, assuming they're unconditional:
 
 ![](./assets/img2.png)
 
