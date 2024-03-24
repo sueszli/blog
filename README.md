@@ -11,6 +11,9 @@ to stay up to date with new posts subscribe via github: [https://github.com/sues
 _file tree:_
 
 - 0 shower thoughts
+	- phd stats
+		- [phd stats](<https://sueszli.github.io/blog/0%20shower%20thoughts/phd%20stats/phd%20stats>)
+		- [phd stats (pdf)](<https://sueszli.github.io/blog/0%20shower%20thoughts/phd%20stats/phd%20stats.pdf>)
 	- [barrier pattern](<https://sueszli.github.io/blog/0%20shower%20thoughts/barrier%20pattern>)
 	- [choosing a language](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20language>)
 	- [choosing a note taking app](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20note%20taking%20app>)
@@ -50,6 +53,3 @@ _file tree:_
 	- xv6 os
 		- [xv6 os](<https://sueszli.github.io/blog/1%20papers/xv6%20os/xv6%20os>)
 		- [xv6 os (pdf)](<https://sueszli.github.io/blog/1%20papers/xv6%20os/xv6%20os.pdf>)
-- phd stats
-	- [phd stats](<https://sueszli.github.io/blog/phd%20stats/phd%20stats>)
-	- [phd stats (pdf)](<https://sueszli.github.io/blog/phd%20stats/phd%20stats.pdf>)
