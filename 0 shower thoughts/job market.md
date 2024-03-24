@@ -33,7 +33,7 @@ how would you game this system?
 
 well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
 
-## personal fit
+# personal fit
 
 so why doesn't this happen in the real world?
 
@@ -58,7 +58,7 @@ here's my sketch of the same concept (with a little more detail – but don't ta
 
 ![](<./assets/job market.png>)
 
-## demand and impact
+# demand and impact
 
 assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest education, experience and skills.
 
