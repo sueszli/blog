@@ -43,7 +43,7 @@ if you're optimizing for compensation, you should avoid competition by doing som
 
 if you're optimizing for personal fulfillment, you can avoid competition through delaying your capital gains i.e. research.
 
-your personal fit is a combination of [^fitdump]:
+your personal fit is a combination of [^fitdump] the following components:
 
 - career capital = skills, connections, credentials.
 - impact = solving important problems with the right methods. your job satisfaction will grow over time as you get better and others start appreciating you more.
@@ -76,9 +76,7 @@ well - simply by getting the minimum requirements for the most high paying job. 
 
 # footnotes
 
-[^pgen]: originally from a video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
-
-[^fitdump] some interesting articles on this topic and the so-called "personal fit":
+personal fit:
 
 - https://80000hours.org/career-guide/personal-fit/
 - https://80000hours.org/2022/06/know-what-youre-optimising-for/
@@ -88,7 +86,15 @@ well - simply by getting the minimum requirements for the most high paying job. 
 - https://80000hours.org/2019/04/career-advice-i-wish-id-been-given-when-i-was-young/
 - https://80000hours.org/2019/10/anonymous-advice-careers/
 
-[^demanddump]: some interesting articles on career impact:
+career impact:
 
 - https://80000hours.org/career-reviews/
 - https://80000hours.org/skills/software-tech/#specialty
+
+references:
+
+[^pgen]: originally from a video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
+
+[^fitdump] check out the links above for some interesting articles on this topic and the source for illustration.
+
+[^demanddump]: check out the links above for some interesting articles on this topic.
