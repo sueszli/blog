@@ -43,9 +43,9 @@ because people also try to find personal fulfillment, happiness, excitement, pre
 
 what about you? what are you optimizing for? what are you willing to sacrifice to get it? finding your personal fit is a complex topic.
 
-- a) if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid i.e. blue collar jobs, cobol programming.
+- a) if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid (ie. blue collar jobs, cobol programming).
 
-- b) if you're optimizing for personal fulfillment, you can avoid competition through delaying your capital gains i.e. research.
+- b) if you're optimizing for personal fulfillment, you can avoid competition by delaying your earnings (ie. by studying for a phd, working for a non-profit).
 
 your personal fit is a combination of the following components [^fitdump]:
 
