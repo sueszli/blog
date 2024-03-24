@@ -33,6 +33,8 @@ how would you game this system?
 
 well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
 
+<br><br>
+
 # reality check
 
 so why doesn't this happen in the real world?
@@ -67,6 +69,8 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
 
 ![](<./assets/job market.png>)
+
+<br><br>
 
 # footnotes
 
