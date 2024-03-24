@@ -11,12 +11,11 @@ to stay up to date with new posts subscribe via github: [https://github.com/sues
 _file tree:_
 
 - 0 shower thoughts
-	- phd stats
-		- [phd stats](<https://sueszli.github.io/blog/0%20shower%20thoughts/phd%20stats/phd%20stats>)
 	- [barrier pattern](<https://sueszli.github.io/blog/0%20shower%20thoughts/barrier%20pattern>)
 	- [choosing a language](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20language>)
 	- [choosing a note taking app](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20note%20taking%20app>)
 	- [choosing macos](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20macos>)
+	- [phd stats](<https://sueszli.github.io/blog/0%20shower%20thoughts/phd%20stats>)
 	- [systems research](<https://sueszli.github.io/blog/0%20shower%20thoughts/systems%20research>)
 - 1 papers
 	- aurora - single level storage
