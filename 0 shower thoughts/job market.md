@@ -92,5 +92,5 @@ career impact:
 references:
 
 [^pgen]: originally from a video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
-[^fitdump]: check out the links above for some interesting articles on this topic and the source for illustration.
-[^demanddump]: check out the links above for some interesting articles on this topic.
+[^fitdump]: check out the links above in the "personal fit" section for some interesting articles on this topic.
+[^demanddump]: check out the links above in the "career impact" section for some interesting articles on this topic.
