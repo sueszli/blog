@@ -33,7 +33,7 @@ how would you game this system?
 
 well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
 
-# personal fit
+# reality check
 
 so why doesn't this happen in the real world?
 
@@ -54,13 +54,7 @@ your personal fit is a combination of the following components [^fitdump]:
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
 
-here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
-
-![](<./assets/job market.png>)
-
-# demand and impact
-
-assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest education, experience and skills.
+now assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest education, experience and skills.
 
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
@@ -69,6 +63,10 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 - **computer engineering:** especially for ai hardware
 - **geopolitics, governance:** policy, regulation, law, etc.
 - **biosecurity:** preventing, detecting, responding to biological threats
+
+here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
+
+![](<./assets/job market.png>)
 
 # footnotes
 
