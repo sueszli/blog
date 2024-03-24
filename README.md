@@ -15,6 +15,7 @@ _file tree:_
 	- [choosing a language](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20language>)
 	- [choosing a note taking app](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20a%20note%20taking%20app>)
 	- [choosing macos](<https://sueszli.github.io/blog/0%20shower%20thoughts/choosing%20macos>)
+	- [job market](<https://sueszli.github.io/blog/0%20shower%20thoughts/job%20market>)
 	- [phd stats](<https://sueszli.github.io/blog/0%20shower%20thoughts/phd%20stats>)
 	- [systems research](<https://sueszli.github.io/blog/0%20shower%20thoughts/systems%20research>)
 - 1 papers
