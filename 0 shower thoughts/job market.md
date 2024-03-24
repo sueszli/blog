@@ -13,7 +13,7 @@ of course this is far from reality. human judgement is flawed and biased. it's i
 
 but that's exactly the case here.
 
-in this universe, there is a "job market score" that is calculated based on these metrics and a perfect indicator for how suitable you are for a job.
+in this parallel universe, there is a "job market score" that is calculated based on these metrics and a perfect indicator for how suitable you are for a job.
 
 this means that jobs are assigned purely based on supply, demand and your score:
 
