@@ -29,32 +29,36 @@ we assume that the best paying jobs are:
 
 we also assume that humans are utilitarian, rational, self-interested and just want to maximize their earnings. these humans are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
 
-## digression: personal fit
+how would you game this system?
 
-again, this is far from reality.
+well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
 
-in the real world, people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
+## personal fit
+
+so why doesn't this happen in the real world?
+
+because people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
 ![](./assets/competition.png)
 
 what about you? what are you optimizing for? what are you willing to sacrifice to get it? finding your personal fit is a complex topic.
 
-if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid i.e. blue collar jobs, cobol programming.
+- a) if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid i.e. blue collar jobs, cobol programming.
 
-if you're optimizing for personal fulfillment, you can avoid competition through delaying your capital gains i.e. research.
+- b) if you're optimizing for personal fulfillment, you can avoid competition through delaying your capital gains i.e. research.
 
-your personal fit is a combination of [^fitdump] the following components:
+your personal fit is a combination of the following components [^fitdump]:
 
 - career capital = skills, connections, credentials.
 - impact = solving important problems with the right methods. your job satisfaction will grow over time as you get better and others start appreciating you more.
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
 
-here's my sketch of the same concept (with a little more detail – but take it with a grain of salt):
+here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
 
 ![](<./assets/job market.png>)
 
-## digression: demand and impact
+## demand and impact
 
 assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest education, experience and skills.
 
@@ -65,14 +69,6 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 - **computer engineering:** especially for ai hardware
 - **geopolitics, governance:** policy, regulation, law, etc.
 - **biosecurity:** preventing, detecting, responding to biological threats
-
-## gaming the system
-
-back to our parallel universe.
-
-how would you game the system to get the best paying job?
-
-well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
 
 # footnotes
 
