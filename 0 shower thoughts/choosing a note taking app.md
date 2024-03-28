@@ -1,4 +1,4 @@
-## why markdown?
+# why markdown?
 
 if you want to write notes, you have to choose a file format.
 
@@ -154,7 +154,7 @@ _monthly subscription_
      - website: https://roamresearch.com/
      - basically just like obsidian
 
-## footnotes
+# footnotes
 
 [^plain]: [the unreasonable effectiveness of plain text](https://www.youtube.com/watch?v=WgV6M1LyfNY)
 [^comp1]: [comparison of lightweight markup languages](https://en.m.wikipedia.org/wiki/Lightweight_markup_language#:~:text=Comparison%20of%20language%20features)
