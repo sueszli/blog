@@ -8,23 +8,23 @@ there are lots of plaintext formats to choose from [^comp1] [^comp2] [^comp3].
 
 but you also want your format to be widely supported.
 
-let's take the ability of your notes to be rendered on github as a constraint [^gh1] [^gh2]:
+let's take the ability of your notes to be rendered on github as a constraint [^gh1] [^gh2] and then rank them by popularity:
 
-1. ✓ markdown (md):
+1. markdown (md):
       - created in 2004.
       - huge community and ecosystem: supported by all static site generators, default language for github, stackoverflow, reddit, confluence.
       - easy to write and import/export into most other formats.
       - one of the least expressive: difficult to format and structure text.
       - ambiguous syntax: has too many dialects / flavors and the parser is implemented differently by every company (obsidian, github, confluence all have their own flavour).
-2. 𝘟 html:
+2. html:
       - created 1 year after xml (1996).
       - most expressive: supports styling, scripting, can be interactive.
       - tag soup: difficult to write and read.
-3. 𝘟 asciidoc (adoc):
+3. asciidoc (adoc):
       - not well known enough - mostly used by book authors or in the java community.
       - too verbose to be productive in.
       - very experssive. has a lot more features than markdown.
-4. 𝘟 restructuredtext (rst):
+4. restructuredtext (rst):
       - not well known enough - mostly used in the python community.
       - but actually very elegant: intuitive syntax, easy to write and read. native support for nested blocks and lists.
 
