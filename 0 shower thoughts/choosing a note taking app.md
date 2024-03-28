@@ -40,9 +40,7 @@ i highly discourage using html for notes since you'll be constrained to a render
 
 # comparison
 
-## my requirements
-
-i want a note editor that:
+first, here are my requirements. i want a markdown editor that:
 
 - is popular: has a large community, well maintained, frequently updated
 - is offline first: lets you use your local files or back them up
