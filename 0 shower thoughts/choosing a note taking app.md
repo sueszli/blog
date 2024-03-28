@@ -78,7 +78,7 @@ _paid_
 
 ## excluded
 
-_bad ui/ux_
+_bad ui/ux (compared to recommended alternatives)_
 
 - fsnotes
 
