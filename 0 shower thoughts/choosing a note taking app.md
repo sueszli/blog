@@ -78,7 +78,7 @@ _paid (but not better than recommendations)_
 
      - website: https://apps.apple.com/app/byword/id420212497?mt=12
 
-_bad ui/ux (compared to recommended alternatives)_
+_bad ui/ux (compared to recommendations)_
 
 - fsnotes
 
