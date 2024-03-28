@@ -66,10 +66,6 @@ _free_
      - discussion: https://news.ycombinator.com/item?id=29687061
      - no longer maintained: https://github.com/marktext/marktext/issues/1290#issuecomment-726744803
 
-- fsnotes
-
-     - website: https://fsnot.es/
-
 _paid_
 
 - typora
@@ -83,6 +79,11 @@ _paid_
 ## excluded
 
 _bad ui/ux_
+
+- fsnotes
+
+     - website: https://fsnot.es/
+     - github repository: https://github.com/glushchenko/fsnotes
 
 - zettlr
 
