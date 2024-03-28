@@ -98,3 +98,5 @@ notion and obsidian are the best choices – and they both have their own streng
 - obsidian is meant for larger projects: ideal for taking research notes.
 
 > update 2024: i've recently also discovered [marktext](https://github.com/marktext/marktext) which is the best of both worlds.
+>
+> also see: https://news.ycombinator.com/item?id=29687061
