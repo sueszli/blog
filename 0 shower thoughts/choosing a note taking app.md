@@ -1,102 +1,164 @@
-# which note taking app should i use?
+## why markdown?
 
-when looking at note taking software, we have to differentiate between the editors (notion, coda, asana, obsidian, ...) and file formats (html, markdown, asciidoc, restructuredtext, ...).
+if you want to write notes, you have to choose a file format.
 
-## file formats
+i suggest plaintext [^plain], so that you can easily search, version control, backup and share your notes. you don't want to use a binary format like docx or odt.
 
-the file format must be future-proof and in plain text.
+there are lots of plaintext formats to choose from [^comp1] [^comp2] [^comp3].
 
-- [comparison of lightweight markup languages](https://en.m.wikipedia.org/wiki/Lightweight_markup_language#:~:text=Comparison%20of%20language%20features)
-- [well-known document markup languages](https://en.m.wikipedia.org/wiki/List_of_document_markup_languages#:~:text=Well%2Dknown%20document%20markup%20languages)
-- [markdown vs. asciiDoc vs. reStructuredText](https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/)
-- [github gist](https://gist.github.com/ChrisTollefson/a3af6d902a74a0afd1c2d79aadc9bb3f)
-- [github markup](https://github.com/github/markup) (the official github plaintext parser)
+but you also want your format to be widely supported.
 
-the 4 most popular formats, which are supported by github's parser, are:
+let's take the ability of your notes to be rendered on github as a constraint [^gh1] [^gh2]:
 
-1. html:
-      - created 1 year after xml (1996).
-      - the most expressive markup language: also supports scripting and styling - but is also way too verbose for the very same reason.
-      - the most future-proof markup language: is now the language of the web.
-2. markdown (md):
+1. ✓ markdown (md):
       - created in 2004.
       - huge community and ecosystem: supported by all static site generators, default language for github, stackoverflow, reddit, confluence.
       - easy to write and import/export into most other formats.
-      - one of the least expressive: difficult to format and structure text. no vertical spacing.
+      - one of the least expressive: difficult to format and structure text.
       - ambiguous syntax: has too many dialects / flavors and the parser is implemented differently by every company (obsidian, github, confluence all have their own flavour).
-3. asciidoc (adoc):
+2. 𝘟 html:
+      - created 1 year after xml (1996).
+      - most expressive: supports styling, scripting, can be interactive.
+      - tag soup: difficult to write and read.
+3. 𝘟 asciidoc (adoc):
+      - not well known enough - mostly used by book authors or in the java community.
       - too verbose to be productive in.
-      - used frequently to write books or large documents.
-      - has more features than markdown and doesn't need html to make up for them.
-4. restructuredtext (rst):
-      - unpopular and only used in the python community.
-      - very elegant: lets you write nested blocks and lists (the only markup language that does this).
+      - very experssive. has a lot more features than markdown.
+4. 𝘟 restructuredtext (rst):
+      - not well known enough - mostly used in the python community.
+      - but actually very elegant: intuitive syntax, easy to write and read. native support for nested blocks and lists.
 
-in conclusion, the only 2 formats worth considering are: html, markdown.
+you will most likely only see markdown in the wild since the others are either not known well enough or too verbose. and at the end of the day it doesn't matter too much since you can always convert between formats with tools like [pandoc](https://pandoc.org/).
 
-## best editor: html
+i highly discourage using html for notes since you'll be constrained to a rendering engine / wysiwyg editor to be productive. this in itself can be circumvented if there would be nice html editors to write notes in. but there aren't any. i only know [notion](https://www.notion.so/). but it has some serious drawbacks:
 
-_best html editors:_
+- slow and unreliable: feels janky both on mobile and on web, always breaks on documents, sometimes doesn’t sync data which is scary
+- export feature kind of sucks:
+     - html – works great, but must be un-minified to be editable again
+     - pdf – lossy, doesn’t keep all data and formatting
+     - markdown – lossy, doesn’t keep all data and formatting
 
-- [notion](https://www.notion.so/) (convenient for small projects):
-     - **most convenient: true wysiwyg experience**, syncs data between all devices, pages are easy to share as websites
-     - **slow and unreliable: feels janky both on mobile and on web**, always breaks on documents, sometimes doesn’t sync data which is scary
-     - export feature kind of sucks:
-          - html – works great, but must be un-minified to be editable again
-          - pdf – lossy, doesn’t keep all data and formatting
-          - markdown – lossy, doesn’t keep all data and formatting
-- coda: no export feature
-- mem: not as popular yet
-- microsoft loop: not released yet
-- anytype: not released yet
+# comparison
 
-## best editor: md
+## my requirements
 
-_best markdown editors:_
+i want a note editor that:
 
-- [obsidian](https://obsidian.md/) (best for larger documents):
+- is popular: has a large community, well maintained, frequently updated
+- is offline first: lets you use your local files or back them up
+- doesn't have a monthly subscription: it can be a one-time payment
+- is wysiwyg / has live preview: doesn't require you to open a second preview window
+- can render math: large complex equations
 
-     - free
-     - **local: no upload limits, no need to think about backups**
-     - **inconvenient:** you have to obey very specific markdown rules
-     - largest community
-     - has a nice wysiwyg editor called 'live preview' but it still doesn't feel as nice as vscode
-     - highly customizable: lets you inject custom css and javascript
+## recommendations
 
-- [vscode](https://code.visualstudio.com/) (best for small scripts):
+_free_
 
-     - free
-     - coding shortcuts, linting, github copilot
-     - not a wysiwyg editor (the [milkdown](https://milkdown.dev/) plugin is still in development) but has all obsidian features with plugins like "foam"
+- obsidian
 
-- [outline](https://github.com/outline/outline) (check out the online demo [here](https://student-tuwien-ac.getoutline.com/collection/welcome-zpKDLvb5ZS) – very close to notion but still a work in progress):
+     - website: https://obsidian.md/
+     - largest community, lots of plugins, highly customizable
+     - has live preview, can render math
+
+- marktext
+
+     - website: https://github.com/marktext/marktext
+     - true wysiwyg editor, very similar to notion in terms of block editing
+     - not as pretty as obsidian
+     - discussion: https://news.ycombinator.com/item?id=29687061
+     - no longer maintained: https://github.com/marktext/marktext/issues/1290#issuecomment-726744803
+
+- fsnotes
+
+     - website: https://fsnot.es/
+
+_paid_
+
+- typora
+
+     - website: https://typora.io/
+
+- byword
+
+     - website: https://apps.apple.com/app/byword/id420212497?mt=12
+
+## excluded
+
+_bad ui/ux_
+
+- zettlr
+
+     - website: https://www.zettlr.com/
+
+- joplin
+
+     - website: https://joplinapp.org/
+
+- trilium
+
+     - website: https://github.com/zadam/trilium
+
+- logseq
+
+     - website: https://logseq.com/
+     - uses bullet points for structure, which ruins the point of markdown
+
+_still in development_
+
+- nota
+
+     - most promising, extremely nice user interface
+     - website: https://nota.md/buy.html
+     - previous version: caret, https://caret.io/ (surprisingly buggy and slow)
+
+- vscode extensions
+
+     - very promising
+     - vscode: https://code.visualstudio.com/
+     - milkdown: https://milkdown.dev/ → life preview for vscode, still in development
+     - dendron: https://www.dendron.so/
+     - wikilens: https://marketplace.visualstudio.com/items?itemName=lostintangent.wikilens
+
+- bangle.io
+
+     - very promising
+     - website: https://app.bangle.io/landing
+
+- simplenote
+
+     - website: https://app.simplenote.com/
+     - also simplenote-electron: https://github.com/Automattic/simplenote-electron → not a wysiwg editor
+
+_monthly subscription_
+
+- outline
+
+     - website: https://github.com/outline/outline
+     - demo: https://student-tuwien-ac.getoutline.com/collection/welcome-zpKDLvb5ZS
      - subscription: 7-10$ a month
-     - self hosted: 7-10$ a month
-          - free if self hosted (but infrastructure costs at least $6/month based on the official [installation tutorial](https://thomasgriffin.com/how-to-install-the-outline-knowledge-base-wiki-on-ubuntu/)) → installing takes 1-2 hours even if you know what you're doing
-          - [docker tutorial](https://hub.docker.com/r/outlinewiki/outline)
-          - [source tutorial](https://docs.getoutline.com/s/hosting/doc/from-source-BlBxrNzMIP)
+     - self hosted: 7-10$ a month based on https://thomasgriffin.com/how-to-install-the-outline-knowledge-base-wiki-on-ubuntu/
+          - complex to set up, can take up a few hours
+          - docker tutorial: https://hub.docker.com/r/outlinewiki/outline
+          - source build tutorial: https://docs.getoutline.com/s/hosting/doc/from-source-BlBxrNzMIP
 
-_alternatives:_
+- ulysses
 
-- [zettlr](https://www.zettlr.com/) – close to obsidian, but not as pretty
-- [logseq](https://demo.logseq.com/) – uses bullet-style blocks for everything which is annoying
-- [simplenote](https://app.simplenote.com/) / [simplenote-electron](https://github.com/Automattic/simplenote-electron) – not a wysiwg editor
-- [bangle.io](https://app.bangle.io/landing) – still pretty buggy
-- [mark text](https://github.com/marktext/marktext) – don’t like the ui
-- [joplin](https://joplinapp.org/) – don’t like the ui
-- [nota](https://nota.md/buy.html) – txt editor, not markdown
-- [caret](https://caret.io/) (previous version of nota) – buggy and slow
-- [fsnotes](https://fsnot.es/) – not worth paying for
-- [byword](https://apps.apple.com/app/byword/id420212497?mt=12) – not worth paying for
-- [typora](https://typora.io/) – not worth paying for
+     - website: https://ulysses.app/
 
-## conclusion
+- bear
 
-notion and obsidian are the best choices – and they both have their own strengths and weaknesses.
+     - website: https://bear.app/
 
-- notion is fun and convenient: it has the least mental overhead and gets the job done. ideal for working in teams.
-- obsidian is meant for larger projects: ideal for taking research notes.
+- roam research
 
-> update 2024: i've recently also discovered [marktext](https://github.com/marktext/marktext) which is the best of both worlds.
->
-> also see: https://news.ycombinator.com/item?id=29687061
+     - website: https://roamresearch.com/
+     - basically just like obsidian
+
+## footnotes
+
+[^plain]: [the unreasonable effectiveness of plain text](https://www.youtube.com/watch?v=WgV6M1LyfNY)
+[^comp1]: [comparison of lightweight markup languages](https://en.m.wikipedia.org/wiki/Lightweight_markup_language#:~:text=Comparison%20of%20language%20features)
+[^comp2]: [well-known document markup languages](https://en.m.wikipedia.org/wiki/List_of_document_markup_languages#:~:text=Well%2Dknown%20document%20markup%20languages)
+[^comp3]: [markdown vs. asciiDoc vs. reStructuredText](https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/)
+[^gh1]: [github gist](https://gist.github.com/ChrisTollefson/a3af6d902a74a0afd1c2d79aadc9bb3f)
+[^gh2]: [github markup](https://github.com/github/markup) (the official github plaintext parser)
