@@ -66,7 +66,9 @@ _free_
      - discussion: https://news.ycombinator.com/item?id=29687061
      - no longer maintained: https://github.com/marktext/marktext/issues/1290#issuecomment-726744803
 
-_paid_
+## excluded
+
+_paid (but not better than recommendations)_
 
 - typora
 
@@ -75,8 +77,6 @@ _paid_
 - byword
 
      - website: https://apps.apple.com/app/byword/id420212497?mt=12
-
-## excluded
 
 _bad ui/ux (compared to recommended alternatives)_
 
