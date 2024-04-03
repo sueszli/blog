@@ -55,13 +55,10 @@ first, here are my requirements. i want a markdown editor that:
 _free_
 
 - obsidian
-
      - website: https://obsidian.md/
      - largest community, lots of plugins, highly customizable
      - has live preview, can render math
-
 - marktext
-
      - website: https://github.com/marktext/marktext
      - true wysiwyg editor, very similar to notion in terms of block editing
      - not as pretty as obsidian
