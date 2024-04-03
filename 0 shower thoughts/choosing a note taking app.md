@@ -40,17 +40,17 @@ i highly discourage using html for notes since you'll be constrained to a render
      - pdf – lossy, doesn’t keep all data and formatting
      - markdown – lossy, doesn’t keep all data and formatting
 
-## comparison
+## requirements
 
 first, here are my requirements. i want a markdown editor that:
 
 - is popular: has a large community, well maintained, frequently updated
 - is offline first: lets you use your local files or back them up
-- doesn't have a monthly subscription: it can be a one-time payment
+- no monthly subscription (just one-time payments)
 - is wysiwyg / has live preview: doesn't require you to open a second preview window
 - can render math: large complex equations
 
-### recommendations
+## my recommendations
 
 _free_
 
@@ -68,72 +68,52 @@ _free_
      - discussion: https://news.ycombinator.com/item?id=29687061
      - no longer maintained: https://github.com/marktext/marktext/issues/1290#issuecomment-726744803
 
-### excluded
+## other options
 
-_paid (but not better than recommendations)_
+_not worth the price_
 
 - typora
-
-     - website: https://typora.io/
-
+      - https://typora.io/
 - byword
-
      - website: https://apps.apple.com/app/byword/id420212497?mt=12
 
 _bad ui/ux (compared to recommendations)_
 
 - fsnotes
-
      - website: https://fsnot.es/
      - github repository: https://github.com/glushchenko/fsnotes
-
 - zettlr
-
      - website: https://www.zettlr.com/
-
 - joplin
-
      - website: https://joplinapp.org/
-
 - trilium
-
      - website: https://github.com/zadam/trilium
-
 - logseq
-
      - website: https://logseq.com/
      - uses bullet points for structure, which ruins the point of markdown
 
 _still in development_
 
 - nota
-
      - most promising, extremely nice user interface
      - website: https://nota.md/buy.html
      - previous version: caret, https://caret.io/ (surprisingly buggy and slow)
-
 - vscode extensions
-
      - very promising
      - vscode: https://code.visualstudio.com/
      - milkdown: https://milkdown.dev/ → life preview for vscode, still in development
      - dendron: https://www.dendron.so/
      - wikilens: https://marketplace.visualstudio.com/items?itemName=lostintangent.wikilens
-
 - bangle.io
-
      - very promising
      - website: https://app.bangle.io/landing
-
 - simplenote
-
      - website: https://app.simplenote.com/
      - also simplenote-electron: https://github.com/Automattic/simplenote-electron → not a wysiwg editor
 
 _monthly subscription_
 
 - outline
-
      - website: https://github.com/outline/outline
      - demo: https://student-tuwien-ac.getoutline.com/collection/welcome-zpKDLvb5ZS
      - subscription: 7-10$ a month
@@ -141,17 +121,11 @@ _monthly subscription_
           - complex to set up, can take up a few hours
           - docker tutorial: https://hub.docker.com/r/outlinewiki/outline
           - source build tutorial: https://docs.getoutline.com/s/hosting/doc/from-source-BlBxrNzMIP
-
 - ulysses
-
      - website: https://ulysses.app/
-
 - bear
-
      - website: https://bear.app/
-
 - roam research
-
      - website: https://roamresearch.com/
      - basically just like obsidian
 
