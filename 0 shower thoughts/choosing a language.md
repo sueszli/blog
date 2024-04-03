@@ -128,9 +128,9 @@ _c++_
 
 - popularity:
      - the most popular languages for systems programming. preferred over c (unless you're working on embedded systems or writing a kernel or a bootloader, where you just need a single level of abstraction over assembly). huge ecosystem with cuda, opencl, vulkan, opengl, directx, sdl, qt, boost, eigen, tensorflow, pytorch, etc.
+     - hard to write safe code in using smart pointers and RAII.
 - performance:
      - close to zero overhead.
-     - hard to write safe code in using smart pointers and RAII.
 
 _rust_
 
