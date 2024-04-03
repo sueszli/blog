@@ -128,8 +128,9 @@ _c++_
 
 - popularity:
      - the most popular languages for systems programming. preferred over c (unless you're working on embedded systems or writing a kernel or a bootloader, where you just need a single level of abstraction over assembly). huge ecosystem with cuda, opencl, vulkan, opengl, directx, sdl, qt, boost, eigen, tensorflow, pytorch, etc.
+- performance:
+     - close to zero overhead.
      - hard to write safe code in using smart pointers and RAII.
-- performance: bare metal.
 
 _rust_
 
@@ -137,7 +138,8 @@ _rust_
      - everyones favorite new memory safe systems programming language.
      - great competitor to c++: ownership model and borrow checker enforce memory safety.
      - not popular enough (yet?) to be considered for most projects. very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). but makes a lot of sense if you're building networked systems (which is why the network stack of the linux kernel is being written in rust).
-- performance: bare metal.
+- performance:
+     - close to zero overhead.
 
 ## references
 
