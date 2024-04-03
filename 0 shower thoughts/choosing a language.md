@@ -135,7 +135,7 @@ _c++_
 _rust_
 
 - popularity:
-     - the most popular systems programming language that's memory safe by default (unless you use `unsafe`) 
+     - the only systems programming language with memory safety guarantees enforced at compile time.
      - great competitor to c++: ownership model and borrow checker enforce memory safety.
      - not popular enough (yet?) to be considered for most projects. very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). but makes a lot of sense if you're building networked systems (which is why the network stack of the linux kernel is being written in rust).
 - performance:
