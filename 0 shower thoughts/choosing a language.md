@@ -120,7 +120,7 @@ _java_
           - java is preferred to kotlin because it's not a java superset and can't compete with it.
           - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
           - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
-     - catching up with projects like graalvm, quarkus and loom.
+     - catching up with projects like graalvm, quarkus and loom. newer versions are becoming more ergonomic.
 - performance:
      - the jvm is very fast and highly optimized for long-running processes but it has a high startup time (cold start) and a high memory footprint.
 
