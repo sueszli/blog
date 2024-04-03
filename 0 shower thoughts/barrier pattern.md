@@ -385,9 +385,7 @@ fn main() {
 }
 ```
 
-# c/c++
-
-_c:_
+# c
 
 ```c
 #include <stdio.h>
@@ -429,9 +427,7 @@ int main() {
 }
 ```
 
-_cpp:_
-
-the interesting thing about the cpp implementation below is how it is more complicated and verbose than the c version although it has so many abstractions for convenience.
+# cpp
 
 ```cpp
 #include <iostream>
