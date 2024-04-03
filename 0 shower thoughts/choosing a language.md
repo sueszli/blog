@@ -24,7 +24,7 @@ _purposes of abstractions:_
 
      - runtime checks: hurts performance as we waste cpu cycles on checks and memory management.
      - compile-time checks: doesn't impact performance.
-  
+
      when your code gets run more than it gets written, people get in fights over whether sacrificing runtime safety for performance is worth the risks involved.
 
 you should start investing in performance when your infrastructure costs exceed your developer costs.
@@ -82,56 +82,62 @@ this decision is based on the following sources:
      - https://www.jetbrains.com/lp/devecosystem-2022/
 - google: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
 
-## conclusion
+## my personal preferences
 
-_(last updated: dec 2023)_
+_python_
 
-1. **Python**
+- popularity:
+     - great for prototyping and data centric work. preferred over R, Julia, Matlab and all other scripting languages.
+- performance:
+     - just as good as node for most io-bound tasks (fastapi). but for cpu-bound tasks the low performance is very noticeable. frequently 10-100x slower than node.
+     - a lot of work is being put into removing the GIL.
+     - new superset languages are being developed like "mojo".
+     - has zero-overhead interopt with c/c++ through cpython extensions.
+     - no multithreading support. only multiprocessing.
 
-      - low performance is very noticeable. frequently 10-100x slower than node. this will change soon, as a lot of work is being put into removing the GIL.
-      - new superset languages are being developed for simd like “mojo”.
-      - has great interopt with c/c++.
+_javascript/typescript_
 
-2. **JavaScript/TypeScript**
+- popularity:
+     - great for full-stack web development because it lets you share code between the frontend and backend. preferred over php, dart, swift, objective-c and all because with react-native and electron you can target all platforms with one codebase.
+     - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). but i don't think that the node users outnumber python users. node outside of fullstack development doesn't make much sense.
+- performance:
+     - async works great for io-bound tasks.
+     - for cpu-bound tasks a lot of work was already put into runtime engines like v8, deno and bun which are frequently underappreciated.
+     - no multithreading support. only multiprocessing. node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
 
-      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). i don't think that the node.js users outnumber python users.
-      - performance difference to java and go becomes really noticable as you scale up.
-      - node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
+_go_
 
-3. **Java**
+- popularity:
+     - great for networked systems, cloud development. great package manager. compilable to small binaries.
+     - not as widely used as java, not significantly faster than java, but a lot easier to write highly concurrent code in.
+- performance:
+     - very simple concurrency model without "colored functions", very lightweight goroutines. kind of like an imperative and more approachable version of erlang/elixir.
 
-      - catching up with projects like graalvm, quarkus and loom.
+_java_
 
-4. ~~C#~~ – java is preferred. java has a larger data and systems ecosystem while c# is mostly used for game development.
+- popularity:
+     - popular in big companies. preferred over c#, kotlin, scala, groovy, clojure and all other jvm languages.
+          - java is preferred to kotlin because it's not a java superset and can't compete with it.
+          - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
+          - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
+     - catching up with projects like graalvm, quarkus and loom.
+- performance:
+     - the jvm is very fast and highly optimized for long-running processes but it has a high startup time (cold start) and a high memory footprint.
 
-5. **C/C++**
+_c++_
 
-      - c++ is preferred over c for networked systems, because of smart pointers and RAII. but they're really hard to get right.
+- popularity:
+     - the most popular languages for systems programming. preferred over c (unless you're working on embedded systems or writing a kernel or a bootloader, where you just need a single level of abstraction over assembly). huge ecosystem with cuda, opencl, vulkan, opengl, directx, sdl, qt, boost, eigen, tensorflow, pytorch, etc.
+     - hard to write safe code in using smart pointers and RAII.
+- performance: bare metal.
 
-6. ~~PHP~~ – node.js is preferred to php.
-7. ~~Shell~~
+_rust_
 
-8. **Go**
-
-      - the simplicity of python with the speed of java. very simple concurrency model without "colored functions". perfect for networked systems.
-      - compilable to small binaries. very popular for cloud native development.
-
-9. **Rust**
-
-      - great competitor to cpp: ownership model and borrow checker enforce memory safety.
-      - very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). adoption will still take a couple of years but it's growing fast and microsoft and the linux foundation have partially adopted it.
-
-10. ~~Kotlin~~ – java is preferred to kotlin because it's not a java superset and can't compete with it.
-       - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
-       - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
-11. ~~Ruby~~ – python is preferred to ruby because ruby is losing popularity fast.
-12. ~~Swift~~ – javascript (react-native and electron) is preferred to swift until swift is more widely adopted.
-13. ~~R~~
-14. ~~PowerShell~~
-15. ~~Dart~~ – javascript (react-native) is preferred to dart (flutter) until flutter's ecosystem catches up.
-16. ~~Lua~~
-17. ~~Scala~~ – java is preferred to scala because scala is losing popularity fast.
-18. ~~Visual Basic~~
+- popularity:
+     - everyones favorite new memory safe systems programming language.
+     - great competitor to c++: ownership model and borrow checker enforce memory safety.
+     - not popular enough (yet?) to be considered for most projects. very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?). but makes a lot of sense if you're building networked systems (which is why the network stack of the linux kernel is being written in rust).
+- performance: bare metal.
 
 ## references
 
