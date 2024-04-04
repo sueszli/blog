@@ -70,7 +70,7 @@ _free_
 _not worth the price_
 
 - typora
-     - https://typora.io/
+     - website: https://typora.io/
 - byword
      - website: https://apps.apple.com/app/byword/id420212497?mt=12
 
