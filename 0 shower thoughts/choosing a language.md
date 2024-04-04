@@ -82,8 +82,6 @@ this decision is based on the following sources:
      - https://www.jetbrains.com/lp/devecosystem-2022/
 - google: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
 
-<!--
-
 ## my personal preferences
 
 _python_
@@ -142,8 +140,6 @@ _rust_
      - makes a lot of sense when adversaries have an attack surface via network access. which is why ie. the network stack of the linux kernel has adopted rust.
 - performance:
      - close to zero overhead.
-
--->
 
 ## references
 
