@@ -1,3 +1,5 @@
+> Lamport, Leslie. "Paxos made simple." ACM SIGACT News (Distributed Computing Column) 32, 4 (Whole Number 121, December 2001) (2001): 51-58.
+
 the core of paxos is the **”synod consensus algorithm”**. the consensus is applied to the state machine to build distributed systems.
 
 ## overview
