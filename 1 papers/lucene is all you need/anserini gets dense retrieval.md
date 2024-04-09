@@ -1,3 +1,5 @@
+> Ma, Xueguang, Tommaso Teofili, and Jimmy Lin. "Anserini Gets Dense Retrieval: Integration of Lucene's HNSW Indexes." Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. 2023.
+
 anserini wraps lucene.
 
 pyserini wraps lucene and faiss, so it provides both vector search and inverted indexes.
