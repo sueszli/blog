@@ -36,8 +36,6 @@ _file tree:_
 		- [anserini gets dense retrieval](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/anserini%20gets%20dense%20retrieval>)
 		- [anserini gets dense retrieval (pdf)](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/anserini%20gets%20dense%20retrieval.pdf>)
 		- [introduction to ir](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/introduction%20to%20ir>)
-		- [lucene is all you need](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/lucene%20is%20all%20you%20need>)
-		- [lucene is all you need (pdf)](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/lucene%20is%20all%20you%20need.pdf>)
 	- raft
 		- [raft-atc14 (pdf)](<https://sueszli.github.io/blog/1%20papers/raft/raft-atc14.pdf>)
 		- [raft](<https://sueszli.github.io/blog/1%20papers/raft/raft>)
