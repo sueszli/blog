@@ -56,8 +56,6 @@ your personal fit is a combination of the following components [^fitdump]:
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
 
-now assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require most education, experience and skills.
-
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
 - **data & statistics:** machine learning, statistical modeling, forecasting, data based decision governance, ai alignment, explainability, fairness, privacy, security, ethics, etc.
@@ -66,7 +64,7 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 - **geopolitics, governance:** policy, regulation, law, etc.
 - **biosecurity:** preventing, detecting, responding to biological threats
 
-here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
+also here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
 
 ![](<./assets/job market.png>)
 
