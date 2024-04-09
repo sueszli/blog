@@ -29,9 +29,7 @@ we assume that the best paying jobs are:
 
 we also assume that humans are utilitarian, rational, self-interested and just want to maximize their earnings. these humans are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
 
-how would you game this system?
-
-well - simply by taking the path of least resistance: finding the highest paying job at reach and fulfilling the minimum requirements.
+how would you game this system? well - simply by taking the path of least resistance: finding the highest paying job at reach and fulfilling the minimum requirements.
 
 <br><br>
 
