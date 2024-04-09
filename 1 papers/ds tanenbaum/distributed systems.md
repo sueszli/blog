@@ -1,3 +1,5 @@
+> source: Tanenbaum, A., & Van Steen, M. (2023). Distributed Systems. Amazon Digital Services LLC - Kdp.
+
 # 1. introduction
 
 _”distributed system” definitions_
