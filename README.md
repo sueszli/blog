@@ -25,8 +25,6 @@ _file tree:_
 	- castor - record replay system
 		- [asplos17-castor (pdf)](<https://sueszli.github.io/blog/1%20papers/castor%20-%20record%20replay%20system/asplos17-castor.pdf>)
 		- [castor](<https://sueszli.github.io/blog/1%20papers/castor%20-%20record%20replay%20system/castor>)
-	- ds tanenbaum
-		- [distributed systems](<https://sueszli.github.io/blog/1%20papers/ds%20tanenbaum/distributed%20systems>)
 	- farm - fast remote memory
 		- [farm slides (pdf)](<https://sueszli.github.io/blog/1%20papers/farm%20-%20fast%20remote%20memory/farm%20slides.pdf>)
 		- [farm](<https://sueszli.github.io/blog/1%20papers/farm%20-%20fast%20remote%20memory/farm>)
