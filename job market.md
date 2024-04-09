@@ -31,7 +31,7 @@ we also assume that humans are utilitarian, rational, self-interested and just w
 
 how would you game this system?
 
-well - simply by getting the minimum requirements for the most high paying job. maximizing earnings with the least effort.
+well - simply by taking the path of least resistance: finding the highest paying job at reach and fulfilling the minimum requirements.
 
 <br><br>
 
