@@ -38,9 +38,6 @@ _file tree:_
 		- [introduction to ir](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/introduction%20to%20ir>)
 		- [lucene is all you need](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/lucene%20is%20all%20you%20need>)
 		- [lucene is all you need (pdf)](<https://sueszli.github.io/blog/1%20papers/lucene%20is%20all%20you%20need/lucene%20is%20all%20you%20need.pdf>)
-	- paxos simple
-		- [paxos simple](<https://sueszli.github.io/blog/1%20papers/paxos%20simple/paxos%20simple>)
-		- [paxos-simple (pdf)](<https://sueszli.github.io/blog/1%20papers/paxos%20simple/paxos-simple.pdf>)
 	- raft
 		- [raft-atc14 (pdf)](<https://sueszli.github.io/blog/1%20papers/raft/raft-atc14.pdf>)
 		- [raft](<https://sueszli.github.io/blog/1%20papers/raft/raft>)
