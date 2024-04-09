@@ -56,7 +56,7 @@ your personal fit is a combination of the following components [^fitdump]:
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
 
-now assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest education, experience and skills.
+now assuming that impact is proportional to demand, the most impactful jobs are the ones that are in high demand and require the highest amount of education, experience and skills.
 
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
