@@ -62,6 +62,8 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 - **geopolitics, governance:** policy, regulation, law, etc.
 - **biosecurity:** preventing, detecting, responding to biological threats
 
+in general picking a career specialization is a tough choice and just blindly chasing the next hottest trend [^gartner] isn't a sustainable strategy.
+
 also here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
 
 ![](<./assets/job market.png>)
@@ -90,3 +92,4 @@ references:
 [^pgen]: originally from a video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
 [^fitdump]: check out the links above in the "personal fit" section for some interesting articles on this topic.
 [^demanddump]: check out the links above in the "career impact" section for some interesting articles on this topic.
+[^gartner]: https://www.gartner.com/en/articles/what-s-new-in-the-2023-gartner-hype-cycle-for-emerging-technologies
