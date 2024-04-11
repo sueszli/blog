@@ -34,7 +34,7 @@ you will most likely only see markdown in the wild since the others are either n
 
 i highly discourage using html for notes since you'll be constrained to a rendering engine / wysiwyg editor to be productive. this in itself can be circumvented if there would be nice html editors to write notes in. but there aren't any. i only know [notion](https://www.notion.so/). but it has some serious drawbacks:
 
-- slow and unreliable: feels janky both on mobile and on web, always breaks on documents, sometimes doesn’t sync data which is scary
+- slow and unreliable: feels janky both on mobile and on web, always breaks on large documents, sometimes doesn’t sync data which is scary
 - export feature kind of sucks:
      - html – works great, but must be un-minified to be editable again
      - pdf – lossy, doesn’t keep all data and formatting
