@@ -45,8 +45,8 @@ i highly discourage using html for notes since you'll be constrained to a render
 first, here are my requirements. i want a markdown editor that:
 
 - is popular: has a large community, well maintained, frequently updated
-- is offline first: lets you use your local files or back them up
-- no monthly subscription (just one-time payments)
+- is offline/local-first
+- is free or has a one-time payment, no monthly subscription
 - is wysiwyg / has live preview: doesn't require you to open a second preview window
 - can render math: large complex equations
 
