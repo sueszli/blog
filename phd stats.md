@@ -1,5 +1,7 @@
 # is a phd really worth it?
 
+a phd is a big decision that can shape your career and life path.
+
 it boils down to your definition of success [^1]:
 
 1. **define success on your terms:**
@@ -127,37 +129,11 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
 # personal takeaways
 
-i believe you should do a phd if:
+- **enjoy the journey:** life's too short to spend a decade doing something that doesn't make you happy. if you're unsure, try a summer research internship or a master's degree first to see if it's your thing.
 
-1. you enjoy the process:
+- **trust your supervisor:** your supervisor decides when you graduate, and sometimes they benefit from keeping you around longer. this can be a problem, especially in north america. consider a european phd for better protections and conditions.
 
-   life is too short to do spend a decade doing something that doesn't bring you joy. and if you're not sure, try to get a summer research internship or do a master's degree first to find out.
-
-2. **you fully trust your supervisor:
-
-      they decide when you will graduate and it's in their best interest to keep you as long as possible. it's a conflict of interest and a power dynamic that can be abused.
-
-      this is a common problem in academia and can be slightly mitigated by doing a european phd, which is usually timecapped. you additionally get better salaries and working conditions as you'll be protected by the labor laws of the european union.
-
-      but at the end of the day, you're still at the mercy of your advisor and the university.
-
-3. you can amortize the opportunity cost by meeting one of the following criteria:
-
-      - a) you believe you can be one of the absolute best phd graduates and are studying at a top ~10 school. this way it might make sense to aim for a tenure position although it's still a gamble.
-
-      - b) you believe you can be one of the ~30% best phd graduates and are studying at a top ~30 school. this way you'll have a realistic chance of securing an industry research position.
-
-      - c) you're learning skills that are directly applicable to an industry job, such that your phd experience counts towards your total years of experience when applying for that job.
-
-           this can be a huge advantage as a phd is often a must for leadership roles in big companies (a phd opens up the door to these roles but is not a guarantee. it's a necessary but not sufficient condition).
-
-           but keep in mind that this is only possible for research topics / roles that require strong analytical skills as the academic research process is too different from the industry process otherwise.
-
-           - **good fit:** ai/data science (statistics, machine learning, quantitative finance, combinatorial optimization), security (cryptography and theoretical security), logic and verification (formal methods).
-
-           - **bad fit:** most systems research (operating systems, distributed systems), software engineering research.
-
-           for fields that are a bad fit, a ph.d. can actually make you less employable as you'll be overqualified and underexperienced.
+- **amortize the opportunity cost:** consider if a phd aligns with your career goals. if you're aiming high and studying at a top school, it might pay off. otherwise, make sure your phd gives you skills that are valuable in industry. but be cautious: some fields might not benefit from a phd and could even hurt your job prospects. so always make sure that you're gaining skills directly useful for a job, where your phd counts as work experience. this is great for leadership roles in big companies, but it's mostly for theoretical/analytical areas.
 
 # references
 
