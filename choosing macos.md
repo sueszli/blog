@@ -22,7 +22,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 - forced advertisement, updates
 
-     you're forced to use windows 11 after 2025 because by then windows 10 won’t receive any updates. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat: https://github.com/LeDragoX/Win-Debloat-Tools
+     you're stuck with windows 11 after 2025 because by then windows 10 won’t receive any updates. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat: https://github.com/LeDragoX/Win-Debloat-Tools
 
 - wsl2 (windows subsystem for linux) is very unstable
 
@@ -32,13 +32,11 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 - multiple shells
 
-     you might have cmd and powershell but none of them are as good as bash.
+    cmd and powershell aren't as nice as bash. having the ability to use classic unix commands for file system navigation and software management makes a big difference.
 
-     it's just something different to be able to use classic unix commands to navigate your file system and manage your software.
+- poor software management
 
-- aweful software management
-
-     - environment variables must be set through the gui.
-     - NTFS makes deleting many adjacent files in ie. `node_module` folders really difficult.
-     - program files are spread across the filesystem which makes it hard to declutter unused software.
-     - package managers like `scoop`, `winget` and `chocolatey` are no where as popular in the community as `brew` or `apt`.
+   - environment variables must be set through the gui. install automation is very difficult.
+   - deleting many adjacent files, like those in `node_module` folders, is very slow due to ntfs limitations.
+   - program files are scattered across the file system, making it difficult to clean up unused software.
+   - package managers like scoop, winget, and chocolatey are not as widely adopted in the community as brew or apt.
