@@ -58,7 +58,7 @@ public class ParallelPromisePattern {
 }
 ```
 
-the most concise way to program this pattern out in java is to use lambdas. but using lambdas in java is pretty unintuitive. you either have to define your own types with `@FunctionalInterface` or memorize these types:
+the most concise way to program this pattern out in java is to use lambdas. but lambdas in java are pretty unintuitive. you either have to define your own type with `@FunctionalInterface` or memorize these:
 
 ```txt
 Supplier       ()    -> x
@@ -73,9 +73,7 @@ UnaryOperator  x1    -> x2
 BinaryOperator x1,x2 -> x3
 ```
 
-but fortunately, once you do, coding in java becomes a lot more fun.
-
-here's the kotlin implementation:
+also here's the kotlin implementation:
 
 ```kotlin
 package code
@@ -117,7 +115,7 @@ fun main() = runBlocking {
 }
 ```
 
-and in case you were wondering, here's what the it would look like in java, if we would leverage the akka-framework:
+and in case you were wondering what using the akka-framework would look like in java:
 
 ```java
 package code;
@@ -157,7 +155,7 @@ public class ParallelAkkaPattern {
 }
 ```
 
-and here's a much more concise akka-version in scala:
+or scala:
 
 ```scala
 import akka.actor.ActorSystem
