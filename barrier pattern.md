@@ -212,7 +212,7 @@ loop.run_until_complete(main())
 
 # javascript
 
-not the same as waiting for threads/processes.
+again: not the same as waiting for threads/processes.
 
 ```js
 function sleep(ms) {
