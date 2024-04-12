@@ -25,7 +25,9 @@ it boils down to your definition of success [^1]:
 
    - are your decisions driven by societal norms or tangible benefits that you care about?
 
-but finding your own definition of success is really tricky:
+
+but success metrics are hard to define:
+
 
 - **unclear metrics:** many struggle to define what they truly want from their careers amidst societal pressures and assumptions.
 
@@ -33,9 +35,9 @@ but finding your own definition of success is really tricky:
 
 - **evolving priorities:** as you gain experience, your priorities shift. what mattered most earlier might not be the same now.
 
-it's also worth noting that while some metrics are easy to measure, others are not, and even the measurable ones can be quite inaccurate.
+and most of them are even harder to measure.
 
-by understanding these nuances, you can make a more informed decision about whether a ph.d. aligns with your financial goals and broader definitions of success. but keep in mind that financial goals aren't the main reason students pursue their degrees [^2] [^3] [^4].
+one commonly considered and easy to measure metric is the potential for compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
 
 <br><br>
 
