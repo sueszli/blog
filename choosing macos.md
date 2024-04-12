@@ -20,19 +20,19 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 ## downsides of windows
 
-- forced advertisement
+- forced advertisement:
 
      you're stuck with win11 after 2025 because by then win10 won’t receive any updates. win11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat.
 
      see https://github.com/LeDragoX/Win-Debloat-Tools
 
-- bad shell
+- bad shell:
 
      cmd and powershell are not as as nice as bash with classic unix commands for file system navigation and software development. wsl2 might sound promising. however, it's not quite there yet. wsl2 can be very unstable and lacks maturity. you might find yourself switching back to windows frequently for tasks that wsl2 can't handle smoothly. for instance, usb passthrough doesn't work well, and wsl can crash vscode when you log off.
   
      see: https://www.reddit.com/r/bashonubuntuonwindows/comments/opujbm/does_wsl_give_windows_an_edge_over_mac/
 
-- poor software management
+- poor dev experience:
 
    - environment variables must be set through the gui. install automation is very difficult.
    - deleting many adjacent files, like those in `node_module` folders, is very slow due to ntfs limitations.
