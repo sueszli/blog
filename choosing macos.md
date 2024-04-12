@@ -22,7 +22,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 - forced advertisement
 
-     you're stuck with windows 11 after 2025 because by then windows 10 won’t receive any updates. windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat.
+     you're stuck with win11 after 2025 because by then win10 won’t receive any updates. win11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat.
 
      see https://github.com/LeDragoX/Win-Debloat-Tools
 
