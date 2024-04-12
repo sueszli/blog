@@ -26,7 +26,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
      see https://github.com/LeDragoX/Win-Debloat-Tools
 
-- wsl2 (windows subsystem for linux) is very unstable
+- bad shell
 
      cmd and powershell are not as as nice as bash with classic unix commands for file system navigation and software development. wsl2 might sound promising. however, it's not quite there yet. wsl2 can be very unstable and lacks maturity. you might find yourself switching back to windows frequently for tasks that wsl2 can't handle smoothly. for instance, usb passthrough doesn't work well, and wsl can crash vscode when you log off.
   
