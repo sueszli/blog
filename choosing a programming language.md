@@ -88,8 +88,8 @@ in today's programming landscape, several languages stand out for different reas
 
 _python_
 
-- **popularity:** ideal for prototyping and data-centric work, preferred over r, julia, matlab, and other scripting languages.
-- **performance:**
+- popularity: ideal for prototyping and data-centric work, preferred over r, julia, matlab, and other scripting languages.
+- performance:
      - comparable to node.js for io-bound tasks (see: fastapi), but noticeably (10-100x) slower for cpu-bound tasks.
      - efforts underway to enhance performance, like removing the GIL, developing superset langauges like "mojo".
      - has zero-overhead interopt with c/c++ through cpython extensions.
@@ -97,8 +97,7 @@ _python_
 
 _javascript/typescript_
 
-- popularity:
-     - great for full-stack web development because it lets you share code between the frontend and backend. preferred over php, dart, swift, objective-c and all because with react-native and electron you can target all platforms with one codebase.
+- popularity: great for full-stack web development because it lets you share code between the frontend and backend. preferred over php, dart, swift, objective-c and all because with react-native and electron you can target all platforms with one codebase.
      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). but i don't think that the node users outnumber python users. node outside of fullstack development doesn't make much sense.
 - performance:
      - async works great for io-bound tasks.
