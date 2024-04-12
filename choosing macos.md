@@ -32,7 +32,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 - multiple shells
 
-    cmd and powershell aren't as nice as bash. having the ability to use classic unix commands for file system navigation and software management makes a big difference.
+    cmd and powershell aren't as nice as bash with classic unix commands for file system navigation and software management.
 
 - poor software management
 
