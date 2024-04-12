@@ -113,6 +113,8 @@ here's a simplified perspective that also includes the results of the probabilit
 
 <br><br>
 
+<!--
+
 ## salary comparison
 
 finally we try to get some salary data to compare the different paths.
@@ -152,6 +154,8 @@ finally we try to get some salary data to compare the different paths.
 the data is inconclusive and it's hard to draw conclusions from it. but it's safe to say that while a ph.d. might not guarantee a higher salary, it does open up the door to higher-paying positions.
 
 <br><br>
+
+-->
 
 ## personal takeaways
 
