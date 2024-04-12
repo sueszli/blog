@@ -6,7 +6,9 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
-choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops, your daily driver, it's a bit different: many folks opt for linux because they love ricing their distro or they support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use. → is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
+choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops, your daily driver, it's a bit different: many folks opt for linux because they love ricing their distro or they support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use.
+
+is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
 
 _here are my issues with linux:_
 
@@ -17,8 +19,6 @@ _here are my issues with linux:_
 - lack of support for most laptop hardware:
 
      you often need dedicated hardware (like system76 laptops) for things to work right out of the box, or else you'll spend hours searching and configuring drivers. my lenovo carbon x1 laptop faced recognition issues with external peripherals like microphones, dual displays, usb docks, wireless mouse and keyboard, and fingerprint sensors etc. some were downright impossible to set up, while others were just really annoying. additionally, battery life was significantly reduced compared to other operating systems, even with power management tools installed (tlp, powertop). closing the lid on my laptop would sometimes cause the system to crash, requiring a force restart.
-
-while linux offers many benefits, these challenges can make it less than ideal for some users in certain situations.
 
 ## downsides of windows
 
