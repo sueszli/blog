@@ -116,7 +116,7 @@ _go_
 _java_
 
 - popularity:
-     - popular in big companies. preferred over c#, kotlin, scala, groovy, clojure and all other jvm languages.
+     - popular in big data systems (hadoop ecosystem). preferred over c#, kotlin, scala, groovy, clojure and all other jvm languages.
           - java is preferred to kotlin because it's not a java superset and can't compete with it.
           - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
           - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
