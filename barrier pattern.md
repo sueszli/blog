@@ -212,7 +212,7 @@ loop.run_until_complete(main())
 
 # javascript
 
-> again: we're waiting for i/o from the event loop
+> again: we're waiting for event loop i/o here and not threads/processes.
 
 ```js
 function sleep(ms) {
