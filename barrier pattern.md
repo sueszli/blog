@@ -1,6 +1,6 @@
 # the barrier pattern
 
-one of my favorite programming patterns is chunking the work, running as many workers as you have cores, and then waiting for each worker to finish based on the [barrier pattern](<https://en.m.wikipedia.org/wiki/Barrier_(computer_science)>): "a barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier."
+one of my favorite programming patterns is chunking the work, running as many workers as you have cores, and then waiting for each worker to finish based on the [barrier pattern](<https://en.m.wikipedia.org/wiki/Barrier_(computer_science)>): "a barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier".
 
 it's a very simple pattern to execute multiple tasks simultaneously and await their completion without needing to create a separate [executor](https://stackoverflow.com/questions/32621990/what-are-workers-executors-cores-in-spark-standalone-cluster) instance or write your own task scheduler to manage the workers.
 
