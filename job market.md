@@ -31,8 +31,6 @@ we also assume that humans are utilitarian, rational, self-interested and just w
 
 how would you game this system? well - simply by taking the path of least resistance: finding the highest paying job at reach and fulfilling the minimum requirements.
 
-<br><br>
-
 # reality check
 
 so why doesn't this happen in the real world?
@@ -63,8 +61,6 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 - **biosecurity:** preventing, detecting, responding to biological threats
 
 in general picking a career specialization is a tough choice and just blindly chasing the next hottest trend [^gartner] isn't a sustainable strategy.
-
-<br><br>
 
 # footnotes
 
