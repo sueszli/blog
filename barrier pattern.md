@@ -419,7 +419,7 @@ int main() {
 }
 ```
 
-# cpp
+# c++
 
 ```cpp
 #include <iostream>
