@@ -98,7 +98,8 @@ _python_
 
 _javascript/typescript_
 
-- popularity: great for full-stack web development because it lets you share code between the frontend and backend. preferred over php, dart, swift, objective-c and all because with react-native and electron you can target all platforms with one codebase.
+- popularity:
+     - great for full-stack web development because it lets you share code between the frontend and backend. preferred over php, dart, swift, objective-c and all because with react-native and electron you can target all platforms with one codebase.
      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). but i don't think that the node users outnumber python users. node outside of fullstack development doesn't make much sense.
 - performance:
      - async works great for io-bound tasks.
