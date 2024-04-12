@@ -75,7 +75,7 @@ the computing research association's taulbee survey [^5] provides some insights 
 
      but i personally believe that this is due to the fact that it's significantly easier to get funding for a phd than for a master's degree, which motivates students to plan to master out from the beginning.
 
-     additionally, it's very hard to get kicked out of a phd program. so, i believe that the completion rate of those actually pursuing a phd with the intention of completing their program is much higher.
+     i believe that the completion rate of those actually pursuing a phd with the intention of completing their program is much higher.
 
 ![](./assets/img1.png)
 
