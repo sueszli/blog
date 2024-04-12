@@ -88,12 +88,10 @@ in today's programming landscape, several languages stand out for different reas
 
 _python_
 
-- popularity:
-     - great for prototyping and data centric work. preferred over R, Julia, Matlab and all other scripting languages.
-- performance:
-     - just as good as node for most io-bound tasks (fastapi). but for cpu-bound tasks the low performance is very noticeable. frequently 10-100x slower than node.
-     - a lot of work is being put into removing the GIL.
-     - new superset languages are being developed like "mojo".
+- **popularity:** ideal for prototyping and data-centric work, preferred over r, julia, matlab, and other scripting languages.
+- **performance:**
+     - comparable to node.js for io-bound tasks (see: fastapi), but noticeably (10-100x) slower for cpu-bound tasks.
+     - efforts underway to enhance performance, like removing the GIL, developing superset langauges like "mojo".
      - has zero-overhead interopt with c/c++ through cpython extensions.
      - no multithreading support. only multiprocessing.
 
