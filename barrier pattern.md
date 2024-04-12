@@ -331,7 +331,7 @@ import gleam/list.{each, map}
 import gleam/task.{sleep, start_link}
 import gleam/random.{int}
 
-let num_tasks = 4 // Replace with the number of schedulers
+let num_tasks = 4 // replace with the number of schedulers
 
 let tasks =
   list.range(1, num_tasks)
