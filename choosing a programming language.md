@@ -139,7 +139,7 @@ _rust_
      - the only systems programming language with memory safety guarantees enforced at compile time with ownership model and borrow checker.
      - not popular enough (yet?) to be considered for most projects. very small ecosystem. [most fans are just hobby developers](https://blog.jetbrains.com/rust/2023/01/18/rust-deveco-2022-discover-recent-trends/#work-or-hobby?).
      - makes a lot of sense when adversaries have an attack surface via network access. which is why ie. the network stack of the linux kernel has adopted rust.
-     - feels like a revival of [ada](https://ada-lang.io/).
+     - feels like a revival of adaLang.
 - performance:
      - close to zero overhead.
 
