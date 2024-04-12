@@ -6,6 +6,8 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
+linux on servers is without doubt always the right choice. but i believe people that use linux on desktop do so because they either really enjoy OS configuration and linux ricing or doing it as a form of activism. it might be a lot of fun and for the better - but just not pragmatic.
+
 _my issues with linux:_
 
 - lack of support for most proprietary software
@@ -22,7 +24,7 @@ _my issues with linux:_
 
      linux isn't meant for laptops but desktop PCs or servers.
 
-     you have to buy dedicated hardware (like system76 laptops) for things to work right out the box or else you will have to spend hours setting up drivers.
+     you have to buy dedicated hardware (like system76 laptops) for things to work right out the box or else you will have to spend hours searching and configuring drivers.
 
      no distro ever recognized any peripherals on my lenovo carbon x1 laptop: external microphone, dual display setup, usb dock, wireless mouse and keyboard, fingerprint sensor, etc.
 
