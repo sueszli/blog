@@ -147,6 +147,8 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
    other fields, like software and systems engineering, have a significant gap between academic and industry practices. your academic experience may not be fully recognized by industry employers in these cases.
 
+<br><br>
+
 # references
 
 this post is heavily inspired by the "80000h" article about job prospects and risks of a computer science phd. i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/.
