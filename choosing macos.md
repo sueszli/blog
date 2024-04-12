@@ -1,6 +1,6 @@
 # choosing macos
 
-here's a list of the things that bother me about other operating systems on my laptop, so much so that i'm willing to pay the apple tax to use macos.
+here's a list of the things that bother me about other operating systems (for laptop usage). so much so that i'm willing to pay the apple tax to use macOS.
 
 this is in no way a recommendation for you to switch to macos. please use whatever works best for your workflow. also check out wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0) and james mickens' presention of [his life as a developer](https://youtu.be/7Nj9ZjwOdFQ?si=mhz86GWUVsvk6sPe&t=1009) as they cover a lot of the same points.
 
@@ -20,9 +20,9 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 ## downsides of windows
 
-- forced advertisement and updates
+- forced advertisement, updates
 
-     upgrading to windows 11 is necessary after 2025 because windows 10 won’t receive updates anymore. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat: https://github.com/LeDragoX/Win-Debloat-Tools
+     you're forced to use windows 11 after 2025 because by then windows 10 won’t receive any updates. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat: https://github.com/LeDragoX/Win-Debloat-Tools
 
 - wsl2 (windows subsystem for linux) is very unstable
 
