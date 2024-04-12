@@ -8,9 +8,7 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops, your daily driver, it's a bit different. 
 
-many folks opt for linux because they love ricing their distro or they support open-source ideals. it can be fun and impactful, but let's face it: sometimes it's not the most practical choice for everyday use.
-
-is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
+many folks opt for linux because they love ricing their distro or they support open-source ideals. it can be fun and impactful, but let's face it: sometimes it's not the most practical choice for everyday use. is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
 
 _here are my issues with linux:_
 
