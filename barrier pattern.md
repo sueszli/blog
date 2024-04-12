@@ -58,7 +58,7 @@ public class ParallelPromisePattern {
 }
 ```
 
-the most concise way to program this pattern out in java is to use lambdas. but using lambdas in java is pretty unintuitive. you either have to definte your own types with `@FunctionalInterface` or know these expressions by heart:
+the most concise way to program this pattern out in java is to use lambdas. but using lambdas in java is pretty unintuitive. you either have to define your own types with `@FunctionalInterface` or memorize these types:
 
 ```txt
 Supplier       ()    -> x
