@@ -37,11 +37,16 @@ but success metrics are hard to define:
 
 and most of them are even harder to measure.
 
-one commonly considered and easy to measure metric is the potential for compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
+one commonly considered and easy to measure metric is the potential compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
 
 <br><br>
 
 ## paths and probabilities
+
+
+
+
+
 
 the computing research association's "taulbee survey" [^5] offers key insights into our query:
 
