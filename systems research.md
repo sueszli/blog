@@ -77,15 +77,9 @@ i personally like the arxiv taxonomy and the csranking classification the most. 
 
 ## conclusion
 
-in short: a system is the sum of its primitives.
+in short: a system is the sum of its primitives. these primitives can be anything ranging from people (social networks), intelligent agents (multiagent systems), autonomous vehicles (robotics), to software modules, services or entire hardware components. and you could argue that anyone working on any of these primitives could be considered a "systems person" – but obviously we're always referring to the research category mentioned above.
 
-these primitives can be anything ranging from people (social networks), intelligent agents (multiagent systems), autonomous vehicles (robotics), to software modules, services or entire hardware components.
-
-you could argue that anyone working on any of these primitives could be considered a "systems person" – but obviously we're always referring to the category mentioned above.
-
-but it's more complicated than that.
-
-even "systems people" within the same community or lab could be working on vastly different things.
+but even "systems people" within the same community or lab could be working on vastly different things. for example:
 
 - as a distributed systems researcher you could be writing formal proofs in TLA+ or Coq to create a new distributed consensus algorithm, extending the kernel for faster RDMA access, sniffing packets to find vulnerabilities in network protocols, or writing a new load balancer for a web backend that implements machine learning to optimize resource allocation.
 
