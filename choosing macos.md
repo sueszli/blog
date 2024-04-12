@@ -6,6 +6,8 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
+see: https://youtu.be/7Nj9ZjwOdFQ?si=mhz86GWUVsvk6sPe&t=1009 (james mickens talk)
+
 _my issues with linux:_
 
 - lack of support for most proprietary software
@@ -42,6 +44,8 @@ _my issues with linux:_
 
 ## downsides of windows
 
+> note: a great chunk of these problems can be mitigated by debloating windows using something like https://github.com/LeDragoX/Win-Debloat-Tools
+
 _my issues with windows:_
 
 - wsl2 (windows subsystem for linux) is very unstable
@@ -52,7 +56,7 @@ _my issues with windows:_
 
 - forced advertisement and updates
 
-     since win10 won’t be getting updates from 2025, you will be forced to upgrade to win11.
+     since win10 won’t be getting updates from 2025. you will be forced to upgrade to win11.
 
      this is terrible as in win11 you have ads both in your lock screen and start menu that you can't disable.
 
