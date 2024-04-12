@@ -111,7 +111,7 @@ _go_
      - great for networked systems, cloud development. great package manager. compilable to small binaries.
      - not as widely used as java, not significantly faster than java, but a lot easier to write highly concurrent code in.
 - performance:
-     - very simple concurrency model without "colored functions", very lightweight goroutines. kind of like an imperative and more approachable version of erlang/elixir in terms of use-cases.
+     - very simple concurrency model without "colored functions", very lightweight goroutines. feels kind of like an imperative and significantly simpler version of erlang/elixir.
 
 _java_
 
