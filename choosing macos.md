@@ -12,7 +12,7 @@ many folks opt for linux because they love ricing their distro or they support o
 
 is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
 
-here are my issues with linux:
+_here are my issues with linux:_
 
 - lack of support for most proprietary software:
 
@@ -25,42 +25,6 @@ here are my issues with linux:
      but on the other hand, i was able to revive my 10 year old dell xps laptop by using a lightweight version of zorinOS and it worked well. it's just difficult to know in advance which laptops work well with the distro of your choice.
 
 while linux offers many benefits, these challenges can make it less than ideal for some users in certain situations.
-
-
-
-
-
-
-
-choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops / your daily driver, it's a bit different. many folks opt for linux because they love ricing their distro or they see it as a way to support open-source ideals. it can be fun and impactful, but let's face it: sometimes it's not the most practical choice for everyday use.
-
-is this linux's fault? or is it more about big tech not playing nice? it's a valid debate.
-
-_my issues with linux:_
-
-- lack of support for most proprietary software
-
-     it isn't economically viable for companies to support linux as there are so many distros and so few users.
-     
-     emulators (ie. wine) break with microsoft word, zoom and even the chrome browser doesn't render the same as on windows or macos. while open-source alternatives exist, team collaboration can suffer when everyone isn't on the same page software-wise.
-     
-- lack of support for most laptop hardware
-
-     you have to buy dedicated hardware (like system76 laptops) for things to work right out the box or else you will have to spend hours searching and configuring drivers.
-
-     no distro ever recognized any peripherals on my lenovo carbon x1 laptop: external microphone, dual display setup, usb dock, wireless mouse and keyboard, fingerprint sensor, etc.
-
-     some were impossible to set up (like the fingerprint sensor) and others were just really annoying to set up (like the dual display setup).
-
-     i also never got more than 3 hours of battery life on linux, even with `tlp` and `powertop` installed.
-
-     closing the lid on my laptop would also cause the system to crash and i would have to force restart it.
-
-- janky gui
-
-     i almost never had good scaling options for displays. all distros show massive screen tears and all kinds of visual glitches with gnome and kde.
-
-     of course you could still just use a different desktop environment or just start using everything in the terminal. but in that case i wouldn't consider the mentioned desktop environments production ready.
 
 ## downsides of windows
 
