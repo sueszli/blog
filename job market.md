@@ -64,10 +64,6 @@ based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are
 
 in general picking a career specialization is a tough choice and just blindly chasing the next hottest trend [^gartner] isn't a sustainable strategy.
 
-also here's my sketch of the same concept (with a little more detail – but don't take it too seriously):
-
-![](<./assets/job market.png>)
-
 <br><br>
 
 # footnotes
