@@ -6,8 +6,6 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
-see:  (james mickens talk)
-
 _my issues with linux:_
 
 - lack of support for most proprietary software
