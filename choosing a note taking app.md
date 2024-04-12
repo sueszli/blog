@@ -52,8 +52,6 @@ first, here are my requirements. i want a markdown editor that:
 
 ## my recommendations
 
-_free_
-
 - obsidian
      - website: https://obsidian.md/
      - largest community, lots of plugins, highly customizable
@@ -67,7 +65,7 @@ _free_
 
 ## other options
 
-_not worth the price_
+_too expensive (when compared to free options)_
 
 - typora
      - website: https://typora.io/
@@ -108,7 +106,7 @@ _still in development_
      - website: https://app.simplenote.com/
      - also simplenote-electron: https://github.com/Automattic/simplenote-electron → not a wysiwg editor
 
-_monthly subscription_
+_has monthly subscription_
 
 - outline
      - website: https://github.com/outline/outline
