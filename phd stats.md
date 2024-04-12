@@ -25,9 +25,7 @@ it boils down to your definition of success [^1]:
 
    - are your decisions driven by societal norms or tangible benefits that you care about?
 
-
 but success metrics are hard to define:
-
 
 - **unclear metrics:** many struggle to define what they truly want from their careers amidst societal pressures and assumptions.
 
@@ -41,18 +39,9 @@ one commonly considered and easy to measure metric is the potential compensation
 
 <br><br>
 
-## paths and probabilities
+# paths and probabilities
 
-
-
-
-
-
-the computing research association's "taulbee survey" [^5] offers key insights into our query:
-
-> “The CRA Taulbee Survey is the principal source of information on the […] employment of Ph.D.s in […] computer science […] and in providing salary […] data […] in North America.“
-
-here are the essential findings:
+the computing research association's taulbee survey [^5] provides some insights into the landscape of phd employment in computer science, shedding light on career trajectories and probabilities.
 
 - **only around 2% secure tenure positions:**
 
