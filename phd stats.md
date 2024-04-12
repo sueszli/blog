@@ -37,8 +37,6 @@ and most of them are even harder to measure.
 
 one commonly considered and easy to measure metric is the potential compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
 
-<br><br>
-
 # paths and probabilities
 
 the computing research association's taulbee survey [^5] provides some insights into the landscape of phd employment in computer science, shedding light on career trajectories and probabilities.
@@ -81,11 +79,9 @@ here's a simplified perspective that also includes the results of the probabilit
 
 ![](./assets/img2.png)
 
-<br><br>
-
 <!--
 
-## salary comparison
+# salary comparison
 
 finally we try to get some salary data to compare the different paths.
 
@@ -123,11 +119,9 @@ finally we try to get some salary data to compare the different paths.
 
 the data is inconclusive and it's hard to draw conclusions from it. but it's safe to say that while a ph.d. might not guarantee a higher salary, it does open up the door to higher-paying positions.
 
-<br><br>
-
 -->
 
-## personal takeaways
+# personal takeaways
 
 i believe you should do a phd if:
 
@@ -163,9 +157,7 @@ i believe you should do a phd if:
 
            for fields that are a bad fit, a ph.d. can actually make you less employable as you'll be overqualified and underexperienced.
 
-<br><br>
-
-## references
+# references
 
 this post is heavily inspired by the "80000h" article about job prospects and risks of a computer science phd. i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/.
 
