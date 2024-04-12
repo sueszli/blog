@@ -88,7 +88,8 @@ in today's programming landscape, several languages stand out for different reas
 
 _python_
 
-- popularity: ideal for prototyping and data-centric work, preferred over r, julia, matlab, and other scripting languages.
+- popularity:
+     - ideal for prototyping and data-centric work, preferred over r, julia, matlab, and other scripting languages.
 - performance:
      - comparable to node.js for io-bound tasks (see: fastapi), but noticeably (10-100x) slower for cpu-bound tasks.
      - efforts underway to enhance performance, like removing the GIL, developing superset langauges like "mojo".
@@ -120,8 +121,7 @@ _java_
           - [features aren't compelling enough](https://kotlinlang.org/docs/comparison-to-java.html): null safety (java lomboks), coroutines (java virtual threads), native builds (project graalvm)
           - access to jvm ecosystem but [not a superset of java](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of). this is dangerous: groovy, clojure and scala all failed to compete.
      - catching up with projects like graalvm, quarkus and loom. newer versions are becoming more ergonomic.
-- performance:
-     - the jvm is very fast and highly optimized for long-running processes but it has a high startup time (cold start) and a high memory footprint.
+- performance: the jvm is very fast and highly optimized for long-running processes but it has a high startup time (cold start) and a high memory footprint.
 
 _c++_
 
