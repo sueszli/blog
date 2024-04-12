@@ -102,7 +102,7 @@ _javascript/typescript_
      - around [65% of js devs also use node.js](https://2022.stateofjs.com/en-US/usage/#what_do_you_use_js_for). but i don't think that the node users outnumber python users. node outside of fullstack development doesn't make much sense.
 - performance:
      - async works great for io-bound tasks.
-     - for cpu-bound tasks a lot of work was already put into runtime engines like v8, deno and bun which are frequently underappreciated.
+     - for cpu-bound tasks a lot of work was already put into runtime engines (v8, deno, bun) which are often underappreciated.
      - no multithreading support. only multiprocessing. node `worker_threads` are closer to lightweight processes than threads. each have their own v8 engine and event loop instance.
 
 _go_
