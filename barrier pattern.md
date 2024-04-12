@@ -6,8 +6,6 @@ it's a very simple pattern to execute multiple tasks simultaneously and await th
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
-> **note:** waiting for i/o is entirely different from waiting for threads or processes. these snippets have very different semantics. i just attempted to find an idiomatic way to express the pattern.
-
 # jvm languages
 
 here's one possible java implementation:
@@ -187,6 +185,8 @@ object ParallelPromisePattern extends App {
 
 # python
 
+> **note:** waiting for i/o is entirely different from waiting for threads or processes. these snippets have very different semantics. i just attempted to find an idiomatic way to express the pattern.
+
 ```python
 import asyncio
 import random
@@ -211,6 +211,8 @@ loop.run_until_complete(main())
 ```
 
 # javascript
+
+> again: we're waiting for i/o from the event loop
 
 ```js
 function sleep(ms) {
