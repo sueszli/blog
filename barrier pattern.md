@@ -6,6 +6,8 @@ it's a very simple pattern to execute multiple tasks simultaneously and await th
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
+> note: waiting for io is completely different from waiting for threads / processes. these snippets do completely different things. i just tried to find an idiomatic way to express the pattern.
+
 # jvm languages
 
 here's one possible java implementation:
