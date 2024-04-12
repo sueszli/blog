@@ -37,6 +37,8 @@ and most of them are even harder to measure.
 
 one commonly considered and easy to measure metric is the potential compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
 
+<br><br>
+
 # paths and probabilities
 
 the computing research association's taulbee survey [^5] provides some insights into the landscape of phd employment in computer science, shedding light on career trajectories and probabilities.
@@ -120,6 +122,8 @@ finally we try to get some salary data to compare the different paths.
 the data is inconclusive and it's hard to draw conclusions from it. but it's safe to say that while a ph.d. might not guarantee a higher salary, it does open up the door to higher-paying positions.
 
 -->
+
+<br><br>
 
 # personal takeaways
 
