@@ -6,7 +6,7 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
-choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops / your daily driver, it's a bit different. many folks opt for linux because they love ricing their distro or they see it as a way to support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use. you just have to jump through so many hoops, just to get the most basic things to work.
+choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops / your daily driver, it's a bit different. many folks opt for linux because they love ricing their distro or they see it as a way to support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use.
 
 _my issues with linux:_
 
@@ -14,11 +14,7 @@ _my issues with linux:_
 
      it isn't economically viable for companies to support linux as there are so many distros and so few users.
 
-     emulators (ie. wine) break with microsoft word, zoom and even the chrome browser doesn't render the same as on windows or macos.
-
-     you could argue that this isn't linux's fault but i think it's a valid point to make since it's a problem that you will have to deal with if you use linux.
-
-     you need to develop your very own workflow with open source software to get work done which is a lot of work, and highly impractical if you need to collaborate with others.
+     emulators (ie. wine) break with microsoft word, zoom and even the chrome browser doesn't render the same as on windows or macos. of course there are plenty of open source alternatives but you don't always get to choose what software your team is using and it is a lot of work. you could argue that this isn't linux's fault but that of big tech. i think it's a valid point to make since it's a problem that you will have to deal with if you use linux.
 
 - lack of support for most laptop hardware
 
