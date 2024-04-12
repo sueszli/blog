@@ -1,67 +1,41 @@
-# is a phd right for me?
+# is a phd really worth it?
 
-in this post, i'll explore whether a ph.d. in computer science is worth it from a financial perspective based on data from the computing research association's "taulbee survey" [^5] and other sources.
+it boils down to your definition of success [^1]:
 
-<br><br>
+1. **define success on your terms:**
 
-## introduction
+   - set clear goals and metrics, whether it's about your total compensation or personal fulfillment and growth.
+   - think outside the box. consider unconventional paths like collaborating with industry or testing business ideas during your phd.
 
-to understand whether a ph.d. can contribute to your success, you need to define what success means to you.
+2. **consider opportunity costs:**
 
-the following thought-provoking tips from prof. jimmy lin’s course “asecs” [^1] are a great starting point for some introspection:
+   - time and money are crucial factors. years spent in academia could mean missing out on significant paychecks.
+   - watch out for overspecialization, and be mindful of the mental strain that academia can bring.
 
-1. **recognize that there are multiple definitions of success and multiple ways to succeed.**
+3. **skill vs. luck:**
 
-      - set clear goals. define what success means to you by creating your own "utility function" and "success metrics":
+   - a phd improves your odds but doesn't guarantee success. your experience will vary based on many factors (research field, advisors, institution reputation, and location)
+   - remember, success often requires both skill and luck.
 
-           - traditional measures: like total compensation (in the industry) or recognition in the academic community.
-           - personal benchmarks: fulfillment, personal and professional growth, freedom, and authority over others.
+4. **be data-driven:**
 
-      - avoid thinking in extremes. consider unconventional paths like writing papers in collaboration with the industry or using a ph.d. to test business ideas before fully committing and looking for seed funding.
+   - don't base decisions solely on success stories (survivorship bias). look at the bigger picture and consider various data points.
 
-2. **understand that choices come with opportunity costs.**
+5. **normative vs. positive approaches:**
 
-      - consider time and money: years spent pursuing a ph.d. or being unemployed mean missing out on almost a million dollars in lost paychecks.
-      - risk of overspecialization: too much study may make you overqualified for certain positions.
-      - mental strain: the competitive nature of academia could overwhelm or exhaust you.
+   - are your decisions driven by societal norms or tangible benefits that you care about?
 
-3. **accept the role of skill as well as luck.**
+but finding your own definition of success is really tricky:
 
-      - no academic degree guarantees success; it only improves your chances if you put in the effort.
-      - each ph.d. experience differs due to various factors such as research field, advisors, institution reputation, and location (european ph.d.s are shorter, but also cause you to start with your thesis later).
+- **unclear metrics:** many struggle to define what they truly want from their careers amidst societal pressures and assumptions.
 
-4. **think about distributions vs. samples.**
+- **reluctance to share:** discussing personal metrics can be uncomfortable due to fear of judgment or competitiveness.
 
-      - be data driven. don't base decisions solely on conversations with successful individuals due to survivorship bias.
+- **evolving priorities:** as you gain experience, your priorities shift. what mattered most earlier might not be the same now.
 
-5. **reflect on the differences between normative vs. positive approaches.**
+it's also worth noting that while some metrics are easy to measure, others are not, and even the measurable ones can be quite inaccurate.
 
-      - normative: is your decision influenced by societal norms, personal values, or cultural expectations?
-      - positive: does your chosen path offer tangible benefits like career growth, knowledge acquisition, or personal development?
-
-but finding your own definition of success is easier said than done. here are some reasons why i think it's so hard:
-
-- most people don’t know their own metrics.
-
-     it takes a lot of introspection to figure out what you want in your career. personal desires can be overshadowed by societal expectations and wrong assumptions about potential rewards.
-
-- most people don’t like talking about their metrics.
-
-     some are motivated by curiosity and growth, while others are competitive. people may fear being judged for their desires.
-
-- metrics change throughout life.
-
-     with experience, needs change. ie. more experienced individuals might desire personal fulfillment over financial compensation.
-
-but it doesn't end here, the majority of the mentioned metrics are impossible to measure and the ones that are easily measurable are mostly highly inaccurate:
-
-- **total compensation:** people can get paid in benefits such as stock options, time off, or reduced workloads (while keeping the same salary). sometimes, they can also use money that they don’t have direct access to, like grant money / funds from investors.
-
-- **outreach and influence/recognition:** this measures how many people you reach and how your work affects them. it's easier to quantify in industries through things like monthly active users or click-through rates. in academia, it might be measured through the number of publications or citations you have (h-index, total citations, etc.) although this is controversial.
-
-> for the sake of simplicity and finding the greatest common denominator, let's focus on the most easily measurable metric: **total compensation**.
-
-but keep in mind that this is just one of many possible metrics and not the primary reason why most computer science ph.d. students pursue their degrees [^2] [^3] [^4].
+by understanding these nuances, you can make a more informed decision about whether a ph.d. aligns with your financial goals and broader definitions of success. but keep in mind that financial goals aren't the main reason students pursue their degrees [^2] [^3] [^4].
 
 <br><br>
 
