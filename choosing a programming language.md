@@ -31,7 +31,7 @@ you should start investing in performance when your infrastructure costs exceed 
 
 caring too early about performance leads to premature optimization, while caring too late leads to costly rewrites.
 
-## performance
+# performance
 
 the most popular benchmark, called [the benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html), also clusters languages into tiers based on performance.
 
@@ -54,7 +54,7 @@ the most popular benchmark, called [the benchmark game](https://benchmarksgame-t
       - perl
       - ruby
 
-## popularity
+# popularity
 
 we want to be able to collaborate and take advantage of existing ecosystems.
 
@@ -143,7 +143,7 @@ _rust_
 - performance:
      - close to zero overhead.
 
-## references
+# references
 
 _inspiration:_
 
