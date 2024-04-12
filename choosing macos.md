@@ -26,19 +26,15 @@ while linux offers many benefits, these challenges can make it less than ideal f
 
 _my issues with windows:_
 
+- forced advertisement and updates
+
+     upgrading to windows 11 is necessary after 2025 because windows 10 won’t receive updates anymore. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat: https://github.com/LeDragoX/Win-Debloat-Tools
+
 - wsl2 (windows subsystem for linux) is very unstable
 
      see: https://www.reddit.com/r/bashonubuntuonwindows/comments/opujbm/does_wsl_give_windows_an_edge_over_mac/
 
-     you will still need to "drop back to windows" for a lot of things → usb passthrough doesn’t work, it is significantly slower, breaks vscode whenever you log off, has a reduced set of valid bash commands, etc.
-
-- forced advertisement and updates
-
-     since win10 won’t be getting updates from 2025. you will be forced to upgrade to win11.
-
-     this is terrible as in win11 you have ads both in your lock screen and start menu that you can't disable.
-
-     but this problem can be mitigated by debloating windows using something like https://github.com/LeDragoX/Win-Debloat-Tools
+     wsl isn't mature enough yet. you will still need to "drop back to windows" for a lot of things. usb passthrough doesn’t work or is significantly slower, wsl crashes vscode whenever you log off and has a reduced instruction set of bash commands etc.
 
 - multiple shells
 
