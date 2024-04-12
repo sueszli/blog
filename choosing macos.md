@@ -63,5 +63,6 @@ _my issues with windows:_
 - aweful software management
 
      - environment variables must be set through the gui.
-     - NTFS makes deleting many adjacent files in ie. `node_module` folders or uninstalling programs really difficult.
-     - package managers like scoop, winget and chocolatey don't work well together and are not as good as brew or apt.
+     - NTFS makes deleting many adjacent files in ie. `node_module` folders really difficult.
+     - program files are spread across the filesystem which makes it hard to declutter unused software.
+     - package managers like `scoop`, `winget` and `chocolatey` are no where as popular in the community as `brew` or `apt`.
