@@ -6,7 +6,7 @@ it's a very simple pattern to execute multiple tasks simultaneously and await th
 
 here's a little collection of implementations in different languages that also serves as a nice comparison between them.
 
-> **note:** waiting for i/o is entirely different from waiting for threads or processes. these snippets do not reflect the same semantics. i just attempted to find an idiomatic way to express the pattern.
+> **note:** waiting for i/o is entirely different from waiting for threads or processes. these snippets have very different semantics. i just attempted to find an idiomatic way to express the pattern.
 
 # jvm languages
 
