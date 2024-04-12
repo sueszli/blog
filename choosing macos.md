@@ -20,7 +20,7 @@ _here are my issues with linux:_
 
      you often need dedicated hardware (like system76 laptops) for things to work right out of the box, or else you'll spend hours searching and configuring drivers. my lenovo carbon x1 laptop faced recognition issues with external peripherals like microphones, dual displays, usb docks, wireless mouse and keyboard, and fingerprint sensors etc. some were downright impossible to set up, while others were just really annoying. additionally, battery life was significantly reduced compared to other operating systems, even with power management tools installed (tlp, powertop). closing the lid on my laptop would sometimes cause the system to crash, requiring a force restart.
 
-     but on the other hand, i was able to revive my 10 year old dell xps laptop by using a lightweight version of zorinOS and it worked well. it's just difficult to know in advance which laptops work well with the distro of your choice.
+     on the other hand: after revive my 10 year old dell xps with a lightweight version of zorinOS it worked flawlessly and i didn't have to tweak around at all.
 
 while linux offers many benefits, these challenges can make it less than ideal for some users in certain situations.
 
