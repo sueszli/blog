@@ -2,11 +2,11 @@
 
 here's a list of the things that bother me about other operating systems, so much so that i'm willing to pay the apple tax to use macos.
 
-this is in no way a recommendation for you to switch to macos. please use whatever works best for your workflow. also check out wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0) as it covers a lot of the same points.
+this is in no way a recommendation for you to switch to macos. please use whatever works best for your workflow. also check out wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0) and jame's mickens presention of [his life as a developer](https://youtu.be/7Nj9ZjwOdFQ?si=mhz86GWUVsvk6sPe&t=1009) as they cover a lot of the same points.
 
 ## downsides of linux
 
-see: https://youtu.be/7Nj9ZjwOdFQ?si=mhz86GWUVsvk6sPe&t=1009 (james mickens talk)
+see:  (james mickens talk)
 
 _my issues with linux:_
 
