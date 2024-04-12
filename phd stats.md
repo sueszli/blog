@@ -129,13 +129,11 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
 i believe you should do a phd if:
 
-1. you enjoy the process.
+1. you enjoy the process:
 
-      life is too short to do spend a decade doing something that doesn't bring you joy.
+   life is too short to do spend a decade doing something that doesn't bring you joy. and if you're not sure, try to get a summer research internship or do a master's degree first to find out.
 
-      if you're not sure, try to get a summer research internship or do a master's degree first to find out.
-
-2. you fully trust your advisor.
+2. **you fully trust your supervisor:
 
       they decide when you will graduate and it's in their best interest to keep you as long as possible. it's a conflict of interest and a power dynamic that can be abused.
 
