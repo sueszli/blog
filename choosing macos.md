@@ -6,7 +6,7 @@ this is in no way a recommendation for you to switch to macos. please use whatev
 
 ## downsides of linux
 
-choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops / your daily driver, it's a bit different. many folks opt for linux because they love ricing their distro or they see it as a way to support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use. you just have to jump through so many hoops, just to get things to work.
+choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops / your daily driver, it's a bit different. many folks opt for linux because they love ricing their distro or they see it as a way to support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use. you just have to jump through so many hoops, just to get the most basic things to work.
 
 _my issues with linux:_
 
