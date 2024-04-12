@@ -38,8 +38,6 @@ _my issues with linux:_
 
 ## downsides of windows
 
-> note: a great chunk of these problems can be mitigated by debloating windows using something like https://github.com/LeDragoX/Win-Debloat-Tools
-
 _my issues with windows:_
 
 - wsl2 (windows subsystem for linux) is very unstable
@@ -53,6 +51,8 @@ _my issues with windows:_
      since win10 won’t be getting updates from 2025. you will be forced to upgrade to win11.
 
      this is terrible as in win11 you have ads both in your lock screen and start menu that you can't disable.
+
+     but this problem can be mitigated by debloating windows using something like https://github.com/LeDragoX/Win-Debloat-Tools
 
 - multiple shells
 
