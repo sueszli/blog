@@ -133,7 +133,7 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
 - **trust your supervisor:** your supervisor decides when you graduate, and sometimes they benefit from keeping you around longer. this can be a problem, especially in north america. consider a european phd for better protections and conditions.
 
-- **amortize the opportunity cost:** consider if a phd aligns with your career goals. if you're aiming high and studying at a top school, it might pay off. but always make sure your phd gives you skills that are valuable in industry to have a backup plan. but be cautious: some fields might not benefit from a phd and could even hurt your job prospects. so always make sure that you're gaining skills directly useful for a job, where your phd counts as work experience. this is great for leadership roles in big companies, but it's mostly for theoretical/analytical areas.
+- **amortize the opportunity cost:** whether you aim for the tenure lottery or a role in industry research, choose fields, topics, and skills that maximize overlap with industry positions. while some topics might seem "too applied" for academic research, you have to make sure that your phd experience translates into years of experience for industry roles that value strong analytical and quantitative skills. in general analytical fields naturally provide the greatest overlap between academic and industry work, ensuring a smooth transition if needed. other fields, like software and systems engineering, have a significant gap between academic and industry practices. your academic experience may not be fully recognized by industry employers in these cases.
 
 # references
 
