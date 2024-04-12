@@ -20,7 +20,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
 ## downsides of windows
 
-- forced advertisement, updates
+- forced advertisement
 
      you're stuck with windows 11 after 2025 because by then windows 10 won’t receive any updates. but windows 11 comes with ads on the lock screen and start menu that you can’t turn off. luckily, you can mitigate this problem by using tools like win debloat.
 
