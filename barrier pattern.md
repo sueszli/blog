@@ -185,7 +185,7 @@ object ParallelPromisePattern extends App {
 
 # python
 
-> **note:** waiting for i/o is entirely different from waiting for threads or processes. these snippets have very different semantics. i just attempted to find an idiomatic way to express the pattern.
+> **note:** waiting for i/o is entirely different from waiting for threads or processes. this is just an attempt at finding an idiomatic way to express the pattern in python.
 
 ```python
 import asyncio
@@ -212,7 +212,7 @@ loop.run_until_complete(main())
 
 # javascript
 
-> again: we're waiting for event loop i/o here and not threads/processes.
+> again: not the same as waiting for threads/processes but callbacks from the event loop.
 
 ```js
 function sleep(ms) {
