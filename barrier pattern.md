@@ -115,7 +115,7 @@ fun main() = runBlocking {
 }
 ```
 
-and in case you were wondering what using the akka-framework would look like in java:
+and in case you were wondering what leveraging the akka-framework would look like in java:
 
 ```java
 package code;
@@ -187,8 +187,6 @@ object ParallelPromisePattern extends App {
 
 # python
 
-this actually doesn't make a lot of sense in python because of the gil.
-
 ```python
 import asyncio
 import random
@@ -241,8 +239,6 @@ Promise.all(promises)
 
 # go
 
-i find both javascript and golang to have the most straightforward solutions – although the one in golang is a lot more performant.
-
 ```go
 package main
 
@@ -279,10 +275,6 @@ func main() {
 ```
 
 # beam languages
-
-finally, let's look at the most popular beam languages.
-
-i personally think the actor-paradigm is much better than the csp-paradigm as implemented in golang – i'd love to get better at programming in erlang at some point.
 
 _erlang:_
 
