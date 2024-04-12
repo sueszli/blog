@@ -14,7 +14,9 @@ _my issues with linux:_
 
      it isn't economically viable for companies to support linux as there are so many distros and so few users.
 
-     emulators (ie. wine) break with microsoft word, zoom and even the chrome browser doesn't render the same as on windows or macos. of course there are plenty of open source alternatives but you don't always get to choose what software your team is using and it is a lot of work. you could argue that this isn't linux's fault but that of big tech. i think it's a valid point to make since it's a problem that you will have to deal with if you use linux.
+     emulators (ie. wine) break with microsoft word, zoom and even the chrome browser doesn't render the same as on windows or macos. of course there are plenty of open source alternatives but you don't always get to choose what software your team is using and having a highly individual workflow makes it a lot harder to collaborate.
+
+     you could argue that this isn't linux's fault but that of big tech. i think it's a valid point to make since it's a problem that you will have to deal with if you use linux.
 
 - lack of support for most laptop hardware
 
