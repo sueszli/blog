@@ -1,6 +1,4 @@
-# choosing a note taking app
-
-## why markdown?
+# why markdown?
 
 if you want to write notes, you have to choose a file format.
 
@@ -40,7 +38,7 @@ i highly discourage using html for notes since you'll be constrained to a render
      - pdf – lossy, doesn’t keep all data and formatting
      - markdown – lossy, doesn’t keep all data and formatting
 
-## requirements
+# my requirements
 
 first, here are my requirements. i want a markdown editor that:
 
@@ -50,7 +48,7 @@ first, here are my requirements. i want a markdown editor that:
 - is wysiwyg / has live preview: doesn't require you to open a second preview window
 - can render math: large complex equations
 
-## my recommendations
+# my recommendations
 
 - obsidian
      - website: https://obsidian.md/
@@ -63,7 +61,7 @@ first, here are my requirements. i want a markdown editor that:
      - discussion: https://news.ycombinator.com/item?id=29687061
      - no longer maintained: https://github.com/marktext/marktext/issues/1290#issuecomment-726744803
 
-## other options
+# excluded options
 
 _too expensive (when compared to free options)_
 
@@ -124,7 +122,7 @@ _has monthly subscription_
      - website: https://roamresearch.com/
      - basically just like obsidian
 
-## footnotes
+# footnotes
 
 [^plain]: [the unreasonable effectiveness of plain text](https://www.youtube.com/watch?v=WgV6M1LyfNY)
 [^comp1]: [comparison of lightweight markup languages](https://en.m.wikipedia.org/wiki/Lightweight_markup_language#:~:text=Comparison%20of%20language%20features)
