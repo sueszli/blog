@@ -39,8 +39,6 @@ and most of them are even harder to measure.
 
 one commonly considered and easy to measure metric is the potential compensation growth throughout your career. but that's rarely the reason cs grad students pursue their degree [^2] [^3] [^4].
 
-<br><br>
-
 # paths and probabilities
 
 the computing research association's taulbee survey [^5] provides some insights into the landscape of phd employment in computer science, shedding light on career trajectories and probabilities.
@@ -125,8 +123,6 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
 -->
 
-<br><br>
-
 # personal takeaways
 
 - **enjoy the journey:**
@@ -146,8 +142,6 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
    in general analytical fields naturally provide the greatest overlap between academic and industry work, ensuring a smooth transition if needed.
 
    other fields, like software and systems engineering, have a significant gap between academic and industry practices. your academic experience may not be fully recognized by industry employers in these cases.
-
-<br><br>
 
 # references
 
