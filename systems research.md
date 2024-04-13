@@ -11,7 +11,7 @@ this confusion on social media is justified.
 
 there's a lot more to it than you might think. the term "systems" is ambiguous and the meaning always depends on which context it's used in.
 
-## classification
+# classification
 
 it's very hard to classify the entirety of computer science research. some good starting points are the [acm research classification](https://cran.r-project.org/web/classifications/ACM.html) the [arxiv taxonomy](https://arxiv.org/category_taxonomy) and the [csrankings](http://csrankings.org/) website. here's how i would combine them:
 
@@ -73,7 +73,7 @@ it's very hard to classify the entirety of computer science research. some good 
      - cs.ET (Emerging Technologies)
      - cs.RO (Robotics)
 
-## conclusion
+# conclusion
 
 in short: a system is the sum of its primitives. these primitives can be anything ranging from people (social networks), intelligent agents (multiagent systems), autonomous vehicles (robotics), to software modules, services or entire hardware components. and you could argue that anyone working on any of these primitives could be considered a "systems person" – but obviously we're always referring to the research category mentioned above.
 
