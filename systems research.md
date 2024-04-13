@@ -13,9 +13,7 @@ there's a lot more to it than you might think. the term "systems" is ambiguous a
 
 ## classification
 
-it's very hard to classify the entirety of computer science research. some good starting points are the [acm research classification](https://cran.r-project.org/web/classifications/ACM.html) the [arxiv taxonomy](https://arxiv.org/category_taxonomy) and the [csrankings](http://csrankings.org/) website.
-
-i personally like the arxiv taxonomy and the csranking classification the most. here's how i would combine them:
+it's very hard to classify the entirety of computer science research. some good starting points are the [acm research classification](https://cran.r-project.org/web/classifications/ACM.html) the [arxiv taxonomy](https://arxiv.org/category_taxonomy) and the [csrankings](http://csrankings.org/) website. i personally like these two the most. here's how i would combine them:
 
 - data
 
