@@ -1,10 +1,8 @@
-# choosing macos
-
 here's a list of the things that bother me about other operating systems (for laptop usage). so much so that i'm willing to pay the apple tax to use macOS.
 
 this is in no way a recommendation for you to switch to macOS. please use whatever works best for your workflow. also check out wolfgang's video on [why he switched to macos (as a linux user)](https://www.youtube.com/watch?v=X0DIHlnD_S0) and james mickens' presention on [his life as a developer](https://youtu.be/7Nj9ZjwOdFQ?si=mhz86GWUVsvk6sPe&t=1009) as they cover a lot of the same points.
 
-## downsides of linux
+# downsides of linux
 
 choosing linux for servers? absolutely! it's the go-to for reliability and performance. but when it comes to desktops, your daily driver, it's a bit different: many folks opt for linux because they love ricing their distro or they support open-source ideals. it can be fun and impactful, but let's face it, sometimes it's not the most practical choice for everyday use.
 
@@ -18,7 +16,7 @@ is this linux's fault? or is it more about big tech not playing nice? it's a val
 
      you often need dedicated hardware (like system76 laptops) for things to work right out of the box, or else you'll spend hours searching and configuring drivers. my lenovo carbon x1 gen7 laptop faced recognition issues with external peripherals like microphones, dual displays, usb docks, wireless mouse and keyboard, and fingerprint sensors etc. some were downright impossible to set up, while others were just really annoying. additionally, battery life was significantly reduced compared to other operating systems, even with power management tools installed (tlp, powertop). closing the lid on my laptop would sometimes cause the system to crash, requiring a force restart.
 
-## downsides of windows
+# downsides of windows
 
 - forced advertisement:
 
