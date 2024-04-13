@@ -83,4 +83,4 @@ but even "systems people" within the same community or lab could be working on v
 
 - the same applies to kernel researchers: while one could be hardening the kernel against power side-channel and physical memory attacks, the other could be working on fault tolerant network protocols for space exploration.
 
-as you can see, the only thing these people have in common are the journals and conferences they publish in.
+as you can see, the only thing these people have in common are where they publish.
