@@ -82,6 +82,8 @@ this decision is based on the following sources:
      - https://www.jetbrains.com/lp/devecosystem-2022/
 - google: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=JavaScript,%2Fm%2F05z1_,java,golang
 
+<!--
+
 # my personal preferences
 
 in today's programming landscape, several languages stand out for different reasons.
@@ -142,6 +144,8 @@ _rust_
      - feels like a revival of adaLang.
 - performance:
      - close to zero overhead.
+
+-->
 
 # references
 
