@@ -45,6 +45,12 @@ what about you? what are you optimizing for? what are you willing to sacrifice t
 
 - b) if you're optimizing for personal fulfillment, you can avoid competition by delaying your earnings (ie. by studying for a phd, working for a non-profit).
 
+to clarify:
+
+- supply/demand dynamics don't influence your compensation but your likelihood of success. for example: you can expect professional athletes and celebrities to earn a lot more than caretakers and nurses although their domain is oversaturated.
+
+- competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vise versa.
+
 your personal fit is a combination of the following components [^fitdump]:
 
 - career capital = skills, connections, credentials.
