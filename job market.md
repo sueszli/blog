@@ -12,21 +12,21 @@ this begs the question: why doesn't this happen in the real world?
 
 because human judgement is flawed, hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
-what about you? what are you optimizing for? what are you willing to sacrifice to get it?
+what about you? what are you optimizing for and what compromises are you prepared to make?
 
-# compensation vs. interestingness
+# compensation and interestingness
 
 ![](./assets/competition.png)
 
-compensation and interestingness both increase the competition you'll be facing for a job:
+compensation and interestingness both increase the competition you'll be facing for a job.
 
-- a) if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid (ie. blue collar jobs, cobol programming).
+- a) if you're optimizing for compensation, you can avoid competition by doing something in high demand that most people avoid (ie. blue collar jobs, cobol programming).
 
 - b) if you're optimizing for personal fulfillment, you can avoid competition by delaying your earnings (ie. by studying more, working for a non-profit).
 
 to clarify:
 
-- supply/demand dynamics don't influence your compensation but your likelihood of success. for example: you can expect professional athletes and celebrities to earn a lot more than caretakers and nurses although their domain is oversaturated.
+- supply/demand dynamics don't influence your compensation but your likelihood of success. for example: you can expect professional athletes and celebrities to earn a lot more than caretakers and nurses although their domain is really oversaturated.
 
 - competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vice versa.
 
@@ -39,7 +39,7 @@ another dimension to consider is your personal fit. it's a combination of the fo
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
 
-one aspect of the personal fit that stands out to me is impact.
+one aspect of the personal fit that stands out to me is "impact".
 
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
