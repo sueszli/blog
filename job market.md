@@ -16,7 +16,7 @@ because hiring is complex and everyone has a unique utility function. people als
 
 what about you? what are you optimizing for? what are you willing to sacrifice to get it?
 
-## compensation vs. interestingness
+## 1. compensation vs. interestingness
 
 ![](./assets/competition.png)
 
@@ -32,7 +32,7 @@ to clarify:
 
 - competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vice versa.
 
-## personal fit
+## 2. personal fit
 
 another dimension to consider is your personal fit. it's a combination of the following components [^fitdump]:
 
