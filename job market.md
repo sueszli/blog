@@ -8,7 +8,7 @@ imagine a simple, fair and perfectly meritocratic parallel universe in which:
 
 to game this system you'd go for the highest-paying job within your reach and do just enough to meet the requirements.
 
-so why doesn't this happen in the real world?
+this begs the question: why doesn't this happen in the real world?
 
 because hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
