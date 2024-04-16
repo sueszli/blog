@@ -4,15 +4,13 @@ imagine a simple, fair and perfectly meritocratic parallel universe in which:
 
 - **employers:** companies hire algorithmically. you are hired solely by supply/demand and a score that's a perfect representation of your competence.
 
-- **employees:** everyone is utilitarian, rational, self-interested and can achieve happiness just by maximizing their earnings: people are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
+- **employees:** everyone is utilitarian, rational, self-interested and can achieve happiness just through maximizing their earnings: people are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
 
-to game this system you'd go for the highest-paying job within your reach and do just enough to meet the requirements - and you'd be perfectly happy/
+to game this system you'd go for the highest-paying job within your reach and do just enough to meet the requirements.
 
 # reality check
 
-so why doesn't this happen in the real world?
-
-because people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
+so why doesn't this happen in the real world? because hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
 ![](./assets/competition.png)
 
