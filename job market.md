@@ -14,9 +14,13 @@ so why doesn't this happen in the real world?
 
 because hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
+what about you? what are you optimizing for? what are you willing to sacrifice to get it?
+
+## compensation vs. interestingness
+
 ![](./assets/competition.png)
 
-what about you? what are you optimizing for? what are you willing to sacrifice to get it? finding your personal fit is a complex topic.
+compensation and interestingness both increase the competition you'll be facing for a job:
 
 - a) if you're optimizing for compensation, you should avoid competition by doing something in high demand that most people avoid (ie. blue collar jobs, cobol programming).
 
@@ -28,7 +32,9 @@ to clarify:
 
 - competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vice versa.
 
-your personal fit is a combination of the following components [^fitdump]:
+## personal fit
+
+another dimension to consider is your personal fit. it's a combination of the following components [^fitdump]:
 
 - career capital = skills, connections, credentials.
 - impact = solving important problems with the right methods. your job satisfaction will grow over time as you get better and others start appreciating you more.
