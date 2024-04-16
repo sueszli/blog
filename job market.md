@@ -17,7 +17,7 @@ in this parallel universe, there is a "job market score" that is calculated base
 
 this means that jobs are assigned purely based on supply, demand and your score. we assume that the best paying jobs are:
 
-- the most complex (require the highest education, experience, skills)
+- the most complex (require high comprtence)
 - the highest in demand
 
 we also assume that humans are utilitarian, rational, self-interested and just want to maximize their earnings. these humans are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
