@@ -15,14 +15,7 @@ but that's exactly the case here.
 
 in this parallel universe, there is a "job market score" that is calculated based on these metrics and a perfect indicator for how suitable you are for a job.
 
-this means that jobs are assigned purely based on supply, demand and your score:
-
-- lower demand for a profession = higher competition for employment
-- higher demand for a profession = lower competition for employment
-
-but the demand for a profession doesn't influence the pay or complexity of the job.
-
-we assume that the best paying jobs are:
+this means that jobs are assigned purely based on supply, demand and your score. we assume that the best paying jobs are:
 
 - the most complex (require the highest education, experience, skills)
 - the highest in demand
