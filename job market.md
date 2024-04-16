@@ -1,28 +1,12 @@
-here's a little shower thought [^pgen].
+here's a little shower thought:
 
-imagine a simple, fair and meritocratic parallel universe where you are judged solely by the following metrics when applying for a job:
+imagine a simple, fair and perfectly meritocratic parallel universe in which:
 
-- your education: your degrees and certificates
-- your experience: the number of years you worked in the field
-- the reputation of institutions you worked for and studied at: different rankings and ratings
-- your skills: your technical and soft skills based on some standardized tests
+- **employers:** companies hire algorithmically. you are hired solely by supply/demand and a score that's a perfect representation of your competence.
 
-and nothing else.
+- **employees:** everyone is utilitarian, rational, self-interested and can achieve happiness just by maximizing their earnings: people are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
 
-of course this is far from reality. human judgement is flawed and biased. it's impossible to quantify how suitable a person is for a job – otherwise human resources departments would be obsolete and people would hire algorithmically.
-
-but that's exactly the case here.
-
-in this parallel universe, there is a "job market score" that is calculated based on these metrics and a perfect indicator for how suitable you are for a job.
-
-this means that jobs are assigned purely based on supply, demand and your score. we assume that the best paying jobs are:
-
-- the most complex (require high comprtence)
-- the highest in demand
-
-we also assume that humans are utilitarian, rational, self-interested and just want to maximize their earnings. these humans are not picky about the job they get, as long as it pays well. a lawyer would be just as happy working as a plumber if the pay is better, even if it's less prestigious, exciting or involves physical labor.
-
-how would you game this system? well - simply by taking the path of least resistance: finding the highest paying job at reach and fulfilling the minimum requirements.
+to game this system you'd go for the highest-paying job within your reach and do just enough to meet the requirements - and you'd be perfectly happy/
 
 # reality check
 
@@ -80,7 +64,8 @@ career impact:
 
 references:
 
-[^pgen]: originally from a video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
+inspiration: video by "the primeagen" called ["Developers On Edge"](https://youtu.be/DOdB1e1xrfU?si=9w5wRToMUhBimeNi&t=828).
+
 [^fitdump]: check out the links above in the "personal fit" section for some interesting articles on this topic.
 [^demanddump]: check out the links above in the "career impact" section for some interesting articles on this topic.
 [^gartner]: https://www.gartner.com/en/articles/what-s-new-in-the-2023-gartner-hype-cycle-for-emerging-technologies
