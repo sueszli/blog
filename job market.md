@@ -8,15 +8,13 @@ imagine a simple, fair and perfectly meritocratic parallel universe in which:
 
 to game this system you'd go for the highest-paying job within your reach and do just enough to meet the requirements.
 
-# reality check
-
 so why doesn't this happen in the real world?
 
 because hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
 what about you? what are you optimizing for? what are you willing to sacrifice to get it?
 
----
+# compensation vs. interestingness
 
 ![](./assets/competition.png)
 
@@ -32,7 +30,7 @@ to clarify:
 
 - competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vice versa.
 
----
+# personal fit
 
 another dimension to consider is your personal fit. it's a combination of the following components [^fitdump]:
 
@@ -40,6 +38,8 @@ another dimension to consider is your personal fit. it's a combination of the fo
 - impact = solving important problems with the right methods. your job satisfaction will grow over time as you get better and others start appreciating you more.
 - supportive conditions = engagement, colleagues, basic needs.
 - personal fit = how well it fits you (this is like a multiplier to the sum of the components above).
+
+one aspect of the personal fit that stands out to me is impact.
 
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
