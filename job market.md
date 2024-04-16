@@ -49,7 +49,7 @@ to clarify:
 
 - supply/demand dynamics don't influence your compensation but your likelihood of success. for example: you can expect professional athletes and celebrities to earn a lot more than caretakers and nurses although their domain is oversaturated.
 
-- competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vise versa.
+- competence and compensation don't necessarily correlate. a task can be extremely difficult but pay worse and vice versa.
 
 your personal fit is a combination of the following components [^fitdump]:
 
