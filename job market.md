@@ -10,7 +10,7 @@ to game this system you'd go for the highest-paying job within your reach and do
 
 this begs the question: why doesn't this happen in the real world?
 
-because hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
+because human judgement is flawed, hiring is complex and everyone has a unique utility function. people also try to find personal fulfillment, happiness, excitement, prestige, etc. in their jobs.
 
 what about you? what are you optimizing for? what are you willing to sacrifice to get it?
 
