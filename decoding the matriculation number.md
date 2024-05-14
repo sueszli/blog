@@ -1,6 +1,6 @@
 the **matriculation number**, a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
 
-i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the **leakage of personal information and its potential misuse**.
+i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the **leakage of personal information** and its potential misuse.
 
 according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the matriculation number is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
 
