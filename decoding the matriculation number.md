@@ -6,7 +6,7 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 
 **for example**, the matriculation number "11912007" can be broken down as follows:
 
-- the first digit (1) indicates the type of university → in this case, the technical university of vienna (you can look it up on the table in the appendix of this post)
+- the first digit (1) indicates the type of university → in this case, the technical university of vienna (see: [^legal2])
 - the second and third digits (19) represent the last two digits of the year of enrollment → in this case, the year 2019.
 - the last five digits (12007) are a unique identifier for the student within that year. [^fsinf]
 
