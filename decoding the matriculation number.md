@@ -14,7 +14,7 @@ this information, combined with publicly available data, could potentially be us
 
 in conclusion the encoding of personal information within matriculation numbers presents a nuanced privacy concern.
 
-while human error remains the weakest link in any institution, even among security and privacy experts, it's crucial to delve into specific details like these.
+while human error remains the weakest link in any institution (even among security and privacy experts!) it's crucial to delve into specific details like these.
 
 although the primary purpose of these numbers is administrative, their structure inadvertently facilitates the derivation of personal data. this case study highlights the importance of considering privacy implications in the design of identification systems, especially in contexts where such identifiers are widely used and potentially accessible to the public.
 
