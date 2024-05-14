@@ -10,7 +10,7 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 - the second and third digits (19) represent the last two digits of the year of enrollment → meaning 2019
 - the last five digits (12007) are a unique identifier for the student within that year → most likely meaning computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
 
-this information, combined with publicly available data / large scale data analyses as done by the FSINF student club, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
+this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
 
 in conclusion the encoding of personal information within matriculation numbers presents a nuanced privacy concern.
 
