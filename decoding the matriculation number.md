@@ -1,4 +1,4 @@
-the european matriculation number, a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
+the matriculation number, a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
 
 i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the leakage of personal information and its potential misuse.
 
