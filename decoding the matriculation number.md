@@ -10,11 +10,11 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 - the second and third digits (19) represent the last two digits of the year of enrollment → meaning 2019
 - the last five digits (12007) are a unique identifier for the student within that year → most likely meaning computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
 
-even without large scale data analyses: the structure of the matriculation number always allows for the derivation of personal information, such as the approximate age of the student based on their enrollment year.
+this information, combined with publicly available data / large scale data analyses as done by the FSINF student club, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
 
-this information, combined with publicly available data or social engineering, could potentially be used to find personal accounts, identify peers from the same year, or even guess elements of the student's password if it includes their birthdate.
+in conclusion the encoding of personal information within matriculation numbers presents a nuanced privacy concern.
 
-in conclusion the encoding of personal information within matriculation numbers presents a nuanced privacy concern. while the primary purpose of these numbers is administrative, their structure inadvertently facilitates the derivation of personal data. this case study highlights the importance of considering privacy implications in the design of identification systems, especially in contexts where such identifiers are widely used and potentially accessible to the public.
+while the primary purpose of these numbers is administrative, their structure inadvertently facilitates the derivation of personal data. this case study highlights the importance of considering privacy implications in the design of identification systems, especially in contexts where such identifiers are widely used and potentially accessible to the public.
 
 [^legal1]: Universitäts- und Hochschulstatistik- und Bildungsdokumentationsverordnung § 4, tagesaktuelle Fassung - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011989&Paragraf=4
 
