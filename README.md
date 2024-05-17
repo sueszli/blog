@@ -14,7 +14,6 @@ _file tree:_
 - [choosing a note taking app](<https://sueszli.github.io/blog/choosing%20a%20note%20taking%20app>)
 - [choosing a programming language](<https://sueszli.github.io/blog/choosing%20a%20programming%20language>)
 - [choosing macos](<https://sueszli.github.io/blog/choosing%20macos>)
-- [decoding the matriculation number](<https://sueszli.github.io/blog/decoding%20the%20matriculation%20number>)
 - [job market](<https://sueszli.github.io/blog/job%20market>)
 - [phd stats](<https://sueszli.github.io/blog/phd%20stats>)
 - [systems research](<https://sueszli.github.io/blog/systems%20research>)
