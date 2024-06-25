@@ -16,6 +16,8 @@ what about you? what are you optimizing for and what compromises are you prepare
 
 # compensation and interestingness
 
+i believe that you can expect a multivariate normal distribution of jobs in both the dimension of compensation and interestingness (totally made up metrics btw - you can't formalize these things).
+
 ![](./assets/competition.png)
 
 compensation and interestingness both increase the competition you'll be facing for a job.
