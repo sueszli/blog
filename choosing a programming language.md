@@ -35,11 +35,13 @@ caring too early about performance leads to premature optimization, while caring
 
 the most popular benchmark, called [the benchmark game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html), also clusters languages into tiers based on performance.
 
+here's how i interpret them:
+
 0. closest to metal:
       - c
       - c++
       - rust
-1. loss of performance is negligible:
+1. loss of performance is negligible (for simple applications):
       - c#
       - go
       - swift
