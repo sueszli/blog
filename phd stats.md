@@ -145,7 +145,13 @@ the data is inconclusive and it's hard to draw conclusions from it. but it's saf
 
 # references
 
-this post is heavily inspired by the "80000h" article about job prospects and risks of a computer science phd. i highly recommend exploring this resource yourself: https://80000hours.org/career-reviews/computer-science-phd/.
+other stuff worth checking out:
+
+- https://80000hours.org/career-reviews/computer-science-phd/
+- https://www.youtube.com/watch?v=sGnW7W0QfTA
+- https://karpathy.github.io/2016/09/07/phd/
+
+---
 
 [^1]: [Lin, J. (2023). Art and Science of Empirical Computer Science. GitHub.](https://github.com/lintool/art-science-empirical-cs-2023f/tree/main)
 [^2]: [Moreno, M. D. C. C., & Kollanus, S. (2013, October). On the motivations to enroll in doctoral studies in Computer Science—A comparison of PhD program models. In 2013 12th International Conference on Information Technology Based Higher Education and Training (ITHET) (pp. 1-8). IEEE.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6671028)
