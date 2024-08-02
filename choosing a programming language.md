@@ -67,6 +67,7 @@ this decision is based on the following sources:
 - code_report:
      - https://plrank.com/
 - stackoverflow
+     - 2024: https://survey.stackoverflow.co/2024/technology#most-popular-technologies-language
      - 2023: https://survey.stackoverflow.co/2023/
      - 2022: https://survey.stackoverflow.co/2022/
      - all time: https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cjavascript%2Ctypescript%2Cgo%2Crust%2Cnode.js
