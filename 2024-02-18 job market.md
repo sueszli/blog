@@ -45,9 +45,9 @@ one aspect of the personal fit that stands out to me is "impact".
 
 based on 80,000 hours' career reviews [^demanddump], the most impactful jobs are mostly in the following fields:
 
-- **data & statistics:** machine learning, statistical modeling, forecasting, data based decision governance, ai alignment, explainability, fairness, privacy, security, ethics, etc.
-- **cyber security:** privacy, integrity, availability, confidentiality, etc.
-- **computer engineering:** especially for ai hardware
+- **data & statistics:** ml and traditional stats, data engineering, etc.
+- **cyber security:** all kinds
+- **computer engineering:** especially for ml accelerators
 - **geopolitics, governance:** policy, regulation, law, etc.
 - **biosecurity:** preventing, detecting, responding to biological threats
 
