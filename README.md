@@ -10,10 +10,10 @@ to stay up to date with new posts subscribe via github: [https://github.com/sues
 
 _file tree:_
 
-- [barrier pattern](<https://sueszli.github.io/blog/barrier%20pattern>)
-- [choosing a note taking app](<https://sueszli.github.io/blog/choosing%20a%20note%20taking%20app>)
-- [choosing a programming language](<https://sueszli.github.io/blog/choosing%20a%20programming%20language>)
-- [choosing macos](<https://sueszli.github.io/blog/choosing%20macos>)
-- [job market](<https://sueszli.github.io/blog/job%20market>)
-- [phd stats](<https://sueszli.github.io/blog/phd%20stats>)
-- [systems research](<https://sueszli.github.io/blog/systems%20research>)
+- [2023-02-15 choosing macos](<https://sueszli.github.io/blog/2023-02-15%20choosing%20macos>)
+- [2023-08-08 barrier pattern](<https://sueszli.github.io/blog/2023-08-08%20barrier%20pattern>)
+- [2023-09-15 choosing a programming language](<https://sueszli.github.io/blog/2023-09-15%20choosing%20a%20programming%20language>)
+- [2023-10-01 choosing a note taking app](<https://sueszli.github.io/blog/2023-10-01%20choosing%20a%20note%20taking%20app>)
+- [2023-11-20 systems research](<https://sueszli.github.io/blog/2023-11-20%20systems%20research>)
+- [2024-02-10 phd stats](<https://sueszli.github.io/blog/2024-02-10%20phd%20stats>)
+- [2024-02-18 job market](<https://sueszli.github.io/blog/2024-02-18%20job%20market>)
