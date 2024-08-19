@@ -2,22 +2,23 @@ python's package management system is both a blessing and a curse. while initial
 
 here is my recommendation for the most simple and sane python workflow in any project:
 
-1) install python:
+1. install python:
 
   - use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime.
 
-2) install packages:
+2. install packages:
 
-  - use `python -m pip` to make sure you're installing packages into the correct runtime.
+  - use `python -m pip` to make sure you install packages into the correct runtime.
   - use `venv` / `virtualenv` to isolate dependencies per project.
-  - use `pipreqs` to automatically derive most dependencies from a codebase.
+  - use `pipreqs` / `pip freeze` to derive project dependencies.
 
-3) generate lock files:
+3. generate lock files:
 
-  - do not rely on `requirements.txt` for reproducability. they usually don't capture specific versions and transitive dependencies.
-  - use `pip-tools` to generate lock files (combine with `uv` for a speedup).
+  - use `pip-tools` to generate lock files.
+  - combine with `uv` for a speedup.
+  - do not just rely on `requirements.txt` files. they never capture transitive dependencies and version constraints.
 
-4) deploy:
+4. deploy:
 
   - use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
   - beware that a container without a lock file only ensures very limited reproducibility.
