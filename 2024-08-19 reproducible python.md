@@ -27,6 +27,6 @@ by following these practices, you can maintain a more organized and efficient py
 
 further reading:
 
-- [`pixi`](https://github.com/prefix-dev/pixi), an upcoming environment manager competing with `conda`
-- https://sinoroc.gitlab.io/kb/python/packaging_tools_comparisons.html
-- https://www.youtube.com/@TheArtOfTheTerminal
+- [`pixi`](https://github.com/prefix-dev/pixi): an upcoming environment manager competing with `conda`
+- overview of all tools mentioned: https://sinoroc.gitlab.io/kb/python/packaging_tools_comparisons.html
+- overview of all tools mentioned: https://youtu.be/YDUJh8AZD1A by https://www.youtube.com/@TheArtOfTheTerminal
