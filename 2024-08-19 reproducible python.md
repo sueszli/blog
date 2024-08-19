@@ -4,18 +4,13 @@ here is my recommendation for a simple and sane python workflow:
 
 1) install python:
 
-  - [`asdf`](https://asdf-vm.com/) lets you install and switch between different language runtimes for each project
-  - you want to avoid any interference with your operating systems python runtime
+  - use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime
 
-2) install packages:
+2) install packages, generate lock files:
 
-  - [`venv`](https://docs.python.org/3/library/venv.html) lets you isolate dependencies per project
-  - if you need to install development tools outside your `venv` make sure to use `python -m pip` to ensure you're not using the system runtime
-  
-  - don't install packages outside your `venv` and if you do, use 
-  - project isolation: utilize `venv` to isolate dependencies for each project
-  - dependency management: employ `pip-tools` for locking dependencies and ensuring reproducibility (`pip
-  - deployment: 
+  - use `python -m pip` to be sure which runtime you're installing in
+  - use `venv` / `virtualenv` to isolate dependencies per project
+  - use `pip-tools` / to lock dependency versions and avoid conflicts between transitive dependencies
   
   use **docker** for deployment, not development [^1]
   
