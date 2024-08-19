@@ -24,7 +24,7 @@ compensation and interestingness both increase the competition you'll be facing 
 
 - a) if you're optimizing for compensation, you can avoid competition by doing something in high demand that most people avoid (ie. blue collar jobs, cobol programming).
 
-- b) if you're optimizing for personal fulfillment, you can avoid competition by delaying your earnings (ie. by studying more, working for a non-profit).
+- b) if you're optimizing for personal fulfilment, you can avoid competition by delaying your earnings (ie. by studying more, working for a non-profit).
 
 to clarify:
 
