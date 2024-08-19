@@ -1,5 +1,4 @@
-python's package management system is both a blessing and a curse. while initially appealing, especially to those coming from java or c++, its simplicity can lead to complications over time such as (1) breaking your systems python runtime by using `--break-system-packages`, (2) excessive disk space usage from multiple toolchains that you installed unisolated (3) confusion among the many package managers and [tool chains](https://sinoroc.gitlab.io/kb/python/packaging_tools_comparisons.html) from your colleagues each with their own quirks.
-
+python's package management system is both a blessing and a curse. while initially appealing, especially to those coming from java or c++, its simplicity can lead to complications over time such as (1) breaking your systems python runtime by using `--break-system-packages`, (2) excessive disk space usage from multiple toolchains that you installed unisolated (3) an overwhelming number of [tool](https://sinoroc.gitlab.io/kb/python/packaging_tools_comparisons.html) by the community.
 
 - runtime management: use `asdf` for managing python versions
 - package installation: always use `python -m pip` to ensure you're not using the system runtime
