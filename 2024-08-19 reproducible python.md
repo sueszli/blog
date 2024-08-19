@@ -4,25 +4,25 @@ here is my recommendation for the most simple and sane python workflow in any pr
 
 1) install python:
 
-  - use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime.
+- use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime.
 
 2) install packages:
-  
-  - use `python -m pip` to make sure you install packages into the correct runtime.
-  - use `venv` / `virtualenv` to isolate dependencies per project.
-  - use `pipreqs` / `pip freeze` to derive project dependencies.
+
+- use `python -m pip` to make sure you install packages into the correct runtime.
+- use `venv` / `virtualenv` to isolate dependencies per project.
+- use `pipreqs` / `pip freeze` to derive project dependencies.
 
 3) generate lock files:
 
-  - use `pip-tools` to generate lock files.
-  - combine with `uv` for a speedup.
-  - do not just rely on `requirements.txt` files. they never capture transitive dependencies and version constraints.
+- use `pip-tools` to generate lock files.
+- combine with `uv` for a speedup.
+- do not just rely on `requirements.txt` files. they never capture transitive dependencies and version constraints.
 
 4) deploy:
 
-  - use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
-  - beware that a container without a lock file only ensures very limited reproducibility.
-  
+- use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
+- beware that a container without a lock file only ensures very limited reproducibility.
+
 by following these practices, you can maintain a more organized and efficient python development environment.
 
 ---
