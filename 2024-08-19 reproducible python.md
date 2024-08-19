@@ -4,7 +4,7 @@ here is my recommendation for the most simple and sane python workflow in any pr
 
 1) install python:
 
-- use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime.
+- use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's python runtime.
 
 2) install packages:
 
