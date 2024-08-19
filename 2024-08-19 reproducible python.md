@@ -7,7 +7,7 @@ here is my recommendation for the most simple and sane python workflow in any pr
   - use `asdf` to install and switch between different language runtimes for each project and prevent breaking your operating system's runtime.
 
 2) install packages:
-
+  
   - use `python -m pip` to make sure you install packages into the correct runtime.
   - use `venv` / `virtualenv` to isolate dependencies per project.
   - use `pipreqs` / `pip freeze` to derive project dependencies.
@@ -22,7 +22,7 @@ here is my recommendation for the most simple and sane python workflow in any pr
 
   - use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
   - beware that a container without a lock file only ensures very limited reproducibility.
-
+  
 by following these practices, you can maintain a more organized and efficient python development environment.
 
 ---
