@@ -19,7 +19,8 @@ here is my recommendation for the most simple and sane python workflow in any pr
 
 4) deploy:
 
-  - use `docker` / `apptainer` / `conda` for deployment, depending on your performance requirements.
+  - use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
+  - beware that a container without a lockfile only ensures very limited reproducibility.
 
 by following these practices, you can maintain a more organized and efficient python development environment.
 
