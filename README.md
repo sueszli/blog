@@ -17,3 +17,4 @@ _file tree:_
 - [2023-11-20 systems research](<https://sueszli.github.io/blog/2023-11-20%20systems%20research>)
 - [2024-02-10 phd stats](<https://sueszli.github.io/blog/2024-02-10%20phd%20stats>)
 - [2024-02-18 job market](<https://sueszli.github.io/blog/2024-02-18%20job%20market>)
+- [2024-08-19 reproducible python](<https://sueszli.github.io/blog/2024-08-19%20reproducible%20python>)
