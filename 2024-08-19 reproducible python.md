@@ -16,12 +16,12 @@ here is my recommendation for the most simple and sane python workflow in any pr
 
 - use `pip-tools` to generate lock files.
 - combine with `uv` for a speedup.
-- do not just rely on `requirements.txt` files. they never capture transitive dependencies and version constraints.
+- do not just rely on `requirements.txt` files without a compilation step. they never capture transitive dependencies and version constraints.
 
 4) deploy:
 
 - use `docker` / `apptainer` / `conda` for deployment, based on your performance requirements.
-- beware that a container without a lock file only ensures very limited reproducibility.
+- beware that a container without a lock file only ensures limited reproducibility.
 
 by following these practices, you can maintain a more organized and efficient python development environment.
 
