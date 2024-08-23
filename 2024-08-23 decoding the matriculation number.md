@@ -34,7 +34,7 @@ def get_enrollment_year(matriculation_number: str) -> int:
     return enrollment_year
 ```
 
-for example, my matriculation number "11912007" can be broken down as follows:
+as an example, my matriculation number "11912007" can be broken down as follows:
 
 - the first digit (1) indicates the type of university → equivalent to: TU Wien (using lookup table[^legal2]))
 - the second and third digits (19) represent the last two digits of the year of enrollment → equivalent to: 2019
