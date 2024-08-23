@@ -1,4 +1,8 @@
-here's a little party trick: you can accurately determine a persons year of enrollment at university in austria by using their matriculation number.
+here's a fun fact: the austrian "matriculation number" is structured to encode specific information about the student's enrollment.
+
+according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the "matriculation number" is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
+
+this means you can accurately determine a persons year of enrollment at university in austria by using their matriculation number.
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
@@ -30,11 +34,7 @@ def get_enrollment_year(matriculation_number: str) -> int:
     return enrollment_year
 ```
 
-the "matriculation number", a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
-
-according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the matriculation number is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
-
-**for example**, my matriculation number "11912007" can be broken down as follows:
+for example, my matriculation number "11912007" can be broken down as follows:
 
 - the first digit (1) indicates the type of university → equivalent to: TU Wien (using lookup table[^legal2]))
 - the second and third digits (19) represent the last two digits of the year of enrollment → equivalent to: 2019
