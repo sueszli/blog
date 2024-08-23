@@ -42,7 +42,7 @@ def get_enrollment_year(matriculation_number: str) -> int:
     return enrollment_year
 ```
 
-this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
+this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or speed up password cracking.
 
 # references
 
