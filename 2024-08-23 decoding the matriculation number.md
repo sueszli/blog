@@ -30,6 +30,10 @@ def get_enrollment_year(matriculation_number: str) -> int:
         enrollment_year += 2000
 
     return enrollment_year
+
+print(get_enrollment_year("11912007")
+>>> institution code: 1
+>>> 2019
 ```
 
 as an example, my matriculation number "11912007" can be broken down as follows:
