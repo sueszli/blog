@@ -10,9 +10,7 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 - the second and third digits (19) represent the last two digits of the year of enrollment → meaning 2019
 - the last five digits (12007) are a unique identifier for the student within that year → most likely meaning computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
 
-this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
-
-i personally like to use the following function to cluster students by seniority when organizing a group project or tutoring:
+here's how you would automate it:
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
@@ -44,7 +42,7 @@ def get_enrollment_year(matriculation_number: str) -> int:
     return enrollment_year
 ```
 
-to sum things up: the encoding of personal information within matriculation numbers presents a nuanced privacy concern. and while human error remains the weakest link in any institution (even among security and privacy experts!) it's crucial to study specific details like these, especially in contexts where such identifiers are widely used and potentially accessible to the public.
+this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
 
 # references
 
