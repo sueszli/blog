@@ -1,6 +1,6 @@
 here's a fun fact: according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the austrian "matriculation number" is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
 
-this means you can accurately determine a persons year of enrollment at university in austria by using their matriculation number.
+this means you can figure out a persons year of enrollment by using the following function:
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
