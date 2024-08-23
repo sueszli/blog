@@ -43,6 +43,8 @@ as an example, my matriculation number "11912007" can be broken down as follows:
 - the second and third digits (19) represent the last two digits of the year of enrollment → equivalent to: 2019
 - the last five digits (12007) are a unique identifier for the student within that year → equivalent to: computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
 
+one ethical use case of this knowledge would be to sort students by seniority when looking for someone to do group projects with.
+
 # references
 
 [^legal1]: Universitäts- und Hochschulstatistik- und Bildungsdokumentationsverordnung § 4, tagesaktuelle Fassung - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011989&Paragraf=4
