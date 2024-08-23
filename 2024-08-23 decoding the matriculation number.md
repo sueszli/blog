@@ -1,7 +1,5 @@
 here's a little party trick: you can accurately determine a persons year of enrollment at university in austria by using their matriculation number.
 
-here's how:
-
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
     if ";" in matriculation_number:
