@@ -1,16 +1,6 @@
-the "matriculation number", a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
+here's a little party trick: you can accurately determine a persons year of enrollment at university in austria by using their matriculation number.
 
-i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the leakage of personal information and its potential misuse.
-
-according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the matriculation number is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
-
-**for example**, my matriculation number "11912007" can be broken down as follows:
-
-- the first digit (1) indicates the type of university → meaning the TU Wien (using the lookup table: [^legal2])
-- the second and third digits (19) represent the last two digits of the year of enrollment → meaning 2019
-- the last five digits (12007) are a unique identifier for the student within that year → most likely meaning computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
-
-here's how you would automate it:
+here's how:
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
@@ -42,7 +32,15 @@ def get_enrollment_year(matriculation_number: str) -> int:
     return enrollment_year
 ```
 
-this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or speed up password cracking.
+the "matriculation number", a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
+
+according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the matriculation number is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
+
+**for example**, my matriculation number "11912007" can be broken down as follows:
+
+- the first digit (1) indicates the type of university → equivalent to: TU Wien (using lookup table[^legal2]))
+- the second and third digits (19) represent the last two digits of the year of enrollment → equivalent to: 2019
+- the last five digits (12007) are a unique identifier for the student within that year → equivalent to: computer science. there seems to be a pattern based on a case study by the FSINF student club [^fsinf]
 
 # references
 
