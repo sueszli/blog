@@ -33,12 +33,13 @@ print(get_enrollment_year("11912007")
 >>> 2019
 ```
 
-here's a more functional implementation:
+which could also be a one-liner:
 
 ```python
 get_enrollment_year = lambda m: (lambda d=m.strip(): int(d[1:3] if len(d)==8 else d[:2]) + (1900 if int(d[1:3] if len(d)==8 else d[:2]) > 24 else 2000))()
 
 print(get_enrollment_year("11912007")
+>>> 2019
 ```
 
 as an example, my matriculation number "11912007" can be broken down as follows:
