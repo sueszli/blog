@@ -33,7 +33,7 @@ print(get_enrollment_year("11912007")
 >>> 2019
 ```
 
-which could also be a one-liner:
+or this one liner:
 
 ```python
 get_enrollment_year = lambda m: (lambda d=m.strip(): int(d[1:3] if len(d)==8 else d[:2]) + (1900 if int(d[1:3] if len(d)==8 else d[:2]) > 24 else 2000))()
