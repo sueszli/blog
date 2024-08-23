@@ -4,9 +4,6 @@ this means you can figure out a persons year of enrollment by using the followin
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
-    if ";" in matriculation_number:
-        matriculation_number = matriculation_number.split(";")[0]
-
     matriculation_number = matriculation_number.strip()
     length = len(matriculation_number)
 
@@ -31,10 +28,17 @@ def get_enrollment_year(matriculation_number: str) -> int:
 
     return enrollment_year
 
-
 print(get_enrollment_year("11912007")
 >>> institution code: 1
 >>> 2019
+```
+
+here's a more functional implementation:
+
+```python
+get_enrollment_year = lambda m: (lambda d=m.strip(): int(d[1:3] if len(d)==8 else d[:2]) + (1900 if int(d[1:3] if len(d)==8 else d[:2]) > 24 else 2000))()
+
+print(get_enrollment_year("11912007")
 ```
 
 as an example, my matriculation number "11912007" can be broken down as follows:
