@@ -1,6 +1,6 @@
-the **matriculation number**, a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
+the "matriculation number", a unique identifier assigned to students upon enrollment at universities, is structured to encode specific information about the student's enrollment.
 
-i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the **leakage of personal information** and its potential misuse.
+i'd like to take a moment and shine some light on the potential privacy implications of this encoding, particularly focusing on the leakage of personal information and its potential misuse.
 
 according to the "universitäts- und hochschulstatistik- und bildungsdokumentationsverordnung (uhsbv)" § 4 [^legal1] [^legal2], the matriculation number is an eight-digit sequence that encodes the type of university, the year of enrollment, and a unique identifier for the student within that year.
 
@@ -12,7 +12,7 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 
 this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
 
-an ethical use-case however could be to filter out students based on their seniority or institution of origin before asking them to join you in a group project using the following python function:
+i personally like to use the following function to cluster students by seniority when organizing a group project or tutoring:
 
 ```python
 def get_enrollment_year(matriculation_number: str) -> int:
