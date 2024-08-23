@@ -46,6 +46,8 @@ def get_enrollment_year(matriculation_number: str) -> int:
 
 to sum things up: the encoding of personal information within matriculation numbers presents a nuanced privacy concern. and while human error remains the weakest link in any institution (even among security and privacy experts!) it's crucial to study specific details like these, especially in contexts where such identifiers are widely used and potentially accessible to the public.
 
+# references
+
 [^legal1]: Universitäts- und Hochschulstatistik- und Bildungsdokumentationsverordnung § 4, tagesaktuelle Fassung - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011989&Paragraf=4
 
 [^legal2]: https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2004_II_288/COO_2026_100_2_112417.pdfsig
