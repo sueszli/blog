@@ -12,6 +12,38 @@ according to the "universitäts- und hochschulstatistik- und bildungsdokumentati
 
 this information, combined with publicly available data, could potentially be used to find personal accounts, identify peers from the same year or even guess elements of the student's password if it includes their birthdate.
 
+an ethical use-case however could be to filter out students based on their seniority or institution of origin before asking them to join you in a group project using the following python function:
+
+```python
+def get_enrollment_year(matriculation_number: str) -> int:
+    if ";" in matriculation_number:
+        matriculation_number = matriculation_number.split(";")[0]
+
+    matriculation_number = matriculation_number.strip()
+    length = len(matriculation_number)
+
+    assert length == 7 or length == 8
+    if length == 8:
+        year_digits = matriculation_number[1:3]
+        institution_number = matriculation_number[:1]
+    elif length == 7:
+        year_digits = matriculation_number[0:2]
+        institution_number = matriculation_number[:3]
+
+    print(f"institution code: {institution_number}")
+
+    current_year = int(str(2024)[2:])  # get the last two digits of the current year
+    enrollment_year = int(year_digits)
+
+    # assume the year is in the past or current year
+    if enrollment_year > current_year:
+        enrollment_year += 1900
+    else:
+        enrollment_year += 2000
+
+    return enrollment_year
+```
+
 **in conclusion** the encoding of personal information within matriculation numbers presents a nuanced privacy concern. and while human error remains the weakest link in any institution (even among security and privacy experts!) it's crucial to study specific details like these, especially in contexts where such identifiers are widely used and potentially accessible to the public.
 
 [^legal1]: Universitäts- und Hochschulstatistik- und Bildungsdokumentationsverordnung § 4, tagesaktuelle Fassung - https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011989&Paragraf=4
