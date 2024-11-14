@@ -6,9 +6,7 @@ welcome to my minimalist blog, built with nothing but markdown and github action
 
 to stay up to date with new posts subscribe via github: [https://github.com/sueszli/blog/subscription](https://github.com/sueszli/blog/subscription)
 
-<br>
-
-_file tree:_
+*file tree:*
 
 - [2023-02-15 choosing macos](<https://sueszli.github.io/blog/2023-02-15%20choosing%20macos>)
 - [2023-09-15 choosing a programming language](<https://sueszli.github.io/blog/2023-09-15%20choosing%20a%20programming%20language>)
