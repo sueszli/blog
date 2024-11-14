@@ -455,3 +455,38 @@ int main() {
     return 0;
 }
 ```
+
+or by using the openmp library:
+
+```cpp
+#include <iostream>
+#include <random>
+#include <omp.h>
+#include <chrono>
+#include <thread>
+
+int main() {
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_int_distribution<int> dist(0, 4);
+    
+    unsigned int numCores = std::thread::hardware_concurrency();
+    
+    #pragma omp parallel num_threads(numCores)
+    {
+        int thread_id = omp_get_thread_num();
+        int timeout = dist(mt);
+        
+        std::this_thread::sleep_for(std::chrono::seconds(timeout));
+        
+        #pragma omp critical
+        {
+            std::cout << "Thread " << thread_id << " returned result after " 
+                      << timeout << " seconds\n";
+        }
+    }
+    
+    std::cout << "all done\n";
+    return 0;
+}
+```
