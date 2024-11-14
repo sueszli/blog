@@ -2,54 +2,43 @@ import os
 import json
 import urllib.parse
 
-
 BASE_URL = "https://sueszli.github.io/blog"
 
 
 def read_file_tree(path: str) -> dict:
     dic = {}
     dic[path] = []
-
     for item in os.listdir(path):
         item_path = os.path.join(path, item)
         if os.path.isdir(item_path):
             dic[path].append(read_file_tree(item_path))
         else:
             dic[path].append(item_path)
-
-    # sort: alphabetical order
-    dic[path].sort(key=lambda x: x if type(x) == str else list(x.keys())[0])
-
-    # sort: directories first
-    dic[path].sort(key=lambda x: type(x) == str)
+    dic[path].sort(key=lambda x: x if type(x) == str else list(x.keys())[0]) # sort: alphabetical order
+    dic[path].sort(key=lambda x: type(x) == str) # sort: directories first
     return dic
 
 
 def filter_file_tree(dic: dict) -> dict:
     is_valid_file = lambda x: type(x) == str and x.endswith(".md") or x.endswith(".pdf")
-
     output = {}
-
     for key, value in dic.items():
         assert type(value) == list
         new_value = []
-
         for v in value:
             if type(v) == dict:
                 subdic = filter_file_tree(v)
                 new_value.append(subdic) if subdic else None
             elif is_valid_file(v):
                 new_value.append(v)
-
         if new_value:
             output[key] = new_value
-
     return output
 
 
 def dic_to_markdown(dic: dict, indent: int = 0) -> str:
     output = ""
-
+    
     def get_url(v: str) -> str:
         v = v[2:]  # remove "./"
         if v.endswith(".md"):
@@ -70,11 +59,10 @@ def dic_to_markdown(dic: dict, indent: int = 0) -> str:
                 filename = filename + (f" ({fileext})" if fileext != "md" else "")
                 url = get_url(v)
                 output += "\t" * indent + f"- [{filename}](<{url}>)\n"
-
     return output
 
 
-def main():
+if __name__ == "__main__":
     if os.path.isfile("README.md"):
         os.remove("README.md")
 
@@ -85,9 +73,7 @@ def main():
     print(toc)
 
     with open("README.md", "w") as f:
-        # f.write("## sueszli's blog")
-        f.write("\n\n")
-        f.write("hello there, kind internet stranger!")
+        f.write("hey there!")
         f.write("\n\n")
         f.write("welcome to my minimalist blog, built with nothing but markdown and github actions.")
         f.write("\n\n")
@@ -96,7 +82,3 @@ def main():
         f.write("*file tree:*")
         f.write("\n\n")
         f.write(toc)
-
-
-if __name__ == "__main__":
-    main()
