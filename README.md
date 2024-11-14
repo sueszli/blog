@@ -1,6 +1,4 @@
-
-
-hello there, kind internet stranger!
+hey there!
 
 welcome to my minimalist blog, built with nothing but markdown and github actions.
 
